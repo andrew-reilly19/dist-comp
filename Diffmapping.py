@@ -1,39 +1,4 @@
 """
-
-Pseudo code for aggregate images:
-
-1. write a function to 'flatten' data - either by doing a ReduceByKey(sum) on
-  the lat/lng pairs, or by rounding the lat/lng pairs by one decimal point and
-  then mapping it, whichever makes more sense
-
-1.(B) Look into finding some way to categorize each lat/lng point into something
-  similar to the 2015 data - which has single locations instead of lat/lng
-
-2. do one giant heatmap on the entire dataset, using the flatten function
-  on the entire dataset - this can then be stored as it's own RDD and act as the
-  "base case" of data
-NOTE: This would work for a locational analysis, and not a temporal analysis.
-
-2.(B) do the same as part 2, except using the average of days for temporal analysis?
-  This part needs a bit more thought.
-    Can possibly be done by instead grouping by the lat/lng points, and finding
-    the average for each point/location per day
-
-3. pull in weather data, either from NOAA dataset I found or from the Kaggle
-  dataset, and map each day's data with the weather/temperature/wind speed/etc.
-  of the day.  This can then be used to create RDDs of the base case for the different
-  types of weather/temperature/etc.
-    (Also, do this for the average per day per location)
-
-4. Compare the various weather RDDs against the base case - the base case will be
-  0 at every point, and the weather RDDs will either add to the average or subtract
-  from the average of 0.  Then this can be plotted to show relative increases by position
-  due to weather or other factors.  (Blue will be less than normal/average, Orange
-  greater than)
-
-"""
-
-"""
 First, Justin's BuildData function is here:
 """
 def BuildData():
@@ -234,7 +199,15 @@ def avgday_h(rdd):
 
 point_avg_hourly = avgday_h(totalHour)
 
+"""
+attempts to write out rdds to .csv files - not currently working
+
+from pyspark import SparkContext
+avgday_df = sqlContext.createDataFrame(point_avg_day, ['Latitude', 'Longitude', 'Average'])
 
 
+#different method
+schema = StructType([StructField(str(i), StringType(), True) for i in range(32)])
+df = sqlContext.createDataFrame(rdd, schema)
 
-#hi
+"""
