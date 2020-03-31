@@ -199,6 +199,15 @@ def avgday_h(rdd):
 
 point_avg_hourly = avgday_h(totalHour)
 
+
+"""
+Writing out data to csv file
+Code provided by Simona
+"""
+avg_df = sqlContext.createDataFrame(point_avg_day, ['Latitude', 'Longitude', 'Average'])
+
+avg_df.toPandas().to_csv('/home/andrew/df_avg.csv')
+
 """
 attempts to write out rdds to .csv files - not currently working
 
