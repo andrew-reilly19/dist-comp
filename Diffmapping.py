@@ -82,7 +82,7 @@ def flatten_to_day(rdd):
 
 
 totalDay = flatten_to_day(total)
-#structure: (Month, Day, Year, Latitude, Longitude, count)
+#totalDay structure: (Month, Day, Year, Latitude, Longitude, count)
 """
 Same as above, but creates an RDD flattend to hour:
 """
@@ -115,7 +115,24 @@ def flatten_to_hour(rdd):
 
 
 totalHour = flatten_to_hour(total)
-#structure: (Month, Day, Year, Hour, Latitude, Longitude, count)
+#totalHour structure: (Month, Day, Year, Hour, Latitude, Longitude, count)
+
+"""
+Verification that the flatten didn't lose data - these should equal 4,534,327
+"""
+
+totalDayv = totalDay.map(lambda x: x[5])
+
+totalDayv = totalDayv.reduce(lambda x,y: x+y)
+
+print(totalDayv)
+
+totalHourv = totalHour.map(lambda x: x[6])
+
+totalHourv = totalHourv.reduce(lambda x,y: x+y)
+
+print(totalHourv)
+
 """
 Now, to take this and get the average pickups at given lat/lng for our data
 """
@@ -158,7 +175,7 @@ def avgday(rdd):
         y = y.split(',')
         avg = x[1]/183 #number of days found earlier
         #mapping back with additional 1 at the end of each record for averaging
-        z = (float(y[0]),float(y[1]),avg)
+        z = (float(y[0]),float(y[1]),round(avg,4))
         return z
     rdd1 = rdd1.map(convert_back1)
     #Structure: lat, lng, avg_day
@@ -190,10 +207,10 @@ def avgday_h(rdd):
         y = y.split(',')
         avg = x[1]/183 #number of days found earlier
         #mapping back with additional 1 at the end of each record for averaging
-        z = (int(y[0]),float(y[1]),float(y[2]),avg)
+        z = (int(y[0]),float(y[1]),float(y[2]),round(avg,4))
         return z
     rdd1 = rdd1.map(convert_back1)
-    #Structure: lat, lng, avg_day
+    #Structure: hour, lat, lng, avg_hour
     return rdd1
 
 
@@ -201,22 +218,62 @@ point_avg_hourly = avgday_h(totalHour)
 
 
 """
+Need to do this by putthing them into dataframes first
+"""
+#restructuring totalDay, totalHour, and avgHour RDDs:
+totalDay1 = totalDay.map(lambda x: (x[3],x[4],x[0],x[1],x[2],x[5]))
+#Structure: (Latitude, Longitude, Month, Day, Year, Count)
+
+totalHour1 = totalHour.map(lambda x: (x[4],x[5],x[0],x[1],x[2],x[3],x[6]))
+#Structure: (Latitude, Longitude, Month, Day, Year, Count)
+
+point_avg_hourly1 = point_avg_hourly.map(lambda x: (x[1],x[2],x[0],x[3]))
+#Structure: (Latitude, Longitude, Hour, Average)
+
+#Creating Dataframes from RDDs
+TotalDayDF = sqlContext.createDataFrame(totalDay1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Count'])
+
+TotalHourDF = sqlContext.createDataFrame(totalHour1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Hour', 'Count'])
+
+AvgDayDF = sqlContext.createDataFrame(point_avg_day, ['Latitudea', 'Longitudea', 'Average'])
+
+AvgHourDF = sqlContext.createDataFrame(point_avg_hourly1, ['Latitudea', 'Longitudea', 'Houra', 'Average'])
+
+#Joining the Dataframes
+DailyData = TotalDayDF.join(AvgDayDF, (TotalDayDF.Latitude == AvgDayDF.Latitudea) & (TotalDayDF.Longitude == AvgDayDF.Longitudea), how='left_outer')
+
+HourlyData = TotalHourDF.join(AvgHourDF, (TotalHourDF.Latitude == AvgHourDF.Latitudea) & (TotalHourDF.Longitude == AvgHourDF.Longitudea) & (TotalHourDF.Hour == AvgHourDF.Houra), how='left_outer')
+
+#Dropping duplicate columns
+DailyData = DailyData.drop('Latitudea','Longitudea')
+
+HourlyData = HourlyData.drop('Latitudea', 'Longitudea', 'Houra')
+
+#Structure DailyData: (Latitude, Longitude, Month, Day, Year, Count, Average)
+#Structure HourlyData: (Latitude, Longitude, Month, Day, Year, Hour, Count, Average)
+
+#No empties here!
+DailyData.filter(f.col('Average').isNull()).show()
+
+HourlyData.filter(f.col('Average').isNull()).show()
+
+"""
 Writing out data to csv file
-Code provided by Simona
+Starter Code provided by Simona
 """
-avg_df = sqlContext.createDataFrame(point_avg_day, ['Latitude', 'Longitude', 'Average'])
+# avg_df = sqlContext.createDataFrame(point_avg_day, ['Latitude', 'Longitude', 'Average'])
+# avg_df.toPandas().to_csv('/home/andrew/df_avg.csv')
 
-avg_df.toPandas().to_csv('/home/andrew/df_avg.csv')
+DailyData.toPandas().to_csv('/home/andrew/DailyData.csv')
+
+HourlyData.toPandas().to_csv('/home/andrew/HourlyData.csv')
+
 
 """
-attempts to write out rdds to .csv files - not currently working
+Bash commands to scp data out to my HD:
+DailyData = 4.8 MB
+HourlyData = 27 MB
 
-from pyspark import SparkContext
-avgday_df = sqlContext.createDataFrame(point_avg_day, ['Latitude', 'Longitude', 'Average'])
-
-
-#different method
-schema = StructType([StructField(str(i), StringType(), True) for i in range(32)])
-df = sqlContext.createDataFrame(rdd, schema)
-
+scp andrew@10.10.11.35:/home/andrew/DailyData.csv /Users/andrew/Desktop
+scp andrew@10.10.11.35:/home/andrew/HourlyData.csv /Users/andrew/Desktop
 """
