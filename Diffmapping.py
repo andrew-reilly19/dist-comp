@@ -218,26 +218,87 @@ point_avg_hourly = avgday_h(totalHour)
 
 
 """
-Need to do this by putthing them into dataframes first
+Normalizing the averages and counts
+"""
+
+"""Daily"""
+#average
+minmax = point_avg_day.map(lambda x: x[2])
+da_min = minmax.min()
+da_max = minmax.max()
+
+def norm(x):
+    val = x[2]
+    nval = (val-da_min)/(da_max-da_min)
+    return(x[0],x[1],round(nval,8))
+
+PAD_norm = point_avg_day.map(norm)
+
+
+#count
+minmax2 = totalDay.map(lambda x: x[5])
+dc_min = minmax2.min()
+dc_max = minmax2.max()
+
+
+def norm2(x):
+    val = x[5]
+    nval = (val-dc_min)/(dc_max-dc_min)
+    return(x[0],x[1],x[2],x[3],x[4],round(nval,8))
+
+PCD_norm = totalDay.map(norm2)
+
+
+"""Hourly"""
+#average
+minmax3 = point_avg_hourly.map(lambda x: x[3])
+ha_min = minmax3.min()
+ha_max = minmax3.max()
+
+def norm3(x):
+    val = x[3]
+    nval = (val-ha_min)/(ha_max-ha_min)
+    return(x[0],x[1],x[2],round(nval,8))
+
+PAH_norm = point_avg_hourly.map(norm3)
+
+
+#count
+minmax4 = totalHour.map(lambda x: x[6])
+hc_min = minmax4.min()
+hc_max = minmax4.max()
+
+
+def norm4(x):
+    val = x[6]
+    nval = (val-hc_min)/(hc_max-hc_min)
+    return(x[0],x[1],x[2],x[3],x[4],x[5],round(nval,8))
+
+PCH_norm = totalHour.map(norm4)
+
+
+
+"""
+Before joining and writing out, each of these needs to be put into a dataframe first
 """
 #restructuring totalDay, totalHour, and avgHour RDDs:
-totalDay1 = totalDay.map(lambda x: (x[3],x[4],x[0],x[1],x[2],x[5]))
+PCD_norm1 = PCD_norm.map(lambda x: (x[3],x[4],x[0],x[1],x[2],x[5]))
 #Structure: (Latitude, Longitude, Month, Day, Year, Count)
 
-totalHour1 = totalHour.map(lambda x: (x[4],x[5],x[0],x[1],x[2],x[3],x[6]))
+PCH_norm1 = PCH_norm.map(lambda x: (x[4],x[5],x[0],x[1],x[2],x[3],x[6]))
 #Structure: (Latitude, Longitude, Month, Day, Year, Count)
 
-point_avg_hourly1 = point_avg_hourly.map(lambda x: (x[1],x[2],x[0],x[3]))
+PAH_norm1 = PAH_norm.map(lambda x: (x[1],x[2],x[0],x[3]))
 #Structure: (Latitude, Longitude, Hour, Average)
 
 #Creating Dataframes from RDDs
-TotalDayDF = sqlContext.createDataFrame(totalDay1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Count'])
+TotalDayDF = sqlContext.createDataFrame(PCD_norm1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Countnorm'])
 
-TotalHourDF = sqlContext.createDataFrame(totalHour1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Hour', 'Count'])
+TotalHourDF = sqlContext.createDataFrame(PCH_norm1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Hour', 'Countnorm'])
 
-AvgDayDF = sqlContext.createDataFrame(point_avg_day, ['Latitudea', 'Longitudea', 'Average'])
+AvgDayDF = sqlContext.createDataFrame(PAD_norm, ['Latitudea', 'Longitudea', 'Averagenorm'])
 
-AvgHourDF = sqlContext.createDataFrame(point_avg_hourly1, ['Latitudea', 'Longitudea', 'Houra', 'Average'])
+AvgHourDF = sqlContext.createDataFrame(PAH_norm1, ['Latitudea', 'Longitudea', 'Houra', 'Averagenorm'])
 
 #Joining the Dataframes
 DailyData = TotalDayDF.join(AvgDayDF, (TotalDayDF.Latitude == AvgDayDF.Latitudea) & (TotalDayDF.Longitude == AvgDayDF.Longitudea), how='left_outer')
@@ -252,10 +313,11 @@ HourlyData = HourlyData.drop('Latitudea', 'Longitudea', 'Houra')
 #Structure DailyData: (Latitude, Longitude, Month, Day, Year, Count, Average)
 #Structure HourlyData: (Latitude, Longitude, Month, Day, Year, Hour, Count, Average)
 
-#No empties here!
-DailyData.filter(f.col('Average').isNull()).show()
-
-HourlyData.filter(f.col('Average').isNull()).show()
+#No empties here!(need to get right package for this to work, don't remember what it is)
+#
+# DailyData.filter(f.col('Average').isNull()).show()
+#
+# HourlyData.filter(f.col('Average').isNull()).show()
 
 """
 Writing out data to csv file
