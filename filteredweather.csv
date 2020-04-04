@@ -1,0 +1,4393 @@
+Year,Month,Day,Hour,TempC,Type
+2014,4,1,0,9.81,scattered clouds
+2014,4,1,1,8.68,scattered clouds
+2014,4,1,10,1.43,sky is clear
+2014,4,1,11,1.63,few clouds
+2014,4,1,12,3.29,few clouds
+2014,4,1,13,5.33,few clouds
+2014,4,1,14,7.2,few clouds
+2014,4,1,15,8.8,few clouds
+2014,4,1,16,10.51,scattered clouds
+2014,4,1,17,12.3,light rain
+2014,4,1,18,13.51,light rain
+2014,4,1,19,14.5,broken clouds
+2014,4,1,2,6.69,scattered clouds
+2014,4,1,20,14.9,broken clouds
+2014,4,1,21,14.67,overcast clouds
+2014,4,1,22,13.44,light rain
+2014,4,1,23,11.95,broken clouds
+2014,4,1,3,4.92,few clouds
+2014,4,1,4,4.04,sky is clear
+2014,4,1,5,3.34,sky is clear
+2014,4,1,6,2.84,sky is clear
+2014,4,1,7,1.92,sky is clear
+2014,4,1,8,1.79,sky is clear
+2014,4,1,9,1.43,sky is clear
+2014,4,10,0,10.96,few clouds
+2014,4,10,1,10.03,sky is clear
+2014,4,10,10,1.09,sky is clear
+2014,4,10,11,1.74,sky is clear
+2014,4,10,12,4.83,sky is clear
+2014,4,10,13,8.83,sky is clear
+2014,4,10,14,10.81,sky is clear
+2014,4,10,15,12.3,sky is clear
+2014,4,10,16,13.75,few clouds
+2014,4,10,17,14.86,few clouds
+2014,4,10,18,15.22,few clouds
+2014,4,10,19,15.49,few clouds
+2014,4,10,2,9.15,sky is clear
+2014,4,10,20,15.79,few clouds
+2014,4,10,21,15.91,scattered clouds
+2014,4,10,22,15.29,few clouds
+2014,4,10,23,14.51,moderate rain
+2014,4,10,3,8.61,sky is clear
+2014,4,10,4,7.77,sky is clear
+2014,4,10,5,6.56,sky is clear
+2014,4,10,6,4.24,sky is clear
+2014,4,10,7,2.32,sky is clear
+2014,4,10,8,1.91,sky is clear
+2014,4,10,9,1.5,sky is clear
+2014,4,11,0,13.52,broken clouds
+2014,4,11,1,12.81,broken clouds
+2014,4,11,10,10.41,broken clouds
+2014,4,11,11,11.07,overcast clouds
+2014,4,11,12,12.16,overcast clouds
+2014,4,11,13,13.91,overcast clouds
+2014,4,11,14,16.3,overcast clouds
+2014,4,11,15,18.93,overcast clouds
+2014,4,11,16,19.81,overcast clouds
+2014,4,11,17,20.86,moderate rain
+2014,4,11,18,22.35,moderate rain
+2014,4,11,19,22.34,overcast clouds
+2014,4,11,2,12.46,broken clouds
+2014,4,11,20,21.78,overcast clouds
+2014,4,11,21,20.24,overcast clouds
+2014,4,11,22,17.82,overcast clouds
+2014,4,11,23,16.64,overcast clouds
+2014,4,11,3,12.37,broken clouds
+2014,4,11,4,12.32,overcast clouds
+2014,4,11,5,12.12,overcast clouds
+2014,4,11,6,11.64,overcast clouds
+2014,4,11,7,11.19,broken clouds
+2014,4,11,8,10.68,broken clouds
+2014,4,11,9,10.11,broken clouds
+2014,4,12,0,16.2,overcast clouds
+2014,4,12,1,15.58,broken clouds
+2014,4,12,10,8.76,scattered clouds
+2014,4,12,11,8.27,light rain
+2014,4,12,12,9.68,light rain
+2014,4,12,13,12.48,light rain
+2014,4,12,14,14.65,few clouds
+2014,4,12,15,17.14,scattered clouds
+2014,4,12,16,18.79,scattered clouds
+2014,4,12,17,20.08,broken clouds
+2014,4,12,18,20.97,broken clouds
+2014,4,12,19,21.51,broken clouds
+2014,4,12,2,14.93,light rain
+2014,4,12,20,21.55,scattered clouds
+2014,4,12,21,21.16,scattered clouds
+2014,4,12,22,19.91,scattered clouds
+2014,4,12,23,17.94,scattered clouds
+2014,4,12,3,13.97,light rain
+2014,4,12,4,13.17,light rain
+2014,4,12,5,12.81,overcast clouds
+2014,4,12,6,11.83,scattered clouds
+2014,4,12,7,10.79,light rain
+2014,4,12,8,10.51,light rain
+2014,4,12,9,9.55,scattered clouds
+2014,4,13,0,15.76,broken clouds
+2014,4,13,1,14.56,scattered clouds
+2014,4,13,10,9.09,overcast clouds
+2014,4,13,11,10.08,overcast clouds
+2014,4,13,12,11.75,broken clouds
+2014,4,13,13,13.44,broken clouds
+2014,4,13,14,15.31,broken clouds
+2014,4,13,15,17.09,broken clouds
+2014,4,13,16,19.97,broken clouds
+2014,4,13,17,21.83,broken clouds
+2014,4,13,18,23.72,broken clouds
+2014,4,13,19,24.49,broken clouds
+2014,4,13,2,13.8,scattered clouds
+2014,4,13,20,25.07,broken clouds
+2014,4,13,21,25,broken clouds
+2014,4,13,22,24.43,light rain
+2014,4,13,23,23.33,broken clouds
+2014,4,13,3,13.04,scattered clouds
+2014,4,13,4,12.07,scattered clouds
+2014,4,13,5,11.13,scattered clouds
+2014,4,13,6,10.24,scattered clouds
+2014,4,13,7,9.34,sky is clear
+2014,4,13,8,8.69,broken clouds
+2014,4,13,9,9.07,overcast clouds
+2014,4,14,0,22.13,broken clouds
+2014,4,14,1,20.55,scattered clouds
+2014,4,14,10,15.67,broken clouds
+2014,4,14,11,15.51,broken clouds
+2014,4,14,12,17.09,broken clouds
+2014,4,14,13,18.49,broken clouds
+2014,4,14,14,19.26,broken clouds
+2014,4,14,15,21.6,broken clouds
+2014,4,14,16,22.51,broken clouds
+2014,4,14,17,22.86,broken clouds
+2014,4,14,18,23.55,light rain
+2014,4,14,19,24,light rain
+2014,4,14,2,19.43,scattered clouds
+2014,4,14,20,23.8,broken clouds
+2014,4,14,21,23.07,broken clouds
+2014,4,14,22,22.19,broken clouds
+2014,4,14,23,20.34,broken clouds
+2014,4,14,3,18.07,scattered clouds
+2014,4,14,4,17.98,scattered clouds
+2014,4,14,5,17.1,scattered clouds
+2014,4,14,6,16.47,scattered clouds
+2014,4,14,7,16.19,scattered clouds
+2014,4,14,8,15.68,broken clouds
+2014,4,14,9,15.63,broken clouds
+2014,4,15,0,19.23,overcast clouds
+2014,4,15,1,18.31,overcast clouds
+2014,4,15,10,16,light rain
+2014,4,15,11,16.56,overcast clouds
+2014,4,15,12,16.72,light rain
+2014,4,15,13,16.61,light rain
+2014,4,15,14,16.57,moderate rain
+2014,4,15,15,16.57,light rain
+2014,4,15,16,16.46,moderate rain
+2014,4,15,17,16.56,moderate rain
+2014,4,15,18,16.75,moderate rain
+2014,4,15,19,16.82,light rain
+2014,4,15,2,17.69,overcast clouds
+2014,4,15,20,16.11,light rain
+2014,4,15,21,12.1,moderate rain
+2014,4,15,22,9.64,moderate rain
+2014,4,15,23,7.57,moderate rain
+2014,4,15,3,16.76,overcast clouds
+2014,4,15,4,16.45,overcast clouds
+2014,4,15,5,16.43,light rain
+2014,4,15,6,16.42,broken clouds
+2014,4,15,7,15.95,overcast clouds
+2014,4,15,8,15.76,light rain
+2014,4,15,9,16.21,light rain
+2014,4,16,0,5.9,light rain
+2014,4,16,1,4.31,moderate rain
+2014,4,16,10,-0.86,light rain
+2014,4,16,11,-1.03,scattered clouds
+2014,4,16,12,-0.38,light rain
+2014,4,16,13,0.41,light rain
+2014,4,16,14,1.93,light rain
+2014,4,16,15,2.9,light rain
+2014,4,16,16,4.6,light rain
+2014,4,16,17,5.6,light rain
+2014,4,16,18,6.7,light rain
+2014,4,16,19,7.28,light rain
+2014,4,16,2,2.57,moderate rain
+2014,4,16,20,7.8,light rain
+2014,4,16,21,8.08,few clouds
+2014,4,16,22,7.93,few clouds
+2014,4,16,23,7.27,light rain
+2014,4,16,3,1.57,moderate rain
+2014,4,16,4,0.99,light rain
+2014,4,16,5,0.99,light rain
+2014,4,16,6,1.03,light rain
+2014,4,16,7,0.84,light rain
+2014,4,16,8,0.4,light rain
+2014,4,16,9,-0.25,light rain
+2014,4,17,0,6.2,light rain
+2014,4,17,1,5.04,few clouds
+2014,4,17,10,0.91,few clouds
+2014,4,17,11,1.2,few clouds
+2014,4,17,12,2.51,few clouds
+2014,4,17,13,3.84,few clouds
+2014,4,17,14,5.13,few clouds
+2014,4,17,15,6.18,scattered clouds
+2014,4,17,16,7.29,broken clouds
+2014,4,17,17,7.77,broken clouds
+2014,4,17,18,8.3,broken clouds
+2014,4,17,19,8.22,broken clouds
+2014,4,17,2,4.08,sky is clear
+2014,4,17,20,8.03,broken clouds
+2014,4,17,21,7.68,broken clouds
+2014,4,17,22,7.32,broken clouds
+2014,4,17,23,6.26,light rain
+2014,4,17,3,3.41,few clouds
+2014,4,17,4,2.67,few clouds
+2014,4,17,5,2.41,sky is clear
+2014,4,17,6,1.83,sky is clear
+2014,4,17,7,1.33,sky is clear
+2014,4,17,8,0.86,few clouds
+2014,4,17,9,0.74,few clouds
+2014,4,18,0,5.05,broken clouds
+2014,4,18,1,4.31,scattered clouds
+2014,4,18,10,1.01,overcast clouds
+2014,4,18,11,1.25,broken clouds
+2014,4,18,12,1.95,broken clouds
+2014,4,18,13,2.98,broken clouds
+2014,4,18,14,4.04,broken clouds
+2014,4,18,15,5.35,overcast clouds
+2014,4,18,16,6.46,broken clouds
+2014,4,18,17,7.16,overcast clouds
+2014,4,18,18,7.77,overcast clouds
+2014,4,18,19,8.61,overcast clouds
+2014,4,18,2,3.77,scattered clouds
+2014,4,18,20,9.07,overcast clouds
+2014,4,18,21,9.08,overcast clouds
+2014,4,18,22,8.64,overcast clouds
+2014,4,18,23,8.1,overcast clouds
+2014,4,18,3,3.33,scattered clouds
+2014,4,18,4,2.72,scattered clouds
+2014,4,18,5,2.02,scattered clouds
+2014,4,18,6,1.53,broken clouds
+2014,4,18,7,1.25,overcast clouds
+2014,4,18,8,1.16,overcast clouds
+2014,4,18,9,1.09,overcast clouds
+2014,4,19,0,6.89,overcast clouds
+2014,4,19,1,6.18,overcast clouds
+2014,4,19,10,3.31,broken clouds
+2014,4,19,11,4.06,broken clouds
+2014,4,19,12,6.96,broken clouds
+2014,4,19,13,10.49,scattered clouds
+2014,4,19,14,12.91,broken clouds
+2014,4,19,15,15.05,broken clouds
+2014,4,19,16,16.27,broken clouds
+2014,4,19,17,16.8,broken clouds
+2014,4,19,18,17.68,broken clouds
+2014,4,19,19,18.38,broken clouds
+2014,4,19,2,5.69,overcast clouds
+2014,4,19,20,18.81,broken clouds
+2014,4,19,21,18.61,broken clouds
+2014,4,19,22,18.1,broken clouds
+2014,4,19,23,16.93,broken clouds
+2014,4,19,3,5.2,overcast clouds
+2014,4,19,4,4.96,overcast clouds
+2014,4,19,5,4.7,overcast clouds
+2014,4,19,6,4.19,overcast clouds
+2014,4,19,7,4,overcast clouds
+2014,4,19,8,3.58,overcast clouds
+2014,4,19,9,3.69,broken clouds
+2014,4,2,0,9.48,scattered clouds
+2014,4,2,1,8.08,scattered clouds
+2014,4,2,10,3.52,overcast clouds
+2014,4,2,11,3.76,overcast clouds
+2014,4,2,12,4.24,overcast clouds
+2014,4,2,13,5.81,overcast clouds
+2014,4,2,14,6.55,light rain
+2014,4,2,15,7.4,light rain
+2014,4,2,16,7.76,light rain
+2014,4,2,17,8.4,light rain
+2014,4,2,18,9.05,light rain
+2014,4,2,19,9.79,overcast clouds
+2014,4,2,2,7.12,few clouds
+2014,4,2,20,10.56,broken clouds
+2014,4,2,21,11.32,broken clouds
+2014,4,2,22,11.57,scattered clouds
+2014,4,2,23,9.71,few clouds
+2014,4,2,3,6.05,sky is clear
+2014,4,2,4,5.31,sky is clear
+2014,4,2,5,4.76,sky is clear
+2014,4,2,6,4.02,sky is clear
+2014,4,2,7,3.58,few clouds
+2014,4,2,8,3.23,few clouds
+2014,4,2,9,3.37,broken clouds
+2014,4,20,0,15.27,broken clouds
+2014,4,20,1,13.79,broken clouds
+2014,4,20,10,6.88,broken clouds
+2014,4,20,11,6.87,broken clouds
+2014,4,20,12,8.13,broken clouds
+2014,4,20,13,9.34,sky is clear
+2014,4,20,14,9.86,sky is clear
+2014,4,20,15,10.76,sky is clear
+2014,4,20,16,10.79,scattered clouds
+2014,4,20,17,12.55,broken clouds
+2014,4,20,18,12.97,broken clouds
+2014,4,20,19,12.89,scattered clouds
+2014,4,20,2,12.4,scattered clouds
+2014,4,20,20,12.62,scattered clouds
+2014,4,20,21,12.05,scattered clouds
+2014,4,20,22,11.24,scattered clouds
+2014,4,20,23,9.87,scattered clouds
+2014,4,20,3,11.48,broken clouds
+2014,4,20,4,10.81,broken clouds
+2014,4,20,5,10.21,broken clouds
+2014,4,20,6,9.72,sky is clear
+2014,4,20,7,8.36,scattered clouds
+2014,4,20,8,8.12,scattered clouds
+2014,4,20,9,7.56,broken clouds
+2014,4,21,0,8.52,scattered clouds
+2014,4,21,1,7.17,scattered clouds
+2014,4,21,10,1.28,few clouds
+2014,4,21,11,2,scattered clouds
+2014,4,21,12,5.77,few clouds
+2014,4,21,13,8.98,scattered clouds
+2014,4,21,14,10.76,broken clouds
+2014,4,21,15,13.61,broken clouds
+2014,4,21,16,15.18,scattered clouds
+2014,4,21,17,17.01,scattered clouds
+2014,4,21,18,17.9,few clouds
+2014,4,21,19,18.98,few clouds
+2014,4,21,2,6.34,scattered clouds
+2014,4,21,20,18.81,scattered clouds
+2014,4,21,21,18.2,scattered clouds
+2014,4,21,22,17.16,broken clouds
+2014,4,21,23,15.39,broken clouds
+2014,4,21,3,5.32,few clouds
+2014,4,21,4,4.26,few clouds
+2014,4,21,5,3.53,few clouds
+2014,4,21,6,3.04,few clouds
+2014,4,21,7,2.37,sky is clear
+2014,4,21,8,1.83,few clouds
+2014,4,21,9,1.34,sky is clear
+2014,4,22,0,13.3,scattered clouds
+2014,4,22,1,11.69,scattered clouds
+2014,4,22,10,7.44,broken clouds
+2014,4,22,11,8.04,broken clouds
+2014,4,22,12,10.69,broken clouds
+2014,4,22,13,12.49,broken clouds
+2014,4,22,14,15.08,overcast clouds
+2014,4,22,15,17.23,overcast clouds
+2014,4,22,16,18.91,broken clouds
+2014,4,22,17,20.31,broken clouds
+2014,4,22,18,21.08,broken clouds
+2014,4,22,19,21.58,broken clouds
+2014,4,22,2,10.87,scattered clouds
+2014,4,22,20,20.73,overcast clouds
+2014,4,22,21,18.22,light rain
+2014,4,22,22,17.51,light rain
+2014,4,22,23,17.07,overcast clouds
+2014,4,22,3,10.09,scattered clouds
+2014,4,22,4,9.23,scattered clouds
+2014,4,22,5,8.66,broken clouds
+2014,4,22,6,8.26,broken clouds
+2014,4,22,7,7.91,broken clouds
+2014,4,22,8,7.34,broken clouds
+2014,4,22,9,7.36,broken clouds
+2014,4,23,0,16.45,overcast clouds
+2014,4,23,1,16.11,broken clouds
+2014,4,23,10,9.85,light rain
+2014,4,23,11,9.52,light rain
+2014,4,23,12,9.73,broken clouds
+2014,4,23,13,10.15,light rain
+2014,4,23,14,10.67,light rain
+2014,4,23,15,10.91,overcast clouds
+2014,4,23,16,12,light rain
+2014,4,23,17,12.91,broken clouds
+2014,4,23,18,13.5,broken clouds
+2014,4,23,19,14.38,broken clouds
+2014,4,23,2,15.31,overcast clouds
+2014,4,23,20,14.84,broken clouds
+2014,4,23,21,13.93,broken clouds
+2014,4,23,22,12.54,scattered clouds
+2014,4,23,23,10.3,scattered clouds
+2014,4,23,3,14.4,broken clouds
+2014,4,23,4,13.68,scattered clouds
+2014,4,23,5,13.35,scattered clouds
+2014,4,23,6,13.01,few clouds
+2014,4,23,7,12.7,overcast clouds
+2014,4,23,8,12.03,overcast clouds
+2014,4,23,9,10.9,overcast clouds
+2014,4,24,0,8.77,broken clouds
+2014,4,24,1,7.88,broken clouds
+2014,4,24,10,5.05,sky is clear
+2014,4,24,11,5.38,sky is clear
+2014,4,24,12,6.36,sky is clear
+2014,4,24,13,7.18,sky is clear
+2014,4,24,14,9.33,sky is clear
+2014,4,24,15,11.02,sky is clear
+2014,4,24,16,13.42,few clouds
+2014,4,24,17,13.74,scattered clouds
+2014,4,24,18,14.79,few clouds
+2014,4,24,19,15.61,few clouds
+2014,4,24,2,7.37,overcast clouds
+2014,4,24,20,15.99,few clouds
+2014,4,24,21,16,few clouds
+2014,4,24,22,15.7,few clouds
+2014,4,24,23,14.8,few clouds
+2014,4,24,3,7.06,overcast clouds
+2014,4,24,4,6.56,few clouds
+2014,4,24,5,6.2,few clouds
+2014,4,24,6,6.02,few clouds
+2014,4,24,7,5.81,few clouds
+2014,4,24,8,5.62,sky is clear
+2014,4,24,9,5.34,sky is clear
+2014,4,25,0,13.4,few clouds
+2014,4,25,1,12.13,few clouds
+2014,4,25,10,4.17,broken clouds
+2014,4,25,11,5.72,broken clouds
+2014,4,25,12,8.29,broken clouds
+2014,4,25,13,10.79,broken clouds
+2014,4,25,14,12.41,broken clouds
+2014,4,25,15,13.91,broken clouds
+2014,4,25,16,15.16,broken clouds
+2014,4,25,17,16.08,broken clouds
+2014,4,25,18,16.12,broken clouds
+2014,4,25,19,15.92,broken clouds
+2014,4,25,2,11.41,few clouds
+2014,4,25,20,15.14,broken clouds
+2014,4,25,21,13.71,broken clouds
+2014,4,25,22,12.75,broken clouds
+2014,4,25,23,11.71,broken clouds
+2014,4,25,3,10.38,few clouds
+2014,4,25,4,9.78,sky is clear
+2014,4,25,5,8.5,sky is clear
+2014,4,25,6,7.47,sky is clear
+2014,4,25,7,6.8,sky is clear
+2014,4,25,8,5.89,sky is clear
+2014,4,25,9,5.16,few clouds
+2014,4,26,0,10.25,light rain
+2014,4,26,1,10,light rain
+2014,4,26,10,7.48,moderate rain
+2014,4,26,11,7.6,moderate rain
+2014,4,26,12,7.95,moderate rain
+2014,4,26,13,9.38,light rain
+2014,4,26,14,11.38,light rain
+2014,4,26,15,13.77,light rain
+2014,4,26,16,15.43,light rain
+2014,4,26,17,16.8,scattered clouds
+2014,4,26,18,18.24,scattered clouds
+2014,4,26,19,18.31,broken clouds
+2014,4,26,2,9.61,light rain
+2014,4,26,20,17.52,light rain
+2014,4,26,21,15.13,light rain
+2014,4,26,22,12.61,light rain
+2014,4,26,23,11.12,light rain
+2014,4,26,3,9.39,light rain
+2014,4,26,4,9.21,light rain
+2014,4,26,5,8.98,moderate rain
+2014,4,26,6,8.56,moderate rain
+2014,4,26,7,8.02,heavy intensity rain
+2014,4,26,8,7.69,moderate rain
+2014,4,26,9,7.59,moderate rain
+2014,4,27,0,9.95,moderate rain
+2014,4,27,1,9.23,light rain
+2014,4,27,10,6.87,few clouds
+2014,4,27,11,7.67,few clouds
+2014,4,27,12,8.94,scattered clouds
+2014,4,27,13,10.31,few clouds
+2014,4,27,14,11.2,light rain
+2014,4,27,15,11.86,broken clouds
+2014,4,27,16,12.72,broken clouds
+2014,4,27,17,13.06,broken clouds
+2014,4,27,18,13.6,broken clouds
+2014,4,27,19,13.74,broken clouds
+2014,4,27,2,9.38,light rain
+2014,4,27,20,13.56,light rain
+2014,4,27,21,13.55,broken clouds
+2014,4,27,22,13.38,broken clouds
+2014,4,27,23,12.8,broken clouds
+2014,4,27,3,9.41,light rain
+2014,4,27,4,9.19,overcast clouds
+2014,4,27,5,8.79,light rain
+2014,4,27,6,8.37,few clouds
+2014,4,27,7,7.84,light rain
+2014,4,27,8,7.31,light rain
+2014,4,27,9,7.03,few clouds
+2014,4,28,0,12.19,broken clouds
+2014,4,28,1,11.53,broken clouds
+2014,4,28,10,5.15,broken clouds
+2014,4,28,11,6.03,broken clouds
+2014,4,28,12,8.27,scattered clouds
+2014,4,28,13,10.55,scattered clouds
+2014,4,28,14,11.78,broken clouds
+2014,4,28,15,13.27,broken clouds
+2014,4,28,16,14.51,broken clouds
+2014,4,28,17,15.4,broken clouds
+2014,4,28,18,16.73,broken clouds
+2014,4,28,19,17.36,broken clouds
+2014,4,28,2,10.96,broken clouds
+2014,4,28,20,17.7,broken clouds
+2014,4,28,21,17.54,broken clouds
+2014,4,28,22,16.96,broken clouds
+2014,4,28,23,15.78,light rain
+2014,4,28,3,10.05,scattered clouds
+2014,4,28,4,9.19,scattered clouds
+2014,4,28,5,8.47,few clouds
+2014,4,28,6,7.77,few clouds
+2014,4,28,7,7.12,sky is clear
+2014,4,28,8,6.3,sky is clear
+2014,4,28,9,5.39,sky is clear
+2014,4,29,0,14.56,overcast clouds
+2014,4,29,1,13.47,overcast clouds
+2014,4,29,10,8.93,overcast clouds
+2014,4,29,11,8.54,overcast clouds
+2014,4,29,12,8.37,overcast clouds
+2014,4,29,13,7.9,sky is clear
+2014,4,29,14,8.3,sky is clear
+2014,4,29,15,8.76,sky is clear
+2014,4,29,16,9.48,overcast clouds
+2014,4,29,17,9.95,overcast clouds
+2014,4,29,18,9.4,overcast clouds
+2014,4,29,19,10.2,overcast clouds
+2014,4,29,2,12.73,overcast clouds
+2014,4,29,20,9.99,overcast clouds
+2014,4,29,21,9.32,overcast clouds
+2014,4,29,22,9.26,overcast clouds
+2014,4,29,23,8.74,overcast clouds
+2014,4,29,3,12.01,overcast clouds
+2014,4,29,4,11.38,overcast clouds
+2014,4,29,5,10.58,overcast clouds
+2014,4,29,6,10,overcast clouds
+2014,4,29,7,9.34,overcast clouds
+2014,4,29,8,9.23,overcast clouds
+2014,4,29,9,9.03,overcast clouds
+2014,4,3,0,9.06,broken clouds
+2014,4,3,1,7.42,scattered clouds
+2014,4,3,10,6.34,overcast clouds
+2014,4,3,11,5.98,broken clouds
+2014,4,3,12,7.16,broken clouds
+2014,4,3,13,8.86,broken clouds
+2014,4,3,14,10.28,scattered clouds
+2014,4,3,15,12.31,scattered clouds
+2014,4,3,16,14.04,scattered clouds
+2014,4,3,17,15.42,scattered clouds
+2014,4,3,18,16.85,broken clouds
+2014,4,3,19,17.27,broken clouds
+2014,4,3,2,6.51,scattered clouds
+2014,4,3,20,17.56,broken clouds
+2014,4,3,21,17.23,broken clouds
+2014,4,3,22,16.21,overcast clouds
+2014,4,3,23,14.49,overcast clouds
+2014,4,3,3,5.86,scattered clouds
+2014,4,3,4,5.17,scattered clouds
+2014,4,3,5,4.76,broken clouds
+2014,4,3,6,5.07,overcast clouds
+2014,4,3,7,5.54,overcast clouds
+2014,4,3,8,5.84,overcast clouds
+2014,4,3,9,6.16,overcast clouds
+2014,4,30,0,7.9,light rain
+2014,4,30,1,7.49,light rain
+2014,4,30,10,6.19,heavy intensity rain
+2014,4,30,11,6.34,heavy intensity rain
+2014,4,30,12,6.67,heavy intensity rain
+2014,4,30,13,6.75,heavy intensity rain
+2014,4,30,14,7.02,heavy intensity rain
+2014,4,30,15,7.33,heavy intensity rain
+2014,4,30,16,7.58,heavy intensity rain
+2014,4,30,17,7.88,heavy intensity rain
+2014,4,30,18,8.62,heavy intensity rain
+2014,4,30,19,8.76,heavy intensity rain
+2014,4,30,2,6.76,light rain
+2014,4,30,20,9.36,heavy intensity rain
+2014,4,30,21,9.97,very heavy rain
+2014,4,30,22,10.56,very heavy rain
+2014,4,30,23,11.17,very heavy rain
+2014,4,30,3,7.35,moderate rain
+2014,4,30,4,6.18,moderate rain
+2014,4,30,5,6.33,moderate rain
+2014,4,30,6,6.04,moderate rain
+2014,4,30,7,6.33,moderate rain
+2014,4,30,8,6.19,moderate rain
+2014,4,30,9,6.48,heavy intensity rain
+2014,4,4,0,12.51,overcast clouds
+2014,4,4,1,11.82,overcast clouds
+2014,4,4,10,5.44,light rain
+2014,4,4,11,5.21,light rain
+2014,4,4,12,5.07,light rain
+2014,4,4,13,5.22,light rain
+2014,4,4,14,5.59,light rain
+2014,4,4,15,5.69,light rain
+2014,4,4,16,5.41,light rain
+2014,4,4,17,5.35,light rain
+2014,4,4,18,5.26,light rain
+2014,4,4,19,5.19,light rain
+2014,4,4,2,10.91,light rain
+2014,4,4,20,4.89,light rain
+2014,4,4,21,4.52,light rain
+2014,4,4,22,4.47,light rain
+2014,4,4,23,4.28,light rain
+2014,4,4,3,9.15,light rain
+2014,4,4,4,7.75,moderate rain
+2014,4,4,5,7.23,light rain
+2014,4,4,6,6.81,light rain
+2014,4,4,7,6.45,light rain
+2014,4,4,8,6.06,light rain
+2014,4,4,9,5.65,light rain
+2014,4,5,0,4.26,moderate rain
+2014,4,5,1,4.44,light rain
+2014,4,5,10,4.37,overcast clouds
+2014,4,5,11,4.64,overcast clouds
+2014,4,5,12,5.66,scattered clouds
+2014,4,5,13,7.81,light rain
+2014,4,5,14,10.1,light rain
+2014,4,5,15,10.06,light rain
+2014,4,5,16,9.88,broken clouds
+2014,4,5,17,10.37,broken clouds
+2014,4,5,18,10.94,broken clouds
+2014,4,5,19,11.68,scattered clouds
+2014,4,5,2,4.31,light rain
+2014,4,5,20,11.52,scattered clouds
+2014,4,5,21,11.03,scattered clouds
+2014,4,5,22,10.15,scattered clouds
+2014,4,5,23,8.99,scattered clouds
+2014,4,5,3,4.28,light rain
+2014,4,5,4,4.23,moderate rain
+2014,4,5,5,4.03,light rain
+2014,4,5,6,4.11,light rain
+2014,4,5,7,4.31,overcast clouds
+2014,4,5,8,4.34,overcast clouds
+2014,4,5,9,4.36,light rain
+2014,4,6,0,7.45,scattered clouds
+2014,4,6,1,6.31,few clouds
+2014,4,6,10,0.99,sky is clear
+2014,4,6,11,0.87,sky is clear
+2014,4,6,12,2.52,sky is clear
+2014,4,6,13,4.12,sky is clear
+2014,4,6,14,6.12,sky is clear
+2014,4,6,15,7.78,sky is clear
+2014,4,6,16,9.33,sky is clear
+2014,4,6,17,11.08,sky is clear
+2014,4,6,18,12.71,sky is clear
+2014,4,6,19,13.89,sky is clear
+2014,4,6,2,5.52,few clouds
+2014,4,6,20,14.87,light rain
+2014,4,6,21,15.2,few clouds
+2014,4,6,22,14.73,scattered clouds
+2014,4,6,23,12.33,broken clouds
+2014,4,6,3,4.85,few clouds
+2014,4,6,4,4.15,few clouds
+2014,4,6,5,3.44,sky is clear
+2014,4,6,6,2.86,sky is clear
+2014,4,6,7,2.45,sky is clear
+2014,4,6,8,1.75,sky is clear
+2014,4,6,9,1.32,sky is clear
+2014,4,7,0,9.78,broken clouds
+2014,4,7,1,8.44,scattered clouds
+2014,4,7,10,2.69,broken clouds
+2014,4,7,11,2.5,overcast clouds
+2014,4,7,12,4.09,overcast clouds
+2014,4,7,13,5.86,overcast clouds
+2014,4,7,14,7.45,overcast clouds
+2014,4,7,15,8.33,overcast clouds
+2014,4,7,16,9.39,overcast clouds
+2014,4,7,17,10.21,overcast clouds
+2014,4,7,18,10.28,overcast clouds
+2014,4,7,19,9.8,overcast clouds
+2014,4,7,2,6.99,scattered clouds
+2014,4,7,20,9.09,light rain
+2014,4,7,21,8.47,moderate rain
+2014,4,7,22,7.18,moderate rain
+2014,4,7,23,6.72,moderate rain
+2014,4,7,3,5.96,few clouds
+2014,4,7,4,5.23,few clouds
+2014,4,7,5,4.48,scattered clouds
+2014,4,7,6,4.01,broken clouds
+2014,4,7,7,3.51,broken clouds
+2014,4,7,8,3.05,overcast clouds
+2014,4,7,9,2.83,overcast clouds
+2014,4,8,0,6.89,moderate rain
+2014,4,8,1,7.05,moderate rain
+2014,4,8,10,8.36,moderate rain
+2014,4,8,11,8.57,moderate rain
+2014,4,8,12,8.97,light rain
+2014,4,8,13,9.66,light rain
+2014,4,8,14,11.68,light rain
+2014,4,8,15,13.94,light rain
+2014,4,8,16,16.04,light rain
+2014,4,8,17,17.07,light rain
+2014,4,8,18,17.77,light rain
+2014,4,8,19,17.23,broken clouds
+2014,4,8,2,7.34,moderate rain
+2014,4,8,20,16.45,light rain
+2014,4,8,21,15.74,light rain
+2014,4,8,22,15.01,broken clouds
+2014,4,8,23,14.08,broken clouds
+2014,4,8,3,7.48,light rain
+2014,4,8,4,7.38,light rain
+2014,4,8,5,7.35,light rain
+2014,4,8,6,7.78,light rain
+2014,4,8,7,7.96,light rain
+2014,4,8,8,8.03,light rain
+2014,4,8,9,8.35,moderate rain
+2014,4,9,0,12.9,scattered clouds
+2014,4,9,1,11.97,scattered clouds
+2014,4,9,10,4.92,sky is clear
+2014,4,9,11,5.01,few clouds
+2014,4,9,12,7.17,few clouds
+2014,4,9,13,9.76,few clouds
+2014,4,9,14,11.55,scattered clouds
+2014,4,9,15,13.1,scattered clouds
+2014,4,9,16,14.07,scattered clouds
+2014,4,9,17,14.8,scattered clouds
+2014,4,9,18,15.32,light rain
+2014,4,9,19,15.44,light rain
+2014,4,9,2,10.44,scattered clouds
+2014,4,9,20,15.18,broken clouds
+2014,4,9,21,14.63,broken clouds
+2014,4,9,22,13.62,few clouds
+2014,4,9,23,12.87,few clouds
+2014,4,9,3,9.62,scattered clouds
+2014,4,9,4,9.02,scattered clouds
+2014,4,9,5,8.25,few clouds
+2014,4,9,6,7.3,sky is clear
+2014,4,9,7,6.7,sky is clear
+2014,4,9,8,6.33,sky is clear
+2014,4,9,9,5.68,sky is clear
+2014,5,1,0,10.59,moderate rain
+2014,5,1,1,11.59,moderate rain
+2014,5,1,10,14.87,heavy intensity rain
+2014,5,1,11,15.13,heavy intensity rain
+2014,5,1,12,15.75,heavy intensity rain
+2014,5,1,13,15.9,heavy intensity rain
+2014,5,1,14,16.4,heavy intensity rain
+2014,5,1,15,16.8,heavy intensity rain
+2014,5,1,16,17.33,heavy intensity rain
+2014,5,1,17,17.77,heavy intensity rain
+2014,5,1,18,17.43,heavy intensity rain
+2014,5,1,19,18.12,heavy intensity rain
+2014,5,1,2,11.4,moderate rain
+2014,5,1,20,18.04,heavy intensity rain
+2014,5,1,21,16.71,heavy intensity rain
+2014,5,1,22,17.05,heavy intensity rain
+2014,5,1,23,16.14,heavy intensity rain
+2014,5,1,3,12.51,heavy intensity rain
+2014,5,1,4,11.89,heavy intensity rain
+2014,5,1,5,12.56,heavy intensity rain
+2014,5,1,6,12.91,heavy intensity rain
+2014,5,1,7,13.69,heavy intensity rain
+2014,5,1,8,14.15,heavy intensity rain
+2014,5,1,9,14.32,heavy intensity rain
+2014,5,10,0,15.42,mist
+2014,5,10,1,15.55,mist
+2014,5,10,10,14.4,mist
+2014,5,10,11,14.77,mist
+2014,5,10,12,15.46,mist
+2014,5,10,13,16.61,fog
+2014,5,10,14,18.24,haze
+2014,5,10,15,18.57,mist
+2014,5,10,16,20.74,broken clouds
+2014,5,10,17,24.93,overcast clouds
+2014,5,10,18,26.47,light rain
+2014,5,10,19,24.52,heavy intensity rain
+2014,5,10,2,15.69,mist
+2014,5,10,20,23.77,moderate rain
+2014,5,10,21,22.61,moderate rain
+2014,5,10,22,21.09,thunderstorm with heavy rain
+2014,5,10,23,20.99,light rain
+2014,5,10,3,15.86,fog
+2014,5,10,4,15.65,mist
+2014,5,10,5,15.48,mist
+2014,5,10,6,15.3,mist
+2014,5,10,7,14.77,mist
+2014,5,10,8,14.71,fog
+2014,5,10,9,14.65,light rain
+2014,5,11,0,20.74,light rain
+2014,5,11,1,20.48,light rain
+2014,5,11,10,15.13,light rain
+2014,5,11,11,14.69,light rain
+2014,5,11,12,16.68,sky is clear
+2014,5,11,13,18.54,light rain
+2014,5,11,14,20.56,light rain
+2014,5,11,15,22.34,sky is clear
+2014,5,11,16,23.39,light rain
+2014,5,11,17,24.55,light rain
+2014,5,11,18,25.5,sky is clear
+2014,5,11,19,25.94,sky is clear
+2014,5,11,2,19.93,light rain
+2014,5,11,20,26.69,sky is clear
+2014,5,11,21,26.77,sky is clear
+2014,5,11,22,26.78,light rain
+2014,5,11,23,25.96,sky is clear
+2014,5,11,3,19.74,moderate rain
+2014,5,11,4,19.13,moderate rain
+2014,5,11,5,17.92,moderate rain
+2014,5,11,6,17.37,light rain
+2014,5,11,7,17.09,light rain
+2014,5,11,8,16.78,moderate rain
+2014,5,11,9,15.99,moderate rain
+2014,5,12,0,20.7,sky is clear
+2014,5,12,1,21.89,sky is clear
+2014,5,12,10,13.75,sky is clear
+2014,5,12,11,14.59,sky is clear
+2014,5,12,12,16.6,sky is clear
+2014,5,12,13,20.74,sky is clear
+2014,5,12,14,23.12,sky is clear
+2014,5,12,15,25.65,sky is clear
+2014,5,12,16,27.35,sky is clear
+2014,5,12,17,29.9,sky is clear
+2014,5,12,18,28.36,sky is clear
+2014,5,12,19,27.67,sky is clear
+2014,5,12,2,19.84,scattered clouds
+2014,5,12,20,26.19,overcast clouds
+2014,5,12,21,26.19,overcast clouds
+2014,5,12,22,26.19,overcast clouds
+2014,5,12,23,25.45,light rain
+2014,5,12,3,19.04,light rain
+2014,5,12,4,16.13,scattered clouds
+2014,5,12,5,16.91,sky is clear
+2014,5,12,6,15.97,sky is clear
+2014,5,12,7,15.16,sky is clear
+2014,5,12,8,14.97,sky is clear
+2014,5,12,9,14.24,sky is clear
+2014,5,13,0,24.73,moderate rain
+2014,5,13,1,23.68,moderate rain
+2014,5,13,10,16.85,sky is clear
+2014,5,13,11,16.41,mist
+2014,5,13,12,16.22,mist
+2014,5,13,13,16.29,mist
+2014,5,13,14,16.99,sky is clear
+2014,5,13,15,17.86,sky is clear
+2014,5,13,16,18.63,sky is clear
+2014,5,13,17,19.22,scattered clouds
+2014,5,13,18,19.62,scattered clouds
+2014,5,13,19,23.67,scattered clouds
+2014,5,13,2,22.79,broken clouds
+2014,5,13,20,19.85,broken clouds
+2014,5,13,21,19.35,broken clouds
+2014,5,13,22,19.22,broken clouds
+2014,5,13,23,17.49,scattered clouds
+2014,5,13,3,21.98,broken clouds
+2014,5,13,4,21.19,broken clouds
+2014,5,13,5,19.87,light rain
+2014,5,13,6,19.05,sky is clear
+2014,5,13,7,17.22,light rain
+2014,5,13,8,17.67,sky is clear
+2014,5,13,9,17.36,mist
+2014,5,14,0,15.63,scattered clouds
+2014,5,14,1,13.71,scattered clouds
+2014,5,14,10,10.64,broken clouds
+2014,5,14,11,10.77,overcast clouds
+2014,5,14,12,11.14,overcast clouds
+2014,5,14,13,11.97,overcast clouds
+2014,5,14,14,13.16,light rain
+2014,5,14,15,14.31,light rain
+2014,5,14,16,16.62,light rain
+2014,5,14,17,18.54,overcast clouds
+2014,5,14,18,19.61,overcast clouds
+2014,5,14,19,19.6,overcast clouds
+2014,5,14,2,12.63,few clouds
+2014,5,14,20,18.44,overcast clouds
+2014,5,14,21,18.03,overcast clouds
+2014,5,14,22,16.93,overcast clouds
+2014,5,14,23,15.63,light rain
+2014,5,14,3,11.84,few clouds
+2014,5,14,4,11.43,few clouds
+2014,5,14,5,11.11,few clouds
+2014,5,14,6,10.76,few clouds
+2014,5,14,7,10.77,few clouds
+2014,5,14,8,10.56,scattered clouds
+2014,5,14,9,10.58,scattered clouds
+2014,5,15,0,17.58,light rain
+2014,5,15,1,15.18,haze
+2014,5,15,10,15.55,mist
+2014,5,15,11,15.68,light intensity drizzle
+2014,5,15,12,16.21,light intensity drizzle
+2014,5,15,13,17.5,light rain
+2014,5,15,14,17.72,light intensity drizzle
+2014,5,15,15,18.29,light intensity drizzle
+2014,5,15,16,18.87,mist
+2014,5,15,17,19.61,mist
+2014,5,15,18,19.81,mist
+2014,5,15,19,20.43,haze
+2014,5,15,2,14.76,light rain
+2014,5,15,20,20.69,mist
+2014,5,15,21,20.87,overcast clouds
+2014,5,15,22,20.51,light rain
+2014,5,15,23,19.57,light rain
+2014,5,15,3,15.03,mist
+2014,5,15,4,14.89,light rain
+2014,5,15,5,14.98,mist
+2014,5,15,6,14.95,heavy intensity drizzle
+2014,5,15,7,14.99,light intensity drizzle
+2014,5,15,8,14.98,mist
+2014,5,15,9,15.09,light intensity drizzle
+2014,5,16,0,18.98,mist
+2014,5,16,1,18.86,haze
+2014,5,16,10,17.79,light rain
+2014,5,16,11,18.07,mist
+2014,5,16,12,18.59,haze
+2014,5,16,13,18.95,haze
+2014,5,16,14,18.95,mist
+2014,5,16,15,19.28,mist
+2014,5,16,16,19.65,haze
+2014,5,16,17,19.86,haze
+2014,5,16,18,19.45,mist
+2014,5,16,19,19.33,mist
+2014,5,16,2,18.56,mist
+2014,5,16,20,19.05,mist
+2014,5,16,21,19.37,mist
+2014,5,16,22,19.17,mist
+2014,5,16,23,19.04,mist
+2014,5,16,3,18.37,mist
+2014,5,16,4,18.19,mist
+2014,5,16,5,18.17,mist
+2014,5,16,6,18.11,mist
+2014,5,16,7,18.02,mist
+2014,5,16,8,18,mist
+2014,5,16,9,17.71,mist
+2014,5,17,0,18.28,mist
+2014,5,17,1,17.94,mist
+2014,5,17,10,11.2,light rain
+2014,5,17,11,11.51,sky is clear
+2014,5,17,12,12.16,light rain
+2014,5,17,13,14.16,sky is clear
+2014,5,17,14,15.46,light rain
+2014,5,17,15,17.02,light rain
+2014,5,17,16,18.14,light rain
+2014,5,17,17,19.4,light rain
+2014,5,17,18,19.75,light rain
+2014,5,17,19,20.12,light rain
+2014,5,17,2,17.67,mist
+2014,5,17,20,20.16,light rain
+2014,5,17,21,20.16,light rain
+2014,5,17,22,19.78,few clouds
+2014,5,17,23,19,light rain
+2014,5,17,3,16.94,mist
+2014,5,17,4,15.7,mist
+2014,5,17,5,14.71,light rain
+2014,5,17,6,14.05,light rain
+2014,5,17,7,13.2,light rain
+2014,5,17,8,12.54,light rain
+2014,5,17,9,11.73,light rain
+2014,5,18,0,18.13,light rain
+2014,5,18,1,16.68,light rain
+2014,5,18,10,8.89,light rain
+2014,5,18,11,9.47,sky is clear
+2014,5,18,12,11.48,light rain
+2014,5,18,13,13.54,sky is clear
+2014,5,18,14,15.18,few clouds
+2014,5,18,15,16.62,light rain
+2014,5,18,16,17.36,light rain
+2014,5,18,17,17.79,broken clouds
+2014,5,18,18,18.08,light rain
+2014,5,18,19,17.81,broken clouds
+2014,5,18,2,15.7,sky is clear
+2014,5,18,20,17.71,light rain
+2014,5,18,21,17.91,light rain
+2014,5,18,22,17.89,broken clouds
+2014,5,18,23,17.36,sky is clear
+2014,5,18,3,15.35,sky is clear
+2014,5,18,4,14.09,light rain
+2014,5,18,5,13.22,light rain
+2014,5,18,6,11.72,sky is clear
+2014,5,18,7,11.08,sky is clear
+2014,5,18,8,10.28,sky is clear
+2014,5,18,9,9.62,sky is clear
+2014,5,19,0,16.65,sky is clear
+2014,5,19,1,15.15,very heavy rain
+2014,5,19,10,7.94,sky is clear
+2014,5,19,11,8.96,sky is clear
+2014,5,19,12,10.72,sky is clear
+2014,5,19,13,13.6,sky is clear
+2014,5,19,14,15.98,sky is clear
+2014,5,19,15,17.93,light rain
+2014,5,19,16,19.16,light rain
+2014,5,19,17,20.39,scattered clouds
+2014,5,19,18,20.83,scattered clouds
+2014,5,19,19,21.09,light rain
+2014,5,19,2,13.98,sky is clear
+2014,5,19,20,21.22,scattered clouds
+2014,5,19,21,21.37,scattered clouds
+2014,5,19,22,19.97,light rain
+2014,5,19,23,19.63,light rain
+2014,5,19,3,12.94,sky is clear
+2014,5,19,4,12.15,sky is clear
+2014,5,19,5,11.16,light rain
+2014,5,19,6,10.42,light rain
+2014,5,19,7,9.86,light rain
+2014,5,19,8,8.92,sky is clear
+2014,5,19,9,8.24,sky is clear
+2014,5,2,0,15.97,heavy intensity rain
+2014,5,2,1,14.81,heavy intensity rain
+2014,5,2,10,11.86,light rain
+2014,5,2,11,11.86,light rain
+2014,5,2,12,13.36,light rain
+2014,5,2,13,12.87,few clouds
+2014,5,2,14,13.87,few clouds
+2014,5,2,15,14.09,scattered clouds
+2014,5,2,16,15.34,sky is clear
+2014,5,2,17,15.82,few clouds
+2014,5,2,18,15.85,few clouds
+2014,5,2,19,16.48,scattered clouds
+2014,5,2,2,14.4,heavy intensity rain
+2014,5,2,20,16.66,scattered clouds
+2014,5,2,21,15.71,sky is clear
+2014,5,2,22,16.26,scattered clouds
+2014,5,2,23,15.69,few clouds
+2014,5,2,3,14.23,light rain
+2014,5,2,4,13.73,light rain
+2014,5,2,5,13.48,light rain
+2014,5,2,6,12.92,light rain
+2014,5,2,7,12.77,light rain
+2014,5,2,8,12.31,light rain
+2014,5,2,9,12.55,light rain
+2014,5,20,0,18.7,few clouds
+2014,5,20,1,17.66,few clouds
+2014,5,20,10,11.24,light rain
+2014,5,20,11,12.16,light rain
+2014,5,20,12,14.71,sky is clear
+2014,5,20,13,16.99,light rain
+2014,5,20,14,19.71,sky is clear
+2014,5,20,15,21.47,sky is clear
+2014,5,20,16,22.98,sky is clear
+2014,5,20,17,23.83,sky is clear
+2014,5,20,18,24.43,light rain
+2014,5,20,19,24.83,sky is clear
+2014,5,20,2,16.18,light rain
+2014,5,20,20,25.15,few clouds
+2014,5,20,21,25.38,few clouds
+2014,5,20,22,24.72,light rain
+2014,5,20,23,23.8,light rain
+2014,5,20,3,14.41,light rain
+2014,5,20,4,13.6,sky is clear
+2014,5,20,5,12.82,sky is clear
+2014,5,20,6,12.23,sky is clear
+2014,5,20,7,12,sky is clear
+2014,5,20,8,11.88,sky is clear
+2014,5,20,9,11.66,light rain
+2014,5,21,0,22.52,overcast clouds
+2014,5,21,1,21.65,light rain
+2014,5,21,10,17.08,overcast clouds
+2014,5,21,11,17.44,broken clouds
+2014,5,21,12,18.36,broken clouds
+2014,5,21,13,19.3,broken clouds
+2014,5,21,14,20.11,scattered clouds
+2014,5,21,15,21.93,broken clouds
+2014,5,21,16,22.07,scattered clouds
+2014,5,21,17,21.88,broken clouds
+2014,5,21,18,22.16,broken clouds
+2014,5,21,19,22.36,broken clouds
+2014,5,21,2,20.58,scattered clouds
+2014,5,21,20,22.92,overcast clouds
+2014,5,21,21,23.11,overcast clouds
+2014,5,21,22,22.82,overcast clouds
+2014,5,21,23,22.2,overcast clouds
+2014,5,21,3,20.03,scattered clouds
+2014,5,21,4,19.77,scattered clouds
+2014,5,21,5,19.43,scattered clouds
+2014,5,21,6,18.82,scattered clouds
+2014,5,21,7,18.18,light rain
+2014,5,21,8,17.75,broken clouds
+2014,5,21,9,17.3,broken clouds
+2014,5,22,0,21.79,overcast clouds
+2014,5,22,1,21.15,overcast clouds
+2014,5,22,10,16.78,mist
+2014,5,22,11,16.52,mist
+2014,5,22,12,16.84,light intensity drizzle
+2014,5,22,13,16.75,light intensity drizzle
+2014,5,22,14,17.15,light intensity drizzle
+2014,5,22,15,17.23,mist
+2014,5,22,16,17.36,thunderstorm
+2014,5,22,17,17.61,mist
+2014,5,22,18,17.38,haze
+2014,5,22,19,17.28,haze
+2014,5,22,2,19.78,light rain
+2014,5,22,20,17.98,haze
+2014,5,22,21,17.75,haze
+2014,5,22,22,17.69,mist
+2014,5,22,23,17.38,mist
+2014,5,22,3,18.19,light rain
+2014,5,22,4,18.16,light rain
+2014,5,22,5,18,scattered clouds
+2014,5,22,6,18.29,scattered clouds
+2014,5,22,7,17.95,moderate rain
+2014,5,22,8,17.49,mist
+2014,5,22,9,16.85,mist
+2014,5,23,0,17,light rain
+2014,5,23,1,16.01,haze
+2014,5,23,10,14.96,mist
+2014,5,23,11,14.96,light rain
+2014,5,23,12,15.15,light intensity drizzle
+2014,5,23,13,15.34,light rain
+2014,5,23,14,15.81,haze
+2014,5,23,15,16.29,mist
+2014,5,23,16,17.72,mist
+2014,5,23,17,18.76,mist
+2014,5,23,18,19.75,scattered clouds
+2014,5,23,19,19.8,light rain
+2014,5,23,2,15.71,light rain
+2014,5,23,20,19.42,mist
+2014,5,23,21,19.05,mist
+2014,5,23,22,19.16,light rain
+2014,5,23,23,19.15,light rain
+2014,5,23,3,15.66,light rain
+2014,5,23,4,15.85,haze
+2014,5,23,5,15.75,mist
+2014,5,23,6,15.16,mist
+2014,5,23,7,15.21,mist
+2014,5,23,8,15.19,mist
+2014,5,23,9,15.18,mist
+2014,5,24,0,17.51,thunderstorm
+2014,5,24,1,16.36,light rain
+2014,5,24,10,14.23,sky is clear
+2014,5,24,11,14.21,broken clouds
+2014,5,24,12,14.53,broken clouds
+2014,5,24,13,15.45,broken clouds
+2014,5,24,14,15.97,scattered clouds
+2014,5,24,15,17.29,scattered clouds
+2014,5,24,16,18.33,moderate rain
+2014,5,24,17,19.04,light rain
+2014,5,24,18,19.67,light rain
+2014,5,24,19,19.95,light rain
+2014,5,24,2,14.72,mist
+2014,5,24,20,18.98,mist
+2014,5,24,21,17.59,mist
+2014,5,24,22,16.38,mist
+2014,5,24,23,16.1,mist
+2014,5,24,3,14.18,mist
+2014,5,24,4,14.23,mist
+2014,5,24,5,14.73,mist
+2014,5,24,6,14.61,light rain
+2014,5,24,7,14.43,light rain
+2014,5,24,8,14.03,light rain
+2014,5,24,9,14.21,light rain
+2014,5,25,0,15.7,moderate rain
+2014,5,25,1,14.93,light rain
+2014,5,25,10,11.59,fog
+2014,5,25,11,12.38,few clouds
+2014,5,25,12,14.43,light rain
+2014,5,25,13,17.27,light rain
+2014,5,25,14,19.84,light rain
+2014,5,25,15,21.77,scattered clouds
+2014,5,25,16,23.74,scattered clouds
+2014,5,25,17,25.18,light rain
+2014,5,25,18,25.7,light rain
+2014,5,25,19,26.1,broken clouds
+2014,5,25,2,14.48,fog
+2014,5,25,20,26.39,light rain
+2014,5,25,21,26.52,broken clouds
+2014,5,25,22,25.91,light rain
+2014,5,25,23,25.01,broken clouds
+2014,5,25,3,14.19,fog
+2014,5,25,4,13.93,fog
+2014,5,25,5,13.62,fog
+2014,5,25,6,13.33,fog
+2014,5,25,7,13.02,mist
+2014,5,25,8,12.66,mist
+2014,5,25,9,12.04,fog
+2014,5,26,0,23.03,broken clouds
+2014,5,26,1,20.16,broken clouds
+2014,5,26,10,16.23,overcast clouds
+2014,5,26,11,17.24,broken clouds
+2014,5,26,12,19.21,broken clouds
+2014,5,26,13,21.77,light rain
+2014,5,26,14,24.06,scattered clouds
+2014,5,26,15,26.63,broken clouds
+2014,5,26,16,27.84,broken clouds
+2014,5,26,17,28.67,broken clouds
+2014,5,26,18,29.43,broken clouds
+2014,5,26,19,29.93,broken clouds
+2014,5,26,2,18.64,light rain
+2014,5,26,20,30.09,broken clouds
+2014,5,26,21,29.57,broken clouds
+2014,5,26,22,28.98,broken clouds
+2014,5,26,23,28.35,heavy intensity rain
+2014,5,26,3,17.25,scattered clouds
+2014,5,26,4,16.47,broken clouds
+2014,5,26,5,15.62,broken clouds
+2014,5,26,6,15.01,broken clouds
+2014,5,26,7,15.23,broken clouds
+2014,5,26,8,15.28,broken clouds
+2014,5,26,9,15.86,broken clouds
+2014,5,27,0,26.79,light rain
+2014,5,27,1,24.78,broken clouds
+2014,5,27,10,18.37,broken clouds
+2014,5,27,11,19.46,broken clouds
+2014,5,27,12,21.76,broken clouds
+2014,5,27,13,23.72,broken clouds
+2014,5,27,14,25.91,broken clouds
+2014,5,27,15,27.83,broken clouds
+2014,5,27,16,28.66,sky is clear
+2014,5,27,17,29.63,broken clouds
+2014,5,27,18,28.96,broken clouds
+2014,5,27,19,28.86,light rain
+2014,5,27,2,23.79,broken clouds
+2014,5,27,20,29.31,light rain
+2014,5,27,21,29.03,broken clouds
+2014,5,27,22,27.63,broken clouds
+2014,5,27,23,26.87,light rain
+2014,5,27,3,23.26,light rain
+2014,5,27,4,22.87,light rain
+2014,5,27,5,22.33,overcast clouds
+2014,5,27,6,22.06,overcast clouds
+2014,5,27,7,21.17,overcast clouds
+2014,5,27,8,20.19,overcast clouds
+2014,5,27,9,19.16,broken clouds
+2014,5,28,0,25.78,overcast clouds
+2014,5,28,1,24.79,broken clouds
+2014,5,28,10,14.73,overcast clouds
+2014,5,28,11,14.57,overcast clouds
+2014,5,28,12,14.18,overcast clouds
+2014,5,28,13,14.01,overcast clouds
+2014,5,28,14,13.85,overcast clouds
+2014,5,28,15,13.68,overcast clouds
+2014,5,28,16,13.51,light rain
+2014,5,28,17,13.71,light rain
+2014,5,28,18,14.15,light rain
+2014,5,28,19,14.46,overcast clouds
+2014,5,28,2,23.64,broken clouds
+2014,5,28,20,14.88,overcast clouds
+2014,5,28,21,14.32,overcast clouds
+2014,5,28,22,14.21,overcast clouds
+2014,5,28,23,13.66,overcast clouds
+2014,5,28,3,22.71,broken clouds
+2014,5,28,4,21.44,broken clouds
+2014,5,28,5,20.18,broken clouds
+2014,5,28,6,18.27,overcast clouds
+2014,5,28,7,17.34,light rain
+2014,5,28,8,16.28,overcast clouds
+2014,5,28,9,15.34,overcast clouds
+2014,5,29,0,13.32,overcast clouds
+2014,5,29,1,13.1,overcast clouds
+2014,5,29,10,10.62,broken clouds
+2014,5,29,11,10.61,broken clouds
+2014,5,29,12,11.18,scattered clouds
+2014,5,29,13,12.25,broken clouds
+2014,5,29,14,13.58,broken clouds
+2014,5,29,15,15.07,scattered clouds
+2014,5,29,16,16.27,scattered clouds
+2014,5,29,17,17.14,scattered clouds
+2014,5,29,18,17.87,light rain
+2014,5,29,19,17.82,scattered clouds
+2014,5,29,2,12.66,overcast clouds
+2014,5,29,20,17.76,scattered clouds
+2014,5,29,21,16.99,broken clouds
+2014,5,29,22,15.63,broken clouds
+2014,5,29,23,14.64,broken clouds
+2014,5,29,3,12.55,overcast clouds
+2014,5,29,4,12.21,overcast clouds
+2014,5,29,5,11.68,overcast clouds
+2014,5,29,6,11.48,overcast clouds
+2014,5,29,7,11.43,overcast clouds
+2014,5,29,8,11.37,overcast clouds
+2014,5,29,9,10.73,overcast clouds
+2014,5,3,0,14.83,few clouds
+2014,5,3,1,14.35,sky is clear
+2014,5,3,10,9.65,scattered clouds
+2014,5,3,11,10.85,scattered clouds
+2014,5,3,12,12.08,few clouds
+2014,5,3,13,13.27,few clouds
+2014,5,3,14,14.5,few clouds
+2014,5,3,15,14.78,few clouds
+2014,5,3,16,16.32,sky is clear
+2014,5,3,17,16.92,sky is clear
+2014,5,3,18,16.38,scattered clouds
+2014,5,3,19,17.36,scattered clouds
+2014,5,3,2,13.59,sky is clear
+2014,5,3,20,17.2,broken clouds
+2014,5,3,21,16.69,scattered clouds
+2014,5,3,22,16.65,broken clouds
+2014,5,3,23,16.26,broken clouds
+2014,5,3,3,12.68,sky is clear
+2014,5,3,4,11.97,sky is clear
+2014,5,3,5,11.1,sky is clear
+2014,5,3,6,10.64,few clouds
+2014,5,3,7,9.64,few clouds
+2014,5,3,8,9.05,scattered clouds
+2014,5,3,9,11.14,few clouds
+2014,5,30,0,13.94,broken clouds
+2014,5,30,1,13.47,broken clouds
+2014,5,30,10,11.66,broken clouds
+2014,5,30,11,12.46,broken clouds
+2014,5,30,12,14.16,broken clouds
+2014,5,30,13,16.63,scattered clouds
+2014,5,30,14,18.43,scattered clouds
+2014,5,30,15,20.24,scattered clouds
+2014,5,30,16,21.38,broken clouds
+2014,5,30,17,21.97,broken clouds
+2014,5,30,18,22.65,broken clouds
+2014,5,30,19,23.3,broken clouds
+2014,5,30,2,13.22,broken clouds
+2014,5,30,20,23.75,broken clouds
+2014,5,30,21,23.85,broken clouds
+2014,5,30,22,23.31,scattered clouds
+2014,5,30,23,21.93,light rain
+2014,5,30,3,13.21,broken clouds
+2014,5,30,4,12.96,overcast clouds
+2014,5,30,5,12.91,overcast clouds
+2014,5,30,6,12.74,heavy intensity rain
+2014,5,30,7,12.39,light rain
+2014,5,30,8,12.39,overcast clouds
+2014,5,30,9,12.18,broken clouds
+2014,5,31,0,17.95,moderate rain
+2014,5,31,1,17.16,light rain
+2014,5,31,10,13.47,light rain
+2014,5,31,11,15.24,few clouds
+2014,5,31,12,16.9,few clouds
+2014,5,31,13,18,few clouds
+2014,5,31,14,19.68,few clouds
+2014,5,31,15,20.2,few clouds
+2014,5,31,16,20.87,few clouds
+2014,5,31,17,21.42,scattered clouds
+2014,5,31,18,21.63,scattered clouds
+2014,5,31,19,20.64,light rain
+2014,5,31,2,16.55,scattered clouds
+2014,5,31,20,19.72,light rain
+2014,5,31,21,20.23,broken clouds
+2014,5,31,22,20.23,scattered clouds
+2014,5,31,23,19.65,scattered clouds
+2014,5,31,3,15.69,few clouds
+2014,5,31,4,14.85,sky is clear
+2014,5,31,5,14.25,sky is clear
+2014,5,31,6,13.68,sky is clear
+2014,5,31,7,13.21,light rain
+2014,5,31,8,12.82,sky is clear
+2014,5,31,9,12.78,light rain
+2014,5,4,0,15.77,broken clouds
+2014,5,4,1,15.42,scattered clouds
+2014,5,4,10,11.99,broken clouds
+2014,5,4,11,12,broken clouds
+2014,5,4,12,12.59,broken clouds
+2014,5,4,13,13.21,light rain
+2014,5,4,14,13.95,light rain
+2014,5,4,15,15.34,broken clouds
+2014,5,4,16,16.24,broken clouds
+2014,5,4,17,16.13,broken clouds
+2014,5,4,18,15.95,broken clouds
+2014,5,4,19,16.75,light rain
+2014,5,4,2,14.96,scattered clouds
+2014,5,4,20,17.04,light rain
+2014,5,4,21,15.87,light rain
+2014,5,4,22,15.09,light rain
+2014,5,4,23,15.58,sky is clear
+2014,5,4,3,14.75,few clouds
+2014,5,4,4,14.22,scattered clouds
+2014,5,4,5,13.93,few clouds
+2014,5,4,6,13.62,few clouds
+2014,5,4,7,13.34,sky is clear
+2014,5,4,8,13.03,sky is clear
+2014,5,4,9,12.4,broken clouds
+2014,5,5,0,15.24,sky is clear
+2014,5,5,1,14.59,sky is clear
+2014,5,5,10,9.59,sky is clear
+2014,5,5,11,9.79,sky is clear
+2014,5,5,12,11.17,sky is clear
+2014,5,5,13,12.29,sky is clear
+2014,5,5,14,13.46,sky is clear
+2014,5,5,15,14.58,sky is clear
+2014,5,5,16,16.08,light rain
+2014,5,5,17,17.3,sky is clear
+2014,5,5,18,18.29,sky is clear
+2014,5,5,19,19.03,sky is clear
+2014,5,5,2,13.84,light rain
+2014,5,5,20,19.6,sky is clear
+2014,5,5,21,19.85,sky is clear
+2014,5,5,22,19.43,sky is clear
+2014,5,5,23,18.52,broken clouds
+2014,5,5,3,13.01,light rain
+2014,5,5,4,12.83,sky is clear
+2014,5,5,5,12.07,sky is clear
+2014,5,5,6,11.35,sky is clear
+2014,5,5,7,10.92,sky is clear
+2014,5,5,8,10.11,sky is clear
+2014,5,5,9,9.76,sky is clear
+2014,5,6,0,17.64,light rain
+2014,5,6,1,16.6,broken clouds
+2014,5,6,10,9.5,scattered clouds
+2014,5,6,11,10.21,broken clouds
+2014,5,6,12,11.37,broken clouds
+2014,5,6,13,12.43,broken clouds
+2014,5,6,14,13.59,broken clouds
+2014,5,6,15,16.5,broken clouds
+2014,5,6,16,17.77,light rain
+2014,5,6,17,18.54,light rain
+2014,5,6,18,19.27,sky is clear
+2014,5,6,19,19.87,sky is clear
+2014,5,6,2,15.36,scattered clouds
+2014,5,6,20,19.92,few clouds
+2014,5,6,21,19.59,light rain
+2014,5,6,22,19.16,light rain
+2014,5,6,23,15.99,sky is clear
+2014,5,6,3,14.36,scattered clouds
+2014,5,6,4,13.17,scattered clouds
+2014,5,6,5,12.24,scattered clouds
+2014,5,6,6,11.13,scattered clouds
+2014,5,6,7,10.1,scattered clouds
+2014,5,6,8,9.6,few clouds
+2014,5,6,9,9.57,few clouds
+2014,5,7,0,17.33,sky is clear
+2014,5,7,1,16.08,sky is clear
+2014,5,7,10,8.13,sky is clear
+2014,5,7,11,8.27,sky is clear
+2014,5,7,12,10.86,sky is clear
+2014,5,7,13,13.04,sky is clear
+2014,5,7,14,14.64,sky is clear
+2014,5,7,15,15.9,sky is clear
+2014,5,7,16,17.48,sky is clear
+2014,5,7,17,18.6,few clouds
+2014,5,7,18,19.46,few clouds
+2014,5,7,19,19.89,few clouds
+2014,5,7,2,14.23,sky is clear
+2014,5,7,20,19.93,broken clouds
+2014,5,7,21,18.84,broken clouds
+2014,5,7,22,17.4,broken clouds
+2014,5,7,23,15.68,overcast clouds
+2014,5,7,3,12.79,sky is clear
+2014,5,7,4,12.25,sky is clear
+2014,5,7,5,11.6,sky is clear
+2014,5,7,6,9.15,few clouds
+2014,5,7,7,10.15,sky is clear
+2014,5,7,8,9.18,sky is clear
+2014,5,7,9,8.82,sky is clear
+2014,5,8,0,15.02,overcast clouds
+2014,5,8,1,14.96,overcast clouds
+2014,5,8,10,11.1,mist
+2014,5,8,11,11.28,mist
+2014,5,8,12,11.4,mist
+2014,5,8,13,11.8,mist
+2014,5,8,14,12.05,mist
+2014,5,8,15,12.28,mist
+2014,5,8,16,12.82,mist
+2014,5,8,17,12.9,mist
+2014,5,8,18,13.03,mist
+2014,5,8,19,13.32,mist
+2014,5,8,2,14.79,overcast clouds
+2014,5,8,20,13.52,mist
+2014,5,8,21,13.58,mist
+2014,5,8,22,13.64,haze
+2014,5,8,23,13.66,haze
+2014,5,8,3,14.3,overcast clouds
+2014,5,8,4,13.87,overcast clouds
+2014,5,8,5,13.54,light rain
+2014,5,8,6,12.79,moderate rain
+2014,5,8,7,11.53,mist
+2014,5,8,8,11.22,mist
+2014,5,8,9,11,mist
+2014,5,9,0,13.55,haze
+2014,5,9,1,13.19,mist
+2014,5,9,10,12.77,moderate rain
+2014,5,9,11,12.83,mist
+2014,5,9,12,12.96,fog
+2014,5,9,13,13.21,mist
+2014,5,9,14,13.9,mist
+2014,5,9,15,14.46,haze
+2014,5,9,16,14.57,haze
+2014,5,9,17,14.92,haze
+2014,5,9,18,15.51,haze
+2014,5,9,19,15.58,haze
+2014,5,9,2,12.82,mist
+2014,5,9,20,15.61,mist
+2014,5,9,21,15.69,haze
+2014,5,9,22,15.62,mist
+2014,5,9,23,15.86,mist
+2014,5,9,3,12.63,mist
+2014,5,9,4,12.67,mist
+2014,5,9,5,12.73,mist
+2014,5,9,6,12.77,mist
+2014,5,9,7,12.55,mist
+2014,5,9,8,12.75,mist
+2014,5,9,9,12.81,moderate rain
+2014,6,1,0,18.03,broken clouds
+2014,6,1,1,16.12,broken clouds
+2014,6,1,10,10.7,mist
+2014,6,1,11,11.73,sky is clear
+2014,6,1,12,14.45,light rain
+2014,6,1,13,16.96,sky is clear
+2014,6,1,14,19.36,sky is clear
+2014,6,1,15,21.07,sky is clear
+2014,6,1,16,22.34,sky is clear
+2014,6,1,17,23.25,sky is clear
+2014,6,1,18,23.98,sky is clear
+2014,6,1,19,24.31,sky is clear
+2014,6,1,2,15.41,broken clouds
+2014,6,1,20,24.48,light rain
+2014,6,1,21,24.11,sky is clear
+2014,6,1,22,23.88,sky is clear
+2014,6,1,23,22.71,sky is clear
+2014,6,1,3,14.7,broken clouds
+2014,6,1,4,13.57,broken clouds
+2014,6,1,5,12.43,few clouds
+2014,6,1,6,11.68,few clouds
+2014,6,1,7,11.21,scattered clouds
+2014,6,1,8,10.56,few clouds
+2014,6,1,9,10.15,sky is clear
+2014,6,10,0,19.05,mist
+2014,6,10,1,18.93,mist
+2014,6,10,10,18.13,mist
+2014,6,10,11,18.47,mist
+2014,6,10,12,18.4,mist
+2014,6,10,13,19.52,haze
+2014,6,10,14,20.61,mist
+2014,6,10,15,21.59,mist
+2014,6,10,16,22.29,mist
+2014,6,10,17,22.5,mist
+2014,6,10,18,22.73,haze
+2014,6,10,19,24,haze
+2014,6,10,2,18.78,haze
+2014,6,10,20,24.32,haze
+2014,6,10,21,24.64,broken clouds
+2014,6,10,22,24.81,haze
+2014,6,10,23,24.54,haze
+2014,6,10,3,18.45,haze
+2014,6,10,4,18.23,fog
+2014,6,10,5,18.27,fog
+2014,6,10,6,18.12,fog
+2014,6,10,7,18.32,fog
+2014,6,10,8,18.28,fog
+2014,6,10,9,17.94,fog
+2014,6,11,0,24.05,haze
+2014,6,11,1,21.95,haze
+2014,6,11,10,18.1,mist
+2014,6,11,11,17.92,light rain
+2014,6,11,12,17.54,mist
+2014,6,11,13,17.42,light rain
+2014,6,11,14,17.12,mist
+2014,6,11,15,16.97,mist
+2014,6,11,16,17.42,mist
+2014,6,11,17,18.62,light rain
+2014,6,11,18,19.52,light rain
+2014,6,11,19,19.97,light rain
+2014,6,11,2,21.3,haze
+2014,6,11,20,20.31,scattered clouds
+2014,6,11,21,19.72,moderate rain
+2014,6,11,22,19.76,light rain
+2014,6,11,23,19.27,overcast clouds
+2014,6,11,3,20.95,overcast clouds
+2014,6,11,4,21.29,scattered clouds
+2014,6,11,5,20.78,mist
+2014,6,11,6,20.88,mist
+2014,6,11,7,20.47,light rain
+2014,6,11,8,19.17,light rain
+2014,6,11,9,18.38,light rain
+2014,6,12,0,18.5,overcast clouds
+2014,6,12,1,17.68,overcast clouds
+2014,6,12,10,15.31,overcast clouds
+2014,6,12,11,15.44,mist
+2014,6,12,12,15.81,mist
+2014,6,12,13,16.17,drizzle
+2014,6,12,14,16.34,drizzle
+2014,6,12,15,16.77,drizzle
+2014,6,12,16,17.34,light rain
+2014,6,12,17,17.88,haze
+2014,6,12,18,18.81,haze
+2014,6,12,19,19.39,mist
+2014,6,12,2,17.36,overcast clouds
+2014,6,12,20,20.03,mist
+2014,6,12,21,20.36,mist
+2014,6,12,22,20.53,mist
+2014,6,12,23,20.35,mist
+2014,6,12,3,17.1,light rain
+2014,6,12,4,16.71,overcast clouds
+2014,6,12,5,16.32,light rain
+2014,6,12,6,16.05,moderate rain
+2014,6,12,7,15.85,mist
+2014,6,12,8,15.46,mist
+2014,6,12,9,15.38,overcast clouds
+2014,6,13,0,20.3,mist
+2014,6,13,1,20.05,haze
+2014,6,13,10,18.82,mist
+2014,6,13,11,18.26,mist
+2014,6,13,12,18.38,mist
+2014,6,13,13,18.44,mist
+2014,6,13,14,18.84,mist
+2014,6,13,15,19.15,mist
+2014,6,13,16,20.25,haze
+2014,6,13,17,21.89,light rain
+2014,6,13,18,23.88,light rain
+2014,6,13,19,24.72,light rain
+2014,6,13,2,19.88,haze
+2014,6,13,20,25.82,light rain
+2014,6,13,21,24.53,heavy intensity rain
+2014,6,13,22,21.79,thunderstorm with heavy rain
+2014,6,13,23,20.83,mist
+2014,6,13,3,19.68,haze
+2014,6,13,4,19.55,haze
+2014,6,13,5,19.42,haze
+2014,6,13,6,19.2,haze
+2014,6,13,7,19.09,mist
+2014,6,13,8,18.95,mist
+2014,6,13,9,18.97,mist
+2014,6,14,0,20.14,thunderstorm with heavy rain
+2014,6,14,1,20.16,mist
+2014,6,14,10,18.48,scattered clouds
+2014,6,14,11,18.48,sky is clear
+2014,6,14,12,19.33,haze
+2014,6,14,13,20.36,light rain
+2014,6,14,14,21.52,light rain
+2014,6,14,15,22.4,light rain
+2014,6,14,16,22.81,sky is clear
+2014,6,14,17,22.96,sky is clear
+2014,6,14,18,23.21,sky is clear
+2014,6,14,19,22.73,sky is clear
+2014,6,14,2,20.02,light rain
+2014,6,14,20,22.25,sky is clear
+2014,6,14,21,21.26,sky is clear
+2014,6,14,22,20.51,sky is clear
+2014,6,14,23,19.35,sky is clear
+2014,6,14,3,19.91,mist
+2014,6,14,4,19.81,mist
+2014,6,14,5,19.84,mist
+2014,6,14,6,19.89,fog
+2014,6,14,7,19.45,fog
+2014,6,14,8,19.37,haze
+2014,6,14,9,19.03,haze
+2014,6,15,0,18.06,sky is clear
+2014,6,15,1,17.35,sky is clear
+2014,6,15,10,14.33,sky is clear
+2014,6,15,11,15.28,sky is clear
+2014,6,15,12,16.6,sky is clear
+2014,6,15,13,18.34,sky is clear
+2014,6,15,14,19.63,sky is clear
+2014,6,15,15,21.02,sky is clear
+2014,6,15,16,22.19,sky is clear
+2014,6,15,17,23.49,few clouds
+2014,6,15,18,24.58,light rain
+2014,6,15,19,25.59,light rain
+2014,6,15,2,16.13,sky is clear
+2014,6,15,20,26.2,sky is clear
+2014,6,15,21,26.54,sky is clear
+2014,6,15,22,26.58,sky is clear
+2014,6,15,23,26.3,sky is clear
+2014,6,15,3,15.9,sky is clear
+2014,6,15,4,15.61,sky is clear
+2014,6,15,5,15.3,sky is clear
+2014,6,15,6,14.67,sky is clear
+2014,6,15,7,14.52,sky is clear
+2014,6,15,8,14.46,sky is clear
+2014,6,15,9,14.34,sky is clear
+2014,6,16,0,24.83,sky is clear
+2014,6,16,1,23.33,sky is clear
+2014,6,16,10,15.46,sky is clear
+2014,6,16,11,15.5,sky is clear
+2014,6,16,12,17.81,sky is clear
+2014,6,16,13,20.23,sky is clear
+2014,6,16,14,22.26,sky is clear
+2014,6,16,15,24,sky is clear
+2014,6,16,16,25.33,sky is clear
+2014,6,16,17,26.11,sky is clear
+2014,6,16,18,26.59,sky is clear
+2014,6,16,19,27.06,sky is clear
+2014,6,16,2,21.77,sky is clear
+2014,6,16,20,27.29,sky is clear
+2014,6,16,21,26.58,sky is clear
+2014,6,16,22,25.73,sky is clear
+2014,6,16,23,24.85,sky is clear
+2014,6,16,3,19.99,sky is clear
+2014,6,16,4,19.3,sky is clear
+2014,6,16,5,18.49,sky is clear
+2014,6,16,6,17.46,sky is clear
+2014,6,16,7,16.37,mist
+2014,6,16,8,16.13,sky is clear
+2014,6,16,9,15.48,sky is clear
+2014,6,17,0,23.42,broken clouds
+2014,6,17,1,22.5,sky is clear
+2014,6,17,10,19.97,broken clouds
+2014,6,17,11,20.51,sky is clear
+2014,6,17,12,22.01,sky is clear
+2014,6,17,13,23.56,broken clouds
+2014,6,17,14,26.24,sky is clear
+2014,6,17,15,27.61,sky is clear
+2014,6,17,16,29.28,sky is clear
+2014,6,17,17,30.06,few clouds
+2014,6,17,18,30.88,few clouds
+2014,6,17,19,31.46,few clouds
+2014,6,17,2,21.4,broken clouds
+2014,6,17,20,31.67,sky is clear
+2014,6,17,21,31.39,sky is clear
+2014,6,17,22,30.66,sky is clear
+2014,6,17,23,30.16,sky is clear
+2014,6,17,3,20.9,scattered clouds
+2014,6,17,4,20.72,broken clouds
+2014,6,17,5,20.39,scattered clouds
+2014,6,17,6,20.02,light rain
+2014,6,17,7,20.01,light rain
+2014,6,17,8,20.04,broken clouds
+2014,6,17,9,20.07,broken clouds
+2014,6,18,0,29.25,sky is clear
+2014,6,18,1,28.12,sky is clear
+2014,6,18,10,26,sky is clear
+2014,6,18,11,26.32,sky is clear
+2014,6,18,12,26.68,sky is clear
+2014,6,18,13,27.48,dust
+2014,6,18,14,28.01,dust
+2014,6,18,15,29.02,dust
+2014,6,18,16,29.96,dust
+2014,6,18,17,30.29,dust
+2014,6,18,18,31.11,dust
+2014,6,18,19,31.1,dust
+2014,6,18,2,27.66,sky is clear
+2014,6,18,20,31.49,dust
+2014,6,18,21,31.38,broken clouds
+2014,6,18,22,31.43,broken clouds
+2014,6,18,23,31.26,scattered clouds
+2014,6,18,3,26.81,sky is clear
+2014,6,18,4,26.73,sky is clear
+2014,6,18,5,26.5,few clouds
+2014,6,18,6,26.4,few clouds
+2014,6,18,7,26.08,few clouds
+2014,6,18,8,25.88,sky is clear
+2014,6,18,9,25.79,sky is clear
+2014,6,19,0,29.89,sky is clear
+2014,6,19,1,27.99,scattered clouds
+2014,6,19,10,21.31,light rain
+2014,6,19,11,20.9,mist
+2014,6,19,12,20.62,mist
+2014,6,19,13,20.1,light intensity drizzle
+2014,6,19,14,20.04,light intensity drizzle
+2014,6,19,15,20.85,light intensity drizzle
+2014,6,19,16,21.96,light rain
+2014,6,19,17,22.52,light rain
+2014,6,19,18,22.97,light rain
+2014,6,19,19,22.56,light rain
+2014,6,19,2,26.93,few clouds
+2014,6,19,20,22.66,light rain
+2014,6,19,21,24.49,light rain
+2014,6,19,22,24.73,light rain
+2014,6,19,23,25.23,few clouds
+2014,6,19,3,25.2,few clouds
+2014,6,19,4,23.94,few clouds
+2014,6,19,5,23.05,scattered clouds
+2014,6,19,6,22.51,few clouds
+2014,6,19,7,22.07,scattered clouds
+2014,6,19,8,22.04,moderate rain
+2014,6,19,9,21.84,light intensity drizzle
+2014,6,2,0,21.3,sky is clear
+2014,6,2,1,19.73,sky is clear
+2014,6,2,10,12.73,sky is clear
+2014,6,2,11,13.45,sky is clear
+2014,6,2,12,16.21,sky is clear
+2014,6,2,13,18.7,sky is clear
+2014,6,2,14,21.21,sky is clear
+2014,6,2,15,23.52,sky is clear
+2014,6,2,16,24.34,light rain
+2014,6,2,17,25.29,few clouds
+2014,6,2,18,26.25,few clouds
+2014,6,2,19,26.87,few clouds
+2014,6,2,2,18.98,sky is clear
+2014,6,2,20,27.18,sky is clear
+2014,6,2,21,26.94,sky is clear
+2014,6,2,22,27.01,sky is clear
+2014,6,2,23,26.52,sky is clear
+2014,6,2,3,17.18,sky is clear
+2014,6,2,4,16.63,sky is clear
+2014,6,2,5,15.86,sky is clear
+2014,6,2,6,14.97,sky is clear
+2014,6,2,7,14.44,sky is clear
+2014,6,2,8,14.37,sky is clear
+2014,6,2,9,13.33,sky is clear
+2014,6,20,0,24.7,few clouds
+2014,6,20,1,23.06,few clouds
+2014,6,20,10,15.83,sky is clear
+2014,6,20,11,16.15,sky is clear
+2014,6,20,12,18.4,sky is clear
+2014,6,20,13,20.23,sky is clear
+2014,6,20,14,22.01,light rain
+2014,6,20,15,23.24,sky is clear
+2014,6,20,16,24.53,few clouds
+2014,6,20,17,25.22,few clouds
+2014,6,20,18,25.8,few clouds
+2014,6,20,19,25.85,sky is clear
+2014,6,20,2,21.9,sky is clear
+2014,6,20,20,26.43,light rain
+2014,6,20,21,26.58,light rain
+2014,6,20,22,26.43,light rain
+2014,6,20,23,25.85,few clouds
+2014,6,20,3,20.96,sky is clear
+2014,6,20,4,20.46,sky is clear
+2014,6,20,5,19.85,light rain
+2014,6,20,6,19.04,sky is clear
+2014,6,20,7,18.41,sky is clear
+2014,6,20,8,16.89,sky is clear
+2014,6,20,9,16.57,sky is clear
+2014,6,21,0,24.45,sky is clear
+2014,6,21,1,23.07,few clouds
+2014,6,21,10,15.57,scattered clouds
+2014,6,21,11,15.93,few clouds
+2014,6,21,12,17.62,few clouds
+2014,6,21,13,19.03,few clouds
+2014,6,21,14,20.46,scattered clouds
+2014,6,21,15,22.11,sky is clear
+2014,6,21,16,22.57,sky is clear
+2014,6,21,17,23.38,sky is clear
+2014,6,21,18,23.74,sky is clear
+2014,6,21,19,24.32,sky is clear
+2014,6,21,2,21.78,scattered clouds
+2014,6,21,20,24.46,sky is clear
+2014,6,21,21,24.29,sky is clear
+2014,6,21,22,23.73,sky is clear
+2014,6,21,23,23.15,sky is clear
+2014,6,21,3,20.77,scattered clouds
+2014,6,21,4,20.19,few clouds
+2014,6,21,5,19.74,scattered clouds
+2014,6,21,6,19.51,scattered clouds
+2014,6,21,7,18.52,scattered clouds
+2014,6,21,8,17.26,very heavy rain
+2014,6,21,9,16.58,scattered clouds
+2014,6,22,0,22.34,sky is clear
+2014,6,22,1,20.8,sky is clear
+2014,6,22,10,15.63,mist
+2014,6,22,11,16.48,sky is clear
+2014,6,22,12,18,scattered clouds
+2014,6,22,13,19.43,scattered clouds
+2014,6,22,14,21.71,few clouds
+2014,6,22,15,22.89,light rain
+2014,6,22,16,24.23,light rain
+2014,6,22,17,24.61,broken clouds
+2014,6,22,18,25.39,broken clouds
+2014,6,22,19,25.21,scattered clouds
+2014,6,22,2,19.77,sky is clear
+2014,6,22,20,24.94,light rain
+2014,6,22,21,24.77,light rain
+2014,6,22,22,24.48,light rain
+2014,6,22,23,23.88,broken clouds
+2014,6,22,3,18.73,sky is clear
+2014,6,22,4,17.81,sky is clear
+2014,6,22,5,17.18,sky is clear
+2014,6,22,6,16.63,sky is clear
+2014,6,22,7,16.29,sky is clear
+2014,6,22,8,16.08,sky is clear
+2014,6,22,9,15.71,sky is clear
+2014,6,23,0,22.78,broken clouds
+2014,6,23,1,21.21,broken clouds
+2014,6,23,10,15.38,broken clouds
+2014,6,23,11,16.52,scattered clouds
+2014,6,23,12,19.5,sky is clear
+2014,6,23,13,21.62,scattered clouds
+2014,6,23,14,23.57,sky is clear
+2014,6,23,15,25.45,sky is clear
+2014,6,23,16,26.73,sky is clear
+2014,6,23,17,27.32,broken clouds
+2014,6,23,18,27.48,broken clouds
+2014,6,23,19,27.21,broken clouds
+2014,6,23,2,20.59,light rain
+2014,6,23,20,26.62,broken clouds
+2014,6,23,21,26.09,broken clouds
+2014,6,23,22,25.44,broken clouds
+2014,6,23,23,24.83,scattered clouds
+2014,6,23,3,19.2,few clouds
+2014,6,23,4,18.71,few clouds
+2014,6,23,5,17.97,few clouds
+2014,6,23,6,17.23,sky is clear
+2014,6,23,7,16.65,few clouds
+2014,6,23,8,16.07,sky is clear
+2014,6,23,9,15.8,sky is clear
+2014,6,24,0,24.03,very heavy rain
+2014,6,24,1,22.86,scattered clouds
+2014,6,24,10,17.87,few clouds
+2014,6,24,11,18.5,light rain
+2014,6,24,12,20.58,light rain
+2014,6,24,13,21.64,sky is clear
+2014,6,24,14,23.34,few clouds
+2014,6,24,15,24.44,few clouds
+2014,6,24,16,25.46,overcast clouds
+2014,6,24,17,26.39,sky is clear
+2014,6,24,18,26.41,few clouds
+2014,6,24,19,26.43,few clouds
+2014,6,24,2,21.98,few clouds
+2014,6,24,20,26.84,sky is clear
+2014,6,24,21,27.54,few clouds
+2014,6,24,22,26.43,few clouds
+2014,6,24,23,25.84,broken clouds
+2014,6,24,3,21.39,few clouds
+2014,6,24,4,21.01,few clouds
+2014,6,24,5,20.15,sky is clear
+2014,6,24,6,19.46,sky is clear
+2014,6,24,7,18.9,sky is clear
+2014,6,24,8,18.54,few clouds
+2014,6,24,9,17.98,few clouds
+2014,6,25,0,25.09,sky is clear
+2014,6,25,1,23.57,broken clouds
+2014,6,25,10,20.93,sky is clear
+2014,6,25,11,21.2,scattered clouds
+2014,6,25,12,21.58,mist
+2014,6,25,13,22.59,mist
+2014,6,25,14,23.61,mist
+2014,6,25,15,25.04,haze
+2014,6,25,16,27.19,sky is clear
+2014,6,25,17,27.81,light rain
+2014,6,25,18,28.28,light rain
+2014,6,25,19,29.07,light rain
+2014,6,25,2,22.56,broken clouds
+2014,6,25,20,29.23,moderate rain
+2014,6,25,21,28.54,moderate rain
+2014,6,25,22,27.74,moderate rain
+2014,6,25,23,27,moderate rain
+2014,6,25,3,21.96,sky is clear
+2014,6,25,4,21.44,broken clouds
+2014,6,25,5,20.93,sky is clear
+2014,6,25,6,20.51,overcast clouds
+2014,6,25,7,20.48,overcast clouds
+2014,6,25,8,20.19,overcast clouds
+2014,6,25,9,20.58,overcast clouds
+2014,6,26,0,26.34,light rain
+2014,6,26,1,24.92,light rain
+2014,6,26,10,21.09,light rain
+2014,6,26,11,21.43,light rain
+2014,6,26,12,21.97,light rain
+2014,6,26,13,23.11,sky is clear
+2014,6,26,14,24.41,few clouds
+2014,6,26,15,26.11,light rain
+2014,6,26,16,27.02,light rain
+2014,6,26,17,27.99,light rain
+2014,6,26,18,28.73,few clouds
+2014,6,26,19,29.06,few clouds
+2014,6,26,2,24.75,light rain
+2014,6,26,20,29.33,light rain
+2014,6,26,21,29.23,scattered clouds
+2014,6,26,22,29.19,scattered clouds
+2014,6,26,23,28.54,scattered clouds
+2014,6,26,3,24.2,thunderstorm
+2014,6,26,4,22.75,proximity thunderstorm with rain
+2014,6,26,5,22.41,mist
+2014,6,26,6,21.85,mist
+2014,6,26,7,21.65,mist
+2014,6,26,8,21.46,light rain
+2014,6,26,9,21.15,light rain
+2014,6,27,0,27.91,scattered clouds
+2014,6,27,1,26.69,scattered clouds
+2014,6,27,10,20.19,broken clouds
+2014,6,27,11,21,overcast clouds
+2014,6,27,12,20.92,overcast clouds
+2014,6,27,13,21.73,overcast clouds
+2014,6,27,14,23.08,scattered clouds
+2014,6,27,15,24.17,scattered clouds
+2014,6,27,16,24.95,scattered clouds
+2014,6,27,17,25.91,few clouds
+2014,6,27,18,26.94,few clouds
+2014,6,27,19,27.48,few clouds
+2014,6,27,2,25.71,overcast clouds
+2014,6,27,20,27.31,broken clouds
+2014,6,27,21,27.61,broken clouds
+2014,6,27,22,27.56,broken clouds
+2014,6,27,23,26.97,scattered clouds
+2014,6,27,3,24.05,overcast clouds
+2014,6,27,4,22.8,overcast clouds
+2014,6,27,5,21.58,few clouds
+2014,6,27,6,21.06,few clouds
+2014,6,27,7,20.76,few clouds
+2014,6,27,8,20.52,scattered clouds
+2014,6,27,9,20.41,scattered clouds
+2014,6,28,0,25.63,scattered clouds
+2014,6,28,1,24.43,scattered clouds
+2014,6,28,10,18.01,mist
+2014,6,28,11,18.38,sky is clear
+2014,6,28,12,19.71,sky is clear
+2014,6,28,13,21.98,sky is clear
+2014,6,28,14,24.09,sky is clear
+2014,6,28,15,25.48,sky is clear
+2014,6,28,16,27.03,sky is clear
+2014,6,28,17,28.16,few clouds
+2014,6,28,18,29.18,few clouds
+2014,6,28,19,30.06,few clouds
+2014,6,28,2,23.15,scattered clouds
+2014,6,28,20,30.43,few clouds
+2014,6,28,21,29.97,few clouds
+2014,6,28,22,29.17,few clouds
+2014,6,28,23,27.88,scattered clouds
+2014,6,28,3,22.06,scattered clouds
+2014,6,28,4,21.18,scattered clouds
+2014,6,28,5,20.14,sky is clear
+2014,6,28,6,19.78,sky is clear
+2014,6,28,7,19.26,sky is clear
+2014,6,28,8,19.05,sky is clear
+2014,6,28,9,18.11,mist
+2014,6,29,0,26.09,scattered clouds
+2014,6,29,1,24.38,scattered clouds
+2014,6,29,10,18.37,sky is clear
+2014,6,29,11,18.66,sky is clear
+2014,6,29,12,20.21,few clouds
+2014,6,29,13,21.92,few clouds
+2014,6,29,14,24.28,scattered clouds
+2014,6,29,15,26.14,scattered clouds
+2014,6,29,16,27.5,scattered clouds
+2014,6,29,17,27.57,broken clouds
+2014,6,29,18,28.15,broken clouds
+2014,6,29,19,28.15,broken clouds
+2014,6,29,2,22.94,few clouds
+2014,6,29,20,27.96,scattered clouds
+2014,6,29,21,27.71,scattered clouds
+2014,6,29,22,27.3,scattered clouds
+2014,6,29,23,26.4,scattered clouds
+2014,6,29,3,21.85,few clouds
+2014,6,29,4,22.15,few clouds
+2014,6,29,5,21.66,sky is clear
+2014,6,29,6,19.99,sky is clear
+2014,6,29,7,19.79,sky is clear
+2014,6,29,8,19.23,sky is clear
+2014,6,29,9,18.55,sky is clear
+2014,6,3,0,25.17,sky is clear
+2014,6,3,1,23.31,sky is clear
+2014,6,3,10,17.49,sky is clear
+2014,6,3,11,18.55,overcast clouds
+2014,6,3,12,20.03,overcast clouds
+2014,6,3,13,22.52,scattered clouds
+2014,6,3,14,23.61,scattered clouds
+2014,6,3,15,27.04,sky is clear
+2014,6,3,16,28.62,sky is clear
+2014,6,3,17,29.35,sky is clear
+2014,6,3,18,29.85,light rain
+2014,6,3,19,29.65,sky is clear
+2014,6,3,2,22.65,sky is clear
+2014,6,3,20,28.84,light rain
+2014,6,3,21,27.17,thunderstorm
+2014,6,3,22,24.26,fog
+2014,6,3,23,22.68,mist
+2014,6,3,3,21.81,sky is clear
+2014,6,3,4,21.25,sky is clear
+2014,6,3,5,20.46,sky is clear
+2014,6,3,6,19.59,sky is clear
+2014,6,3,7,19.02,sky is clear
+2014,6,3,8,18.47,sky is clear
+2014,6,3,9,17.86,sky is clear
+2014,6,30,0,25.36,scattered clouds
+2014,6,30,1,24.27,scattered clouds
+2014,6,30,10,18.96,few clouds
+2014,6,30,11,19.61,few clouds
+2014,6,30,12,20.47,few clouds
+2014,6,30,13,21.96,sky is clear
+2014,6,30,14,23.82,scattered clouds
+2014,6,30,15,25.19,scattered clouds
+2014,6,30,16,27.64,broken clouds
+2014,6,30,17,28.11,broken clouds
+2014,6,30,18,28.48,broken clouds
+2014,6,30,19,28.58,broken clouds
+2014,6,30,2,23.35,sky is clear
+2014,6,30,20,28.77,broken clouds
+2014,6,30,21,28.73,broken clouds
+2014,6,30,22,29.17,broken clouds
+2014,6,30,23,29.03,sky is clear
+2014,6,30,3,22.3,sky is clear
+2014,6,30,4,22.89,sky is clear
+2014,6,30,5,22.39,sky is clear
+2014,6,30,6,21.68,sky is clear
+2014,6,30,7,20.01,sky is clear
+2014,6,30,8,19.95,sky is clear
+2014,6,30,9,18.95,sky is clear
+2014,6,4,0,21.96,moderate rain
+2014,6,4,1,21.34,light rain
+2014,6,4,10,17.26,mist
+2014,6,4,11,17.72,fog
+2014,6,4,12,18.13,fog
+2014,6,4,13,19.44,sky is clear
+2014,6,4,14,21.46,sky is clear
+2014,6,4,15,22.03,few clouds
+2014,6,4,16,24.2,scattered clouds
+2014,6,4,17,25.51,light rain
+2014,6,4,18,26.48,light rain
+2014,6,4,19,27.24,sky is clear
+2014,6,4,2,20.68,light rain
+2014,6,4,20,26.95,scattered clouds
+2014,6,4,21,26.1,scattered clouds
+2014,6,4,22,24.96,scattered clouds
+2014,6,4,23,24.57,broken clouds
+2014,6,4,3,20.23,fog
+2014,6,4,4,19.6,mist
+2014,6,4,5,18.76,mist
+2014,6,4,6,18.38,mist
+2014,6,4,7,17.97,mist
+2014,6,4,8,17.9,mist
+2014,6,4,9,17.49,fog
+2014,6,5,0,23.34,broken clouds
+2014,6,5,1,22.77,broken clouds
+2014,6,5,10,17.58,mist
+2014,6,5,11,17.23,mist
+2014,6,5,12,16.94,mist
+2014,6,5,13,16.61,mist
+2014,6,5,14,16.3,mist
+2014,6,5,15,16.49,mist
+2014,6,5,16,17.17,mist
+2014,6,5,17,18.09,light rain
+2014,6,5,18,19.9,light rain
+2014,6,5,19,21.69,light rain
+2014,6,5,2,22.09,scattered clouds
+2014,6,5,20,23.22,light rain
+2014,6,5,21,24.01,light rain
+2014,6,5,22,24.31,light rain
+2014,6,5,23,24.16,scattered clouds
+2014,6,5,3,21.02,scattered clouds
+2014,6,5,4,20.54,scattered clouds
+2014,6,5,5,19.57,light rain
+2014,6,5,6,18.66,light rain
+2014,6,5,7,18.18,light rain
+2014,6,5,8,18.09,light rain
+2014,6,5,9,17.76,mist
+2014,6,6,0,23.33,light rain
+2014,6,6,1,21.55,scattered clouds
+2014,6,6,10,15.58,light rain
+2014,6,6,11,15.66,light rain
+2014,6,6,12,16.16,light rain
+2014,6,6,13,17.26,sky is clear
+2014,6,6,14,19.17,sky is clear
+2014,6,6,15,20.1,sky is clear
+2014,6,6,16,20.45,light rain
+2014,6,6,17,21.48,few clouds
+2014,6,6,18,22.45,few clouds
+2014,6,6,19,23.4,light rain
+2014,6,6,2,20.14,light rain
+2014,6,6,20,23.73,sky is clear
+2014,6,6,21,24.02,sky is clear
+2014,6,6,22,24.03,sky is clear
+2014,6,6,23,23.64,sky is clear
+2014,6,6,3,19.51,light rain
+2014,6,6,4,18.72,light rain
+2014,6,6,5,17.9,light rain
+2014,6,6,6,17.17,sky is clear
+2014,6,6,7,16.75,sky is clear
+2014,6,6,8,16.51,sky is clear
+2014,6,6,9,15.93,light rain
+2014,6,7,0,23.07,light rain
+2014,6,7,1,21.31,sky is clear
+2014,6,7,10,14.31,sky is clear
+2014,6,7,11,14.97,sky is clear
+2014,6,7,12,17.16,sky is clear
+2014,6,7,13,19.27,sky is clear
+2014,6,7,14,21.95,sky is clear
+2014,6,7,15,23.48,sky is clear
+2014,6,7,16,24.83,sky is clear
+2014,6,7,17,25.73,sky is clear
+2014,6,7,18,26.7,sky is clear
+2014,6,7,19,26.75,sky is clear
+2014,6,7,2,20.41,light rain
+2014,6,7,20,27.33,sky is clear
+2014,6,7,21,27.62,sky is clear
+2014,6,7,22,27.48,sky is clear
+2014,6,7,23,26.93,sky is clear
+2014,6,7,3,18.97,light rain
+2014,6,7,4,17.85,sky is clear
+2014,6,7,5,17.07,sky is clear
+2014,6,7,6,16.05,sky is clear
+2014,6,7,7,15.54,sky is clear
+2014,6,7,8,14.95,light rain
+2014,6,7,9,14.62,sky is clear
+2014,6,8,0,25.37,sky is clear
+2014,6,8,1,23.32,sky is clear
+2014,6,8,10,15.77,sky is clear
+2014,6,8,11,16.75,few clouds
+2014,6,8,12,19.99,few clouds
+2014,6,8,13,22.17,few clouds
+2014,6,8,14,24.05,few clouds
+2014,6,8,15,26.45,few clouds
+2014,6,8,16,27.94,few clouds
+2014,6,8,17,28.81,sky is clear
+2014,6,8,18,28.92,sky is clear
+2014,6,8,19,29.22,sky is clear
+2014,6,8,2,22.08,sky is clear
+2014,6,8,20,28.76,few clouds
+2014,6,8,21,28.1,few clouds
+2014,6,8,22,26.76,few clouds
+2014,6,8,23,25.57,few clouds
+2014,6,8,3,20.91,sky is clear
+2014,6,8,4,20.27,light rain
+2014,6,8,5,19.19,sky is clear
+2014,6,8,6,18.61,sky is clear
+2014,6,8,7,17.33,sky is clear
+2014,6,8,8,16.92,sky is clear
+2014,6,8,9,16.26,sky is clear
+2014,6,9,0,24.47,few clouds
+2014,6,9,1,23.19,few clouds
+2014,6,9,10,17.41,mist
+2014,6,9,11,17.23,mist
+2014,6,9,12,17.18,mist
+2014,6,9,13,17.07,mist
+2014,6,9,14,17.19,mist
+2014,6,9,15,17.55,mist
+2014,6,9,16,17.92,mist
+2014,6,9,17,18.52,mist
+2014,6,9,18,18.96,mist
+2014,6,9,19,19.31,mist
+2014,6,9,2,22.69,scattered clouds
+2014,6,9,20,20.05,mist
+2014,6,9,21,19.83,mist
+2014,6,9,22,19.59,haze
+2014,6,9,23,19.45,mist
+2014,6,9,3,22.09,scattered clouds
+2014,6,9,4,21.68,scattered clouds
+2014,6,9,5,21.33,broken clouds
+2014,6,9,6,20.97,broken clouds
+2014,6,9,7,20.63,very heavy rain
+2014,6,9,8,20.02,heavy intensity rain
+2014,6,9,9,17.9,heavy intensity rain
+2014,7,1,0,27.76,sky is clear
+2014,7,1,1,26.64,broken clouds
+2014,7,1,10,21.75,sky is clear
+2014,7,1,11,22.11,sky is clear
+2014,7,1,12,22.64,sky is clear
+2014,7,1,13,23.47,broken clouds
+2014,7,1,14,25.79,broken clouds
+2014,7,1,15,28.4,broken clouds
+2014,7,1,16,29.06,broken clouds
+2014,7,1,17,30.48,sky is clear
+2014,7,1,18,31.21,scattered clouds
+2014,7,1,19,31.8,scattered clouds
+2014,7,1,2,25.09,few clouds
+2014,7,1,20,32.24,broken clouds
+2014,7,1,21,31.77,broken clouds
+2014,7,1,22,31.71,broken clouds
+2014,7,1,23,31.32,few clouds
+2014,7,1,3,24.46,few clouds
+2014,7,1,4,24.07,few clouds
+2014,7,1,5,23.84,few clouds
+2014,7,1,6,23.71,few clouds
+2014,7,1,7,23.29,few clouds
+2014,7,1,8,22.67,scattered clouds
+2014,7,1,9,22.51,scattered clouds
+2014,7,10,0,25.55,dust
+2014,7,10,1,24.36,dust
+2014,7,10,10,18,broken clouds
+2014,7,10,11,20.58,broken clouds
+2014,7,10,12,22.19,broken clouds
+2014,7,10,13,23,broken clouds
+2014,7,10,14,23.6,broken clouds
+2014,7,10,15,24.4,broken clouds
+2014,7,10,16,25,broken clouds
+2014,7,10,17,26.01,broken clouds
+2014,7,10,18,27,broken clouds
+2014,7,10,19,28,broken clouds
+2014,7,10,2,24.35,broken clouds
+2014,7,10,20,28.2,scattered clouds
+2014,7,10,21,27.79,scattered clouds
+2014,7,10,22,27.79,broken clouds
+2014,7,10,23,25.96,heavy intensity rain
+2014,7,10,3,23.78,broken clouds
+2014,7,10,4,23.58,broken clouds
+2014,7,10,5,23.38,overcast clouds
+2014,7,10,6,22.61,sky is clear
+2014,7,10,7,21.98,broken clouds
+2014,7,10,8,21.18,broken clouds
+2014,7,10,9,20.98,mist
+2014,7,11,0,26.99,broken clouds
+2014,7,11,1,22.37,light rain
+2014,7,11,10,20.78,mist
+2014,7,11,11,21.11,scattered clouds
+2014,7,11,12,21.77,broken clouds
+2014,7,11,13,23.59,scattered clouds
+2014,7,11,14,25.18,scattered clouds
+2014,7,11,15,26.4,scattered clouds
+2014,7,11,16,27.59,scattered clouds
+2014,7,11,17,28.39,scattered clouds
+2014,7,11,18,28.39,scattered clouds
+2014,7,11,19,28.41,broken clouds
+2014,7,11,2,22.6,mist
+2014,7,11,20,28.61,broken clouds
+2014,7,11,21,28.19,broken clouds
+2014,7,11,22,27.59,broken clouds
+2014,7,11,23,27.2,broken clouds
+2014,7,11,3,22.4,mist
+2014,7,11,4,22.59,mist
+2014,7,11,5,22.2,mist
+2014,7,11,6,21.8,mist
+2014,7,11,7,21.4,mist
+2014,7,11,8,21.2,mist
+2014,7,11,9,20.98,mist
+2014,7,12,0,25.8,broken clouds
+2014,7,12,1,23.79,scattered clouds
+2014,7,12,10,19.6,mist
+2014,7,12,11,20.77,mist
+2014,7,12,12,23,fog
+2014,7,12,13,24.59,scattered clouds
+2014,7,12,14,27,scattered clouds
+2014,7,12,15,28.19,scattered clouds
+2014,7,12,16,28.59,scattered clouds
+2014,7,12,17,29.19,scattered clouds
+2014,7,12,18,29.25,scattered clouds
+2014,7,12,19,29.61,scattered clouds
+2014,7,12,2,22.81,sky is clear
+2014,7,12,20,29.61,scattered clouds
+2014,7,12,21,29.01,scattered clouds
+2014,7,12,22,28.21,scattered clouds
+2014,7,12,23,27.4,scattered clouds
+2014,7,12,3,21.61,scattered clouds
+2014,7,12,4,21.41,scattered clouds
+2014,7,12,5,21.21,sky is clear
+2014,7,12,6,20.61,mist
+2014,7,12,7,20.18,mist
+2014,7,12,8,20.01,sky is clear
+2014,7,12,9,20.1,mist
+2014,7,13,0,26.26,scattered clouds
+2014,7,13,1,26,broken clouds
+2014,7,13,10,22,overcast clouds
+2014,7,13,11,22.2,overcast clouds
+2014,7,13,12,22.99,broken clouds
+2014,7,13,13,23.79,broken clouds
+2014,7,13,14,24.19,light rain
+2014,7,13,15,25,broken clouds
+2014,7,13,16,26.6,broken clouds
+2014,7,13,17,27.59,broken clouds
+2014,7,13,18,27.8,overcast clouds
+2014,7,13,19,28.61,broken clouds
+2014,7,13,2,24.6,sky is clear
+2014,7,13,20,28.22,overcast clouds
+2014,7,13,21,28.62,light intensity drizzle
+2014,7,13,22,28.41,light intensity drizzle
+2014,7,13,23,28.22,broken clouds
+2014,7,13,3,24.2,broken clouds
+2014,7,13,4,23.2,broken clouds
+2014,7,13,5,23,broken clouds
+2014,7,13,6,22.4,broken clouds
+2014,7,13,7,22.21,broken clouds
+2014,7,13,8,22,broken clouds
+2014,7,13,9,21.79,overcast clouds
+2014,7,14,0,27.61,broken clouds
+2014,7,14,1,27.62,broken clouds
+2014,7,14,10,23,broken clouds
+2014,7,14,11,23,scattered clouds
+2014,7,14,12,24.19,scattered clouds
+2014,7,14,13,24.19,light rain
+2014,7,14,14,24.6,overcast clouds
+2014,7,14,15,25.39,light rain
+2014,7,14,16,26,overcast clouds
+2014,7,14,17,27,overcast clouds
+2014,7,14,18,28,broken clouds
+2014,7,14,19,28.21,moderate rain
+2014,7,14,2,27.01,broken clouds
+2014,7,14,20,29.01,light rain
+2014,7,14,21,28.8,light rain
+2014,7,14,22,26.81,light rain
+2014,7,14,23,24.23,haze
+2014,7,14,3,26.81,broken clouds
+2014,7,14,4,23.39,light rain
+2014,7,14,5,22.6,heavy intensity rain
+2014,7,14,6,22.6,moderate rain
+2014,7,14,7,22.59,broken clouds
+2014,7,14,8,23,light rain
+2014,7,14,9,22.39,broken clouds
+2014,7,15,0,23.59,light rain
+2014,7,15,1,23.4,moderate rain
+2014,7,15,10,23.4,overcast clouds
+2014,7,15,11,23.99,mist
+2014,7,15,12,24.4,haze
+2014,7,15,13,24.79,haze
+2014,7,15,14,26.61,mist
+2014,7,15,15,26.6,overcast clouds
+2014,7,15,16,27,haze
+2014,7,15,17,28.48,haze
+2014,7,15,18,28.57,mist
+2014,7,15,19,26.04,mist
+2014,7,15,2,23.61,moderate rain
+2014,7,15,20,25.43,mist
+2014,7,15,21,26.42,broken clouds
+2014,7,15,22,25.62,light rain
+2014,7,15,23,24.01,light rain
+2014,7,15,3,23.41,proximity thunderstorm with rain
+2014,7,15,4,23.4,moderate rain
+2014,7,15,5,23.41,moderate rain
+2014,7,15,6,23.4,moderate rain
+2014,7,15,7,23.4,overcast clouds
+2014,7,15,8,23.4,overcast clouds
+2014,7,15,9,23.4,overcast clouds
+2014,7,16,0,23.41,moderate rain
+2014,7,16,1,23.22,mist
+2014,7,16,10,21.4,light rain
+2014,7,16,11,20.79,haze
+2014,7,16,12,20.19,light rain
+2014,7,16,13,20.11,light rain
+2014,7,16,14,20.6,light rain
+2014,7,16,15,21.56,light rain
+2014,7,16,16,22.81,light rain
+2014,7,16,17,24.57,light rain
+2014,7,16,18,25.91,broken clouds
+2014,7,16,19,26.61,light rain
+2014,7,16,2,23.21,mist
+2014,7,16,20,27.31,light rain
+2014,7,16,21,27.36,broken clouds
+2014,7,16,22,26.82,broken clouds
+2014,7,16,23,25.73,broken clouds
+2014,7,16,3,23.2,mist
+2014,7,16,4,23,moderate rain
+2014,7,16,5,23.01,light rain
+2014,7,16,6,22.79,mist
+2014,7,16,7,22.39,light rain
+2014,7,16,8,22.21,light rain
+2014,7,16,9,21.8,moderate rain
+2014,7,17,0,25.03,broken clouds
+2014,7,17,1,23.17,broken clouds
+2014,7,17,10,17.48,broken clouds
+2014,7,17,11,18.33,broken clouds
+2014,7,17,12,20,broken clouds
+2014,7,17,13,22.07,scattered clouds
+2014,7,17,14,23.38,light rain
+2014,7,17,15,24.86,light rain
+2014,7,17,16,25.83,broken clouds
+2014,7,17,17,25.72,broken clouds
+2014,7,17,18,26.05,broken clouds
+2014,7,17,19,26.23,broken clouds
+2014,7,17,2,22.5,broken clouds
+2014,7,17,20,26.47,light rain
+2014,7,17,21,26.47,scattered clouds
+2014,7,17,22,26.37,scattered clouds
+2014,7,17,23,25.44,scattered clouds
+2014,7,17,3,21.2,broken clouds
+2014,7,17,4,20.16,light rain
+2014,7,17,5,19.61,broken clouds
+2014,7,17,6,18.78,broken clouds
+2014,7,17,7,18.82,broken clouds
+2014,7,17,8,18.13,broken clouds
+2014,7,17,9,17.51,broken clouds
+2014,7,18,0,24.39,scattered clouds
+2014,7,18,1,22.54,scattered clouds
+2014,7,18,10,16.19,scattered clouds
+2014,7,18,11,16.55,scattered clouds
+2014,7,18,12,18.53,few clouds
+2014,7,18,13,21.69,few clouds
+2014,7,18,14,23.58,scattered clouds
+2014,7,18,15,24.51,scattered clouds
+2014,7,18,16,25.28,broken clouds
+2014,7,18,17,26.35,broken clouds
+2014,7,18,18,26.76,broken clouds
+2014,7,18,19,26.88,broken clouds
+2014,7,18,2,21.76,scattered clouds
+2014,7,18,20,27.04,broken clouds
+2014,7,18,21,27.06,broken clouds
+2014,7,18,22,26.48,broken clouds
+2014,7,18,23,25.89,broken clouds
+2014,7,18,3,20.28,scattered clouds
+2014,7,18,4,19.63,scattered clouds
+2014,7,18,5,19.02,few clouds
+2014,7,18,6,18.03,mist
+2014,7,18,7,17.06,mist
+2014,7,18,8,16.76,mist
+2014,7,18,9,16.32,mist
+2014,7,19,0,24.1,broken clouds
+2014,7,19,1,22.23,broken clouds
+2014,7,19,10,18.33,overcast clouds
+2014,7,19,11,18.63,overcast clouds
+2014,7,19,12,19.71,overcast clouds
+2014,7,19,13,21.55,overcast clouds
+2014,7,19,14,22.76,overcast clouds
+2014,7,19,15,23.73,overcast clouds
+2014,7,19,16,24.25,overcast clouds
+2014,7,19,17,24.15,overcast clouds
+2014,7,19,18,24.62,overcast clouds
+2014,7,19,19,24.63,overcast clouds
+2014,7,19,2,21.26,broken clouds
+2014,7,19,20,24.4,broken clouds
+2014,7,19,21,24.34,broken clouds
+2014,7,19,22,24.01,broken clouds
+2014,7,19,23,23.6,broken clouds
+2014,7,19,3,20.17,broken clouds
+2014,7,19,4,19.64,broken clouds
+2014,7,19,5,18.72,broken clouds
+2014,7,19,6,18.61,dust
+2014,7,19,7,18.46,dust
+2014,7,19,8,18.32,overcast clouds
+2014,7,19,9,18.45,overcast clouds
+2014,7,2,0,30.66,few clouds
+2014,7,2,1,29.68,few clouds
+2014,7,2,10,24.05,sky is clear
+2014,7,2,11,23.68,sky is clear
+2014,7,2,12,24.32,scattered clouds
+2014,7,2,13,25.78,scattered clouds
+2014,7,2,14,27.19,scattered clouds
+2014,7,2,15,29.14,sky is clear
+2014,7,2,16,30.81,sky is clear
+2014,7,2,17,32.07,scattered clouds
+2014,7,2,18,32.4,scattered clouds
+2014,7,2,19,33.09,broken clouds
+2014,7,2,2,28.45,sky is clear
+2014,7,2,20,33.27,scattered clouds
+2014,7,2,21,33.03,light rain
+2014,7,2,22,27.22,mist
+2014,7,2,23,23.62,mist
+2014,7,2,3,28.2,sky is clear
+2014,7,2,4,26.78,sky is clear
+2014,7,2,5,26.21,sky is clear
+2014,7,2,6,26.03,sky is clear
+2014,7,2,7,25.57,sky is clear
+2014,7,2,8,24.84,sky is clear
+2014,7,2,9,24.88,sky is clear
+2014,7,20,0,22.87,broken clouds
+2014,7,20,1,21.23,broken clouds
+2014,7,20,10,18.56,overcast clouds
+2014,7,20,11,18.89,overcast clouds
+2014,7,20,12,19.35,light rain
+2014,7,20,13,20.46,overcast clouds
+2014,7,20,14,21.73,broken clouds
+2014,7,20,15,23.06,broken clouds
+2014,7,20,16,23.96,broken clouds
+2014,7,20,17,24.54,scattered clouds
+2014,7,20,18,24.83,broken clouds
+2014,7,20,19,25.19,broken clouds
+2014,7,20,2,20.6,broken clouds
+2014,7,20,20,25.07,scattered clouds
+2014,7,20,21,25.05,scattered clouds
+2014,7,20,22,24.8,scattered clouds
+2014,7,20,23,23.82,scattered clouds
+2014,7,20,3,20.3,broken clouds
+2014,7,20,4,20.02,broken clouds
+2014,7,20,5,19.79,broken clouds
+2014,7,20,6,19.54,overcast clouds
+2014,7,20,7,19.39,broken clouds
+2014,7,20,8,19.26,light rain
+2014,7,20,9,19.12,overcast clouds
+2014,7,21,0,22.63,few clouds
+2014,7,21,1,21.25,scattered clouds
+2014,7,21,10,16.57,broken clouds
+2014,7,21,11,17.31,few clouds
+2014,7,21,12,19.64,scattered clouds
+2014,7,21,13,21.83,scattered clouds
+2014,7,21,14,24,scattered clouds
+2014,7,21,15,25.09,sky is clear
+2014,7,21,16,26.73,scattered clouds
+2014,7,21,17,27.32,scattered clouds
+2014,7,21,18,28.02,scattered clouds
+2014,7,21,19,28.55,scattered clouds
+2014,7,21,2,20.41,scattered clouds
+2014,7,21,20,28.55,broken clouds
+2014,7,21,21,27.94,broken clouds
+2014,7,21,22,27.28,broken clouds
+2014,7,21,23,26.08,broken clouds
+2014,7,21,3,19.54,few clouds
+2014,7,21,4,18.67,few clouds
+2014,7,21,5,17.98,sky is clear
+2014,7,21,6,17.39,sky is clear
+2014,7,21,7,17.08,sky is clear
+2014,7,21,8,16.95,mist
+2014,7,21,9,16.63,mist
+2014,7,22,0,24.85,few clouds
+2014,7,22,1,23.37,scattered clouds
+2014,7,22,10,18.79,mist
+2014,7,22,11,20.21,scattered clouds
+2014,7,22,12,22.19,few clouds
+2014,7,22,13,24.56,few clouds
+2014,7,22,14,26.65,scattered clouds
+2014,7,22,15,27.98,scattered clouds
+2014,7,22,16,28.84,scattered clouds
+2014,7,22,17,29.45,scattered clouds
+2014,7,22,18,29.83,sky is clear
+2014,7,22,19,29.95,scattered clouds
+2014,7,22,2,22.73,few clouds
+2014,7,22,20,30.31,scattered clouds
+2014,7,22,21,29.94,scattered clouds
+2014,7,22,22,29.86,scattered clouds
+2014,7,22,23,29.29,sky is clear
+2014,7,22,3,22.01,few clouds
+2014,7,22,4,21.48,few clouds
+2014,7,22,5,21.15,scattered clouds
+2014,7,22,6,20.87,scattered clouds
+2014,7,22,7,20.17,few clouds
+2014,7,22,8,19.91,few clouds
+2014,7,22,9,19.55,few clouds
+2014,7,23,0,27.12,few clouds
+2014,7,23,1,26.31,scattered clouds
+2014,7,23,10,21.39,scattered clouds
+2014,7,23,11,21.81,smoke
+2014,7,23,12,23.16,smoke
+2014,7,23,13,25.08,broken clouds
+2014,7,23,14,27.04,scattered clouds
+2014,7,23,15,28.46,scattered clouds
+2014,7,23,16,29.66,scattered clouds
+2014,7,23,17,30.67,broken clouds
+2014,7,23,18,31.33,broken clouds
+2014,7,23,19,31.67,broken clouds
+2014,7,23,2,25.64,few clouds
+2014,7,23,20,31.5,broken clouds
+2014,7,23,21,31.51,broken clouds
+2014,7,23,22,30.67,broken clouds
+2014,7,23,23,29.4,broken clouds
+2014,7,23,3,24.83,few clouds
+2014,7,23,4,24.04,few clouds
+2014,7,23,5,23.55,few clouds
+2014,7,23,6,22.88,few clouds
+2014,7,23,7,22.39,few clouds
+2014,7,23,8,22.01,few clouds
+2014,7,23,9,21.57,few clouds
+2014,7,24,0,28.77,mist
+2014,7,24,1,26.19,thunderstorm
+2014,7,24,10,21.91,broken clouds
+2014,7,24,11,21.84,broken clouds
+2014,7,24,12,22.03,broken clouds
+2014,7,24,13,22.79,overcast clouds
+2014,7,24,14,23.51,overcast clouds
+2014,7,24,15,23.68,overcast clouds
+2014,7,24,16,24.39,broken clouds
+2014,7,24,17,24.33,moderate rain
+2014,7,24,18,25.32,broken clouds
+2014,7,24,19,25.97,broken clouds
+2014,7,24,2,25.01,moderate rain
+2014,7,24,20,26.67,broken clouds
+2014,7,24,21,26.83,broken clouds
+2014,7,24,22,26.48,broken clouds
+2014,7,24,23,25.32,broken clouds
+2014,7,24,3,24.36,moderate rain
+2014,7,24,4,24.1,light rain
+2014,7,24,5,23.61,light rain
+2014,7,24,6,23.26,broken clouds
+2014,7,24,7,22.48,broken clouds
+2014,7,24,8,22.03,scattered clouds
+2014,7,24,9,21.85,scattered clouds
+2014,7,25,0,24.93,broken clouds
+2014,7,25,1,23.36,broken clouds
+2014,7,25,10,17.83,broken clouds
+2014,7,25,11,18.12,broken clouds
+2014,7,25,12,19.71,scattered clouds
+2014,7,25,13,21.17,few clouds
+2014,7,25,14,23.16,few clouds
+2014,7,25,15,24.36,scattered clouds
+2014,7,25,16,25.76,scattered clouds
+2014,7,25,17,26.48,scattered clouds
+2014,7,25,18,27.19,scattered clouds
+2014,7,25,19,27.46,scattered clouds
+2014,7,25,2,22.73,broken clouds
+2014,7,25,20,27.66,scattered clouds
+2014,7,25,21,27.72,few clouds
+2014,7,25,22,27.15,scattered clouds
+2014,7,25,23,26.18,sky is clear
+2014,7,25,3,22.41,light rain
+2014,7,25,4,21.47,light rain
+2014,7,25,5,20.3,light rain
+2014,7,25,6,19.84,broken clouds
+2014,7,25,7,19.39,broken clouds
+2014,7,25,8,18.6,broken clouds
+2014,7,25,9,18.4,broken clouds
+2014,7,26,0,24.24,scattered clouds
+2014,7,26,1,22.8,scattered clouds
+2014,7,26,10,18.79,sky is clear
+2014,7,26,11,19.57,broken clouds
+2014,7,26,12,20.45,sky is clear
+2014,7,26,13,23.02,broken clouds
+2014,7,26,14,23.75,broken clouds
+2014,7,26,15,23.58,sky is clear
+2014,7,26,16,23.76,light rain
+2014,7,26,17,25.33,broken clouds
+2014,7,26,18,26.27,broken clouds
+2014,7,26,19,26.59,overcast clouds
+2014,7,26,2,22.33,scattered clouds
+2014,7,26,20,26.39,broken clouds
+2014,7,26,21,25.97,light rain
+2014,7,26,22,25.65,broken clouds
+2014,7,26,23,25.25,broken clouds
+2014,7,26,3,21.7,scattered clouds
+2014,7,26,4,21.12,scattered clouds
+2014,7,26,5,20,scattered clouds
+2014,7,26,6,19.85,broken clouds
+2014,7,26,7,19.83,broken clouds
+2014,7,26,8,19.46,broken clouds
+2014,7,26,9,18.92,broken clouds
+2014,7,27,0,24.35,broken clouds
+2014,7,27,1,23.5,scattered clouds
+2014,7,27,10,21.28,mist
+2014,7,27,11,21.81,mist
+2014,7,27,12,22.1,mist
+2014,7,27,13,22.92,mist
+2014,7,27,14,23.82,mist
+2014,7,27,15,24.56,broken clouds
+2014,7,27,16,26.7,broken clouds
+2014,7,27,17,27.75,overcast clouds
+2014,7,27,18,28.6,broken clouds
+2014,7,27,19,29.31,broken clouds
+2014,7,27,2,22.96,broken clouds
+2014,7,27,20,30.03,broken clouds
+2014,7,27,21,30.26,broken clouds
+2014,7,27,22,30.03,broken clouds
+2014,7,27,23,28.96,overcast clouds
+2014,7,27,3,22.57,broken clouds
+2014,7,27,4,22.27,mist
+2014,7,27,5,21.84,broken clouds
+2014,7,27,6,21.52,mist
+2014,7,27,7,21.26,broken clouds
+2014,7,27,8,21.12,broken clouds
+2014,7,27,9,20.98,light rain
+2014,7,28,0,27.69,overcast clouds
+2014,7,28,1,27.35,overcast clouds
+2014,7,28,10,20.37,light rain
+2014,7,28,11,20.64,broken clouds
+2014,7,28,12,21.16,light rain
+2014,7,28,13,21.93,broken clouds
+2014,7,28,14,22.88,overcast clouds
+2014,7,28,15,23.97,broken clouds
+2014,7,28,16,25.94,scattered clouds
+2014,7,28,17,27.2,broken clouds
+2014,7,28,18,27.58,scattered clouds
+2014,7,28,19,27.74,light rain
+2014,7,28,2,25.99,overcast clouds
+2014,7,28,20,27.62,overcast clouds
+2014,7,28,21,27.33,scattered clouds
+2014,7,28,22,26.57,broken clouds
+2014,7,28,23,24.43,light rain
+2014,7,28,3,25.79,light rain
+2014,7,28,4,24.96,mist
+2014,7,28,5,23.87,thunderstorm with rain
+2014,7,28,6,23,mist
+2014,7,28,7,22.12,thunderstorm with rain
+2014,7,28,8,21.15,moderate rain
+2014,7,28,9,20.58,light rain
+2014,7,29,0,22.36,light rain
+2014,7,29,1,21.07,scattered clouds
+2014,7,29,10,16.08,scattered clouds
+2014,7,29,11,16.74,scattered clouds
+2014,7,29,12,17.92,scattered clouds
+2014,7,29,13,19.07,scattered clouds
+2014,7,29,14,20.45,few clouds
+2014,7,29,15,21.54,scattered clouds
+2014,7,29,16,22.28,scattered clouds
+2014,7,29,17,23.16,scattered clouds
+2014,7,29,18,23.65,broken clouds
+2014,7,29,19,23.68,broken clouds
+2014,7,29,2,20.58,scattered clouds
+2014,7,29,20,23.72,broken clouds
+2014,7,29,21,23.43,thunderstorm
+2014,7,29,22,23.24,thunderstorm
+2014,7,29,23,21.98,broken clouds
+2014,7,29,3,19.81,scattered clouds
+2014,7,29,4,19.23,scattered clouds
+2014,7,29,5,18.66,scattered clouds
+2014,7,29,6,18.12,scattered clouds
+2014,7,29,7,17.68,scattered clouds
+2014,7,29,8,17.22,scattered clouds
+2014,7,29,9,16.36,few clouds
+2014,7,3,0,23.68,mist
+2014,7,3,1,23.39,mist
+2014,7,3,10,22.95,mist
+2014,7,3,11,23.03,mist
+2014,7,3,12,23.84,mist
+2014,7,3,13,25.01,mist
+2014,7,3,14,25.78,mist
+2014,7,3,15,27.11,mist
+2014,7,3,16,28.88,light rain
+2014,7,3,17,29.77,light rain
+2014,7,3,18,30.46,moderate rain
+2014,7,3,19,31.34,light rain
+2014,7,3,2,23.69,thunderstorm
+2014,7,3,20,31.1,scattered clouds
+2014,7,3,21,31.41,scattered clouds
+2014,7,3,22,30.68,scattered clouds
+2014,7,3,23,28.88,moderate rain
+2014,7,3,3,23.02,mist
+2014,7,3,4,23.02,mist
+2014,7,3,5,23,mist
+2014,7,3,6,22.85,mist
+2014,7,3,7,23.15,mist
+2014,7,3,8,22.58,mist
+2014,7,3,9,23.08,mist
+2014,7,30,0,21.01,broken clouds
+2014,7,30,1,19.54,broken clouds
+2014,7,30,10,14.63,mist
+2014,7,30,11,14.76,fog
+2014,7,30,12,16.75,scattered clouds
+2014,7,30,13,19.22,scattered clouds
+2014,7,30,14,21.59,sky is clear
+2014,7,30,15,23.05,few clouds
+2014,7,30,16,24.36,few clouds
+2014,7,30,17,25.03,scattered clouds
+2014,7,30,18,25.42,scattered clouds
+2014,7,30,19,25.75,scattered clouds
+2014,7,30,2,18.71,scattered clouds
+2014,7,30,20,25.8,broken clouds
+2014,7,30,21,25.59,broken clouds
+2014,7,30,22,25.33,scattered clouds
+2014,7,30,23,24.26,scattered clouds
+2014,7,30,3,17.65,scattered clouds
+2014,7,30,4,16.88,mist
+2014,7,30,5,16.42,broken clouds
+2014,7,30,6,15.87,broken clouds
+2014,7,30,7,15.96,overcast clouds
+2014,7,30,8,15.4,scattered clouds
+2014,7,30,9,15.14,mist
+2014,7,31,0,22.38,few clouds
+2014,7,31,1,20.89,scattered clouds
+2014,7,31,10,15.43,mist
+2014,7,31,11,16.04,mist
+2014,7,31,12,18.71,light rain
+2014,7,31,13,20.26,light rain
+2014,7,31,14,22.22,light rain
+2014,7,31,15,24.42,scattered clouds
+2014,7,31,16,25.66,scattered clouds
+2014,7,31,17,26.67,scattered clouds
+2014,7,31,18,27.12,broken clouds
+2014,7,31,19,27.53,scattered clouds
+2014,7,31,2,19.84,few clouds
+2014,7,31,20,27.64,scattered clouds
+2014,7,31,21,27.26,scattered clouds
+2014,7,31,22,26.66,scattered clouds
+2014,7,31,23,25.56,broken clouds
+2014,7,31,3,18.92,few clouds
+2014,7,31,4,18.17,few clouds
+2014,7,31,5,17.17,mist
+2014,7,31,6,16.82,few clouds
+2014,7,31,7,16.55,mist
+2014,7,31,8,16.17,mist
+2014,7,31,9,15.85,mist
+2014,7,4,0,26.73,haze
+2014,7,4,1,21.36,haze
+2014,7,4,10,21.94,mist
+2014,7,4,11,21.99,mist
+2014,7,4,12,22.21,heavy intensity rain
+2014,7,4,13,22.17,heavy intensity rain
+2014,7,4,14,21.81,overcast clouds
+2014,7,4,15,22.23,light rain
+2014,7,4,16,23.49,heavy intensity rain
+2014,7,4,17,22.46,light rain
+2014,7,4,18,21.45,light rain
+2014,7,4,19,20.11,mist
+2014,7,4,2,21.84,mist
+2014,7,4,20,19.05,mist
+2014,7,4,21,19.59,light rain
+2014,7,4,22,21.19,heavy intensity rain
+2014,7,4,23,22.24,light rain
+2014,7,4,3,21.87,overcast clouds
+2014,7,4,4,21.85,light rain
+2014,7,4,5,21.93,moderate rain
+2014,7,4,6,21.89,heavy intensity rain
+2014,7,4,7,22.12,moderate rain
+2014,7,4,8,21.86,light rain
+2014,7,4,9,21.91,heavy intensity rain
+2014,7,5,0,22.95,moderate rain
+2014,7,5,1,22.24,moderate rain
+2014,7,5,10,17.41,sky is clear
+2014,7,5,11,17.2,sky is clear
+2014,7,5,12,17.77,few clouds
+2014,7,5,13,18.78,sky is clear
+2014,7,5,14,20.59,sky is clear
+2014,7,5,15,22.19,sky is clear
+2014,7,5,16,23.58,scattered clouds
+2014,7,5,17,24.58,scattered clouds
+2014,7,5,18,25.19,scattered clouds
+2014,7,5,19,26.5,few clouds
+2014,7,5,2,21.29,broken clouds
+2014,7,5,20,27.39,few clouds
+2014,7,5,21,27.58,few clouds
+2014,7,5,22,28,few clouds
+2014,7,5,23,28,few clouds
+2014,7,5,3,20.33,moderate rain
+2014,7,5,4,20.15,sky is clear
+2014,7,5,5,19.79,sky is clear
+2014,7,5,6,19.21,sky is clear
+2014,7,5,7,19,sky is clear
+2014,7,5,8,18.59,sky is clear
+2014,7,5,9,18.2,sky is clear
+2014,7,6,0,27.17,few clouds
+2014,7,6,1,26.37,few clouds
+2014,7,6,10,16.88,sky is clear
+2014,7,6,11,17.24,sky is clear
+2014,7,6,12,17.93,scattered clouds
+2014,7,6,13,23.19,scattered clouds
+2014,7,6,14,25,scattered clouds
+2014,7,6,15,26.79,scattered clouds
+2014,7,6,16,27.99,scattered clouds
+2014,7,6,17,28.79,scattered clouds
+2014,7,6,18,28.99,scattered clouds
+2014,7,6,19,29.59,scattered clouds
+2014,7,6,2,24.3,few clouds
+2014,7,6,20,29.95,scattered clouds
+2014,7,6,21,29.59,broken clouds
+2014,7,6,22,29.38,broken clouds
+2014,7,6,23,28.18,few clouds
+2014,7,6,3,22.92,sky is clear
+2014,7,6,4,22.3,sky is clear
+2014,7,6,5,21.31,sky is clear
+2014,7,6,6,20.32,sky is clear
+2014,7,6,7,19.29,sky is clear
+2014,7,6,8,18.69,sky is clear
+2014,7,6,9,17.88,mist
+2014,7,7,0,27.18,broken clouds
+2014,7,7,1,26.17,broken clouds
+2014,7,7,10,22.19,broken clouds
+2014,7,7,11,22.79,broken clouds
+2014,7,7,12,23.79,broken clouds
+2014,7,7,13,25.39,broken clouds
+2014,7,7,14,27.59,broken clouds
+2014,7,7,15,28.99,broken clouds
+2014,7,7,16,30.39,scattered clouds
+2014,7,7,17,30.58,scattered clouds
+2014,7,7,18,32.19,scattered clouds
+2014,7,7,19,32.79,scattered clouds
+2014,7,7,2,25.37,scattered clouds
+2014,7,7,20,32.79,scattered clouds
+2014,7,7,21,32.99,scattered clouds
+2014,7,7,22,32.78,few clouds
+2014,7,7,23,31.79,scattered clouds
+2014,7,7,3,23.58,scattered clouds
+2014,7,7,4,22.79,broken clouds
+2014,7,7,5,23.19,broken clouds
+2014,7,7,6,23.21,broken clouds
+2014,7,7,7,22.79,broken clouds
+2014,7,7,8,22.59,overcast clouds
+2014,7,7,9,22.19,overcast clouds
+2014,7,8,0,31.18,scattered clouds
+2014,7,8,1,30.38,scattered clouds
+2014,7,8,10,22.6,mist
+2014,7,8,11,23.17,haze
+2014,7,8,12,24.98,broken clouds
+2014,7,8,13,30.37,sky is clear
+2014,7,8,14,27.79,broken clouds
+2014,7,8,15,29.78,broken clouds
+2014,7,8,16,31.79,broken clouds
+2014,7,8,17,32.59,broken clouds
+2014,7,8,18,33.39,broken clouds
+2014,7,8,19,33.67,broken clouds
+2014,7,8,2,29.81,scattered clouds
+2014,7,8,20,33.4,broken clouds
+2014,7,8,21,33.33,broken clouds
+2014,7,8,22,32.6,broken clouds
+2014,7,8,23,31.38,few clouds
+2014,7,8,3,28.39,broken clouds
+2014,7,8,4,28.2,thunderstorm
+2014,7,8,5,24.18,light rain
+2014,7,8,6,22.59,light rain
+2014,7,8,7,22.59,mist
+2014,7,8,8,22.59,mist
+2014,7,8,9,22.58,fog
+2014,7,9,0,30.6,broken clouds
+2014,7,9,1,30.54,broken clouds
+2014,7,9,10,21.77,few clouds
+2014,7,9,11,22.18,scattered clouds
+2014,7,9,12,23.59,scattered clouds
+2014,7,9,13,25.38,scattered clouds
+2014,7,9,14,26.79,broken clouds
+2014,7,9,15,27.99,broken clouds
+2014,7,9,16,28.39,broken clouds
+2014,7,9,17,29.58,broken clouds
+2014,7,9,18,30.78,broken clouds
+2014,7,9,19,31.2,scattered clouds
+2014,7,9,2,29.41,broken clouds
+2014,7,9,20,30.19,broken clouds
+2014,7,9,21,30.4,broken clouds
+2014,7,9,22,29.99,scattered clouds
+2014,7,9,23,29.59,broken clouds
+2014,7,9,3,24.58,light rain
+2014,7,9,4,24.2,broken clouds
+2014,7,9,5,23.6,scattered clouds
+2014,7,9,6,22.8,sky is clear
+2014,7,9,7,22.4,sky is clear
+2014,7,9,8,22.19,few clouds
+2014,7,9,9,21.79,scattered clouds
+2014,8,1,0,24.36,broken clouds
+2014,8,1,1,23.33,broken clouds
+2014,8,1,10,19.02,mist
+2014,8,1,11,19.6,mist
+2014,8,1,12,20.85,mist
+2014,8,1,13,22.69,mist
+2014,8,1,14,24.22,haze
+2014,8,1,15,26.35,haze
+2014,8,1,16,27.34,haze
+2014,8,1,17,27.62,haze
+2014,8,1,18,26.62,thunderstorm with light rain
+2014,8,1,19,24.22,proximity thunderstorm
+2014,8,1,2,22.28,broken clouds
+2014,8,1,20,22.97,mist
+2014,8,1,21,22.6,mist
+2014,8,1,22,22.44,mist
+2014,8,1,23,22.33,overcast clouds
+2014,8,1,3,21.47,broken clouds
+2014,8,1,4,20.76,broken clouds
+2014,8,1,5,20.49,mist
+2014,8,1,6,20.07,mist
+2014,8,1,7,19.52,mist
+2014,8,1,8,19.36,mist
+2014,8,1,9,19.25,mist
+2014,8,10,0,25.21,scattered clouds
+2014,8,10,1,21.76,scattered clouds
+2014,8,10,10,17.48,scattered clouds
+2014,8,10,11,20.03,few clouds
+2014,8,10,12,17.47,scattered clouds
+2014,8,10,13,20.73,scattered clouds
+2014,8,10,14,23.38,few clouds
+2014,8,10,15,23.93,scattered clouds
+2014,8,10,16,28.06,few clouds
+2014,8,10,17,28.77,scattered clouds
+2014,8,10,18,29.04,scattered clouds
+2014,8,10,19,29.55,scattered clouds
+2014,8,10,2,21.35,scattered clouds
+2014,8,10,20,29.39,scattered clouds
+2014,8,10,21,29.07,scattered clouds
+2014,8,10,22,28.16,scattered clouds
+2014,8,10,23,26.53,scattered clouds
+2014,8,10,3,20.16,scattered clouds
+2014,8,10,4,18.13,few clouds
+2014,8,10,5,17.81,few clouds
+2014,8,10,6,17.35,few clouds
+2014,8,10,7,16.78,mist
+2014,8,10,8,16.66,mist
+2014,8,10,9,15.99,mist
+2014,8,11,0,25.79,scattered clouds
+2014,8,11,1,23.77,broken clouds
+2014,8,11,10,17.04,mist
+2014,8,11,11,17.82,mist
+2014,8,11,12,19.34,mist
+2014,8,11,13,20.77,mist
+2014,8,11,14,23.76,light rain
+2014,8,11,15,27.5,broken clouds
+2014,8,11,16,28.33,broken clouds
+2014,8,11,17,28.33,broken clouds
+2014,8,11,18,29.1,sky is clear
+2014,8,11,19,28.53,sky is clear
+2014,8,11,2,22.14,scattered clouds
+2014,8,11,20,28.36,broken clouds
+2014,8,11,21,27.75,broken clouds
+2014,8,11,22,27.75,broken clouds
+2014,8,11,23,27.18,broken clouds
+2014,8,11,3,21.7,scattered clouds
+2014,8,11,4,20.2,broken clouds
+2014,8,11,5,19.99,broken clouds
+2014,8,11,6,19.5,light rain
+2014,8,11,7,18.75,mist
+2014,8,11,8,18.2,mist
+2014,8,11,9,17.99,moderate rain
+2014,8,12,0,25.24,smoke
+2014,8,12,1,23,broken clouds
+2014,8,12,10,20.53,overcast clouds
+2014,8,12,11,21.16,overcast clouds
+2014,8,12,12,21.23,few clouds
+2014,8,12,13,23.16,overcast clouds
+2014,8,12,14,23.16,overcast clouds
+2014,8,12,15,23.65,light rain
+2014,8,12,16,24.66,overcast clouds
+2014,8,12,17,25.24,overcast clouds
+2014,8,12,18,25.58,overcast clouds
+2014,8,12,19,24.68,haze
+2014,8,12,2,23,broken clouds
+2014,8,12,20,24.33,haze
+2014,8,12,21,23.82,light rain
+2014,8,12,22,23.82,light intensity drizzle
+2014,8,12,23,23.08,light rain
+2014,8,12,3,22.49,broken clouds
+2014,8,12,4,21.9,broken clouds
+2014,8,12,5,21.5,broken clouds
+2014,8,12,6,21.15,broken clouds
+2014,8,12,7,20.9,broken clouds
+2014,8,12,8,20.82,overcast clouds
+2014,8,12,9,20.39,mist
+2014,8,13,0,22.7,mist
+2014,8,13,1,22.58,light rain
+2014,8,13,10,20.92,mist
+2014,8,13,11,20.33,mist
+2014,8,13,12,20.58,mist
+2014,8,13,13,20.91,mist
+2014,8,13,14,21.66,light rain
+2014,8,13,15,22.25,light rain
+2014,8,13,16,22.99,overcast clouds
+2014,8,13,17,24.54,light rain
+2014,8,13,18,25.46,broken clouds
+2014,8,13,19,26.06,broken clouds
+2014,8,13,2,22.58,light rain
+2014,8,13,20,27.08,broken clouds
+2014,8,13,21,27.33,broken clouds
+2014,8,13,22,26.94,overcast clouds
+2014,8,13,23,25.47,light rain
+2014,8,13,3,22.42,moderate rain
+2014,8,13,4,21.99,light rain
+2014,8,13,5,21.58,mist
+2014,8,13,6,21.57,mist
+2014,8,13,7,20.93,mist
+2014,8,13,8,20.75,mist
+2014,8,13,9,20.92,mist
+2014,8,14,0,24.39,scattered clouds
+2014,8,14,1,22.84,scattered clouds
+2014,8,14,10,17.18,sky is clear
+2014,8,14,11,16.33,few clouds
+2014,8,14,12,15.9,few clouds
+2014,8,14,13,18.31,few clouds
+2014,8,14,14,18.38,few clouds
+2014,8,14,15,19.69,few clouds
+2014,8,14,16,23.27,sky is clear
+2014,8,14,17,22.41,scattered clouds
+2014,8,14,18,23.45,scattered clouds
+2014,8,14,19,24.3,broken clouds
+2014,8,14,2,21.53,scattered clouds
+2014,8,14,20,24.38,broken clouds
+2014,8,14,21,24.45,broken clouds
+2014,8,14,22,24.46,scattered clouds
+2014,8,14,23,23.69,scattered clouds
+2014,8,14,3,21.52,scattered clouds
+2014,8,14,4,21.22,scattered clouds
+2014,8,14,5,20.69,few clouds
+2014,8,14,6,20.41,sky is clear
+2014,8,14,7,18.99,sky is clear
+2014,8,14,8,18.07,sky is clear
+2014,8,14,9,17.47,sky is clear
+2014,8,15,0,23.61,scattered clouds
+2014,8,15,1,21.7,scattered clouds
+2014,8,15,10,13.32,mist
+2014,8,15,11,12.85,mist
+2014,8,15,12,13.13,fog
+2014,8,15,13,15.61,scattered clouds
+2014,8,15,14,21.13,sky is clear
+2014,8,15,15,19.66,scattered clouds
+2014,8,15,16,20.69,broken clouds
+2014,8,15,17,21.37,broken clouds
+2014,8,15,18,23.05,few clouds
+2014,8,15,19,22,broken clouds
+2014,8,15,2,19.99,scattered clouds
+2014,8,15,20,24,sky is clear
+2014,8,15,21,21.32,overcast clouds
+2014,8,15,22,20.83,overcast clouds
+2014,8,15,23,20.41,broken clouds
+2014,8,15,3,19.61,scattered clouds
+2014,8,15,4,19.14,scattered clouds
+2014,8,15,5,17.46,mist
+2014,8,15,6,16.02,mist
+2014,8,15,7,14.38,mist
+2014,8,15,8,14.39,mist
+2014,8,15,9,13.93,fog
+2014,8,16,0,20.33,broken clouds
+2014,8,16,1,19.41,broken clouds
+2014,8,16,10,14.09,mist
+2014,8,16,11,13.92,light rain
+2014,8,16,12,16.22,few clouds
+2014,8,16,13,16.29,few clouds
+2014,8,16,14,18.6,overcast clouds
+2014,8,16,15,22.53,scattered clouds
+2014,8,16,16,22.95,scattered clouds
+2014,8,16,17,24.04,few clouds
+2014,8,16,18,24.2,broken clouds
+2014,8,16,19,25.15,overcast clouds
+2014,8,16,2,18.78,broken clouds
+2014,8,16,20,25.32,sky is clear
+2014,8,16,21,24.91,broken clouds
+2014,8,16,22,24.92,broken clouds
+2014,8,16,23,24.33,broken clouds
+2014,8,16,3,18.69,broken clouds
+2014,8,16,4,17.85,broken clouds
+2014,8,16,5,16.53,broken clouds
+2014,8,16,6,16.46,mist
+2014,8,16,7,15.47,scattered clouds
+2014,8,16,8,14.53,mist
+2014,8,16,9,14.69,few clouds
+2014,8,17,0,24.33,broken clouds
+2014,8,17,1,22.58,broken clouds
+2014,8,17,10,19.48,scattered clouds
+2014,8,17,11,19.82,broken clouds
+2014,8,17,12,17.99,light rain
+2014,8,17,13,18.61,mist
+2014,8,17,14,19.07,mist
+2014,8,17,15,21.49,light rain
+2014,8,17,16,23.08,scattered clouds
+2014,8,17,17,26.31,scattered clouds
+2014,8,17,18,26.28,scattered clouds
+2014,8,17,19,26.09,few clouds
+2014,8,17,2,20.07,broken clouds
+2014,8,17,20,26.05,sky is clear
+2014,8,17,21,26.05,sky is clear
+2014,8,17,22,27.36,scattered clouds
+2014,8,17,23,26.5,scattered clouds
+2014,8,17,3,20.08,broken clouds
+2014,8,17,4,19.92,overcast clouds
+2014,8,17,5,18.99,overcast clouds
+2014,8,17,6,19,overcast clouds
+2014,8,17,7,15.96,overcast clouds
+2014,8,17,8,16.85,broken clouds
+2014,8,17,9,17.29,overcast clouds
+2014,8,18,0,23.61,few clouds
+2014,8,18,1,23.61,few clouds
+2014,8,18,10,15.46,fog
+2014,8,18,11,17.58,sky is clear
+2014,8,18,12,18.03,sky is clear
+2014,8,18,13,19.61,mist
+2014,8,18,14,19.76,mist
+2014,8,18,15,21.69,scattered clouds
+2014,8,18,16,23.29,sky is clear
+2014,8,18,17,24.03,sky is clear
+2014,8,18,18,24.74,sky is clear
+2014,8,18,19,25.91,sky is clear
+2014,8,18,2,21.84,few clouds
+2014,8,18,20,25.91,sky is clear
+2014,8,18,21,25.91,sky is clear
+2014,8,18,22,27.09,broken clouds
+2014,8,18,23,26.68,broken clouds
+2014,8,18,3,21.09,few clouds
+2014,8,18,4,19.24,mist
+2014,8,18,5,19.15,mist
+2014,8,18,6,17.9,mist
+2014,8,18,7,15.25,sky is clear
+2014,8,18,8,15.51,sky is clear
+2014,8,18,9,16.06,mist
+2014,8,19,0,24.92,scattered clouds
+2014,8,19,1,22.68,scattered clouds
+2014,8,19,10,15.7,scattered clouds
+2014,8,19,11,15.91,scattered clouds
+2014,8,19,12,18.15,mist
+2014,8,19,13,18.28,mist
+2014,8,19,14,20.9,scattered clouds
+2014,8,19,15,22.16,scattered clouds
+2014,8,19,16,23.77,broken clouds
+2014,8,19,17,25.08,scattered clouds
+2014,8,19,18,26.26,scattered clouds
+2014,8,19,19,26.24,broken clouds
+2014,8,19,2,20.98,scattered clouds
+2014,8,19,20,27,broken clouds
+2014,8,19,21,27.08,scattered clouds
+2014,8,19,22,26.54,broken clouds
+2014,8,19,23,26.07,broken clouds
+2014,8,19,3,19,scattered clouds
+2014,8,19,4,18.85,scattered clouds
+2014,8,19,5,18.07,broken clouds
+2014,8,19,6,17.39,broken clouds
+2014,8,19,7,17.14,dust
+2014,8,19,8,16.54,mist
+2014,8,19,9,16.23,mist
+2014,8,2,0,24.32,overcast clouds
+2014,8,2,1,22.63,overcast clouds
+2014,8,2,10,19.15,mist
+2014,8,2,11,18.47,mist
+2014,8,2,12,18.04,mist
+2014,8,2,13,18.17,mist
+2014,8,2,14,18.7,mist
+2014,8,2,15,19.92,light rain
+2014,8,2,16,20.06,moderate rain
+2014,8,2,17,20.42,moderate rain
+2014,8,2,18,22.6,broken clouds
+2014,8,2,19,22.78,light rain
+2014,8,2,2,22.63,overcast clouds
+2014,8,2,20,22.43,overcast clouds
+2014,8,2,21,22.19,broken clouds
+2014,8,2,22,21.78,light rain
+2014,8,2,23,21.12,moderate rain
+2014,8,2,3,21.02,mist
+2014,8,2,4,20.92,mist
+2014,8,2,5,20.69,mist
+2014,8,2,6,20.64,fog
+2014,8,2,7,20.32,mist
+2014,8,2,8,20.09,mist
+2014,8,2,9,19.72,mist
+2014,8,20,0,22.91,broken clouds
+2014,8,20,1,22.27,broken clouds
+2014,8,20,10,18.78,broken clouds
+2014,8,20,11,18.83,broken clouds
+2014,8,20,12,19.78,haze
+2014,8,20,13,22.32,broken clouds
+2014,8,20,14,22.9,broken clouds
+2014,8,20,15,24.23,broken clouds
+2014,8,20,16,25.68,broken clouds
+2014,8,20,17,26.55,broken clouds
+2014,8,20,18,27.52,broken clouds
+2014,8,20,19,27.48,scattered clouds
+2014,8,20,2,21.91,broken clouds
+2014,8,20,20,27.73,scattered clouds
+2014,8,20,21,27.5,scattered clouds
+2014,8,20,22,26.71,haze
+2014,8,20,23,25.67,scattered clouds
+2014,8,20,3,20.69,broken clouds
+2014,8,20,4,20.62,broken clouds
+2014,8,20,5,20.07,broken clouds
+2014,8,20,6,19.7,mist
+2014,8,20,7,19.15,sky is clear
+2014,8,20,8,19.08,mist
+2014,8,20,9,19.33,fog
+2014,8,21,0,24.27,broken clouds
+2014,8,21,1,22.96,broken clouds
+2014,8,21,10,18.77,proximity thunderstorm
+2014,8,21,11,18.94,proximity thunderstorm
+2014,8,21,12,19.46,light rain
+2014,8,21,13,20.69,mist
+2014,8,21,14,22.33,mist
+2014,8,21,15,23.75,broken clouds
+2014,8,21,16,25.61,light rain
+2014,8,21,17,25.7,moderate rain
+2014,8,21,18,25.76,light rain
+2014,8,21,19,26.24,broken clouds
+2014,8,21,2,21.9,broken clouds
+2014,8,21,20,26.35,broken clouds
+2014,8,21,21,25.76,mist
+2014,8,21,22,24.78,light rain
+2014,8,21,23,24.12,light rain
+2014,8,21,3,21.15,broken clouds
+2014,8,21,4,21.04,broken clouds
+2014,8,21,5,20.76,broken clouds
+2014,8,21,6,20.39,moderate rain
+2014,8,21,7,20.05,heavy intensity drizzle
+2014,8,21,8,19.56,mist
+2014,8,21,9,19.42,mist
+2014,8,22,0,23.06,thunderstorm with heavy rain
+2014,8,22,1,22.12,proximity thunderstorm
+2014,8,22,10,18.64,mist
+2014,8,22,11,18.75,mist
+2014,8,22,12,19.49,mist
+2014,8,22,13,19.96,mist
+2014,8,22,14,20.39,mist
+2014,8,22,15,20.79,light rain
+2014,8,22,16,21.46,overcast clouds
+2014,8,22,17,21.96,overcast clouds
+2014,8,22,18,22.86,overcast clouds
+2014,8,22,19,23,overcast clouds
+2014,8,22,2,21.05,heavy intensity rain
+2014,8,22,20,22.7,overcast clouds
+2014,8,22,21,22.28,light rain
+2014,8,22,22,21.63,light rain
+2014,8,22,23,21.26,overcast clouds
+2014,8,22,3,20.28,mist
+2014,8,22,4,20.16,proximity thunderstorm
+2014,8,22,5,19.35,proximity thunderstorm
+2014,8,22,6,19.07,thunderstorm
+2014,8,22,7,19.03,light intensity drizzle
+2014,8,22,8,18.91,mist
+2014,8,22,9,18.71,mist
+2014,8,23,0,21.12,overcast clouds
+2014,8,23,1,20.58,overcast clouds
+2014,8,23,10,17.78,mist
+2014,8,23,11,17.78,mist
+2014,8,23,12,18.6,broken clouds
+2014,8,23,13,19.98,mist
+2014,8,23,14,20.62,broken clouds
+2014,8,23,15,20.78,broken clouds
+2014,8,23,16,20.79,light rain
+2014,8,23,17,21.13,light rain
+2014,8,23,18,21.48,light rain
+2014,8,23,19,21.69,overcast clouds
+2014,8,23,2,20.34,overcast clouds
+2014,8,23,20,22.18,light rain
+2014,8,23,21,21.9,light rain
+2014,8,23,22,21.36,light rain
+2014,8,23,23,20.9,broken clouds
+2014,8,23,3,20.22,overcast clouds
+2014,8,23,4,19.9,broken clouds
+2014,8,23,5,19.67,scattered clouds
+2014,8,23,6,18.96,broken clouds
+2014,8,23,7,18.88,broken clouds
+2014,8,23,8,18.32,broken clouds
+2014,8,23,9,18.16,mist
+2014,8,24,0,20.12,broken clouds
+2014,8,24,1,19.91,broken clouds
+2014,8,24,10,14.81,mist
+2014,8,24,11,15.02,mist
+2014,8,24,12,16.11,mist
+2014,8,24,13,18.7,mist
+2014,8,24,14,21.2,mist
+2014,8,24,15,22.75,few clouds
+2014,8,24,16,24.31,scattered clouds
+2014,8,24,17,25.33,broken clouds
+2014,8,24,18,25.49,broken clouds
+2014,8,24,19,25.68,broken clouds
+2014,8,24,2,19.4,light intensity drizzle
+2014,8,24,20,25.47,broken clouds
+2014,8,24,21,25.14,scattered clouds
+2014,8,24,22,24.4,scattered clouds
+2014,8,24,23,22.47,scattered clouds
+2014,8,24,3,19.24,broken clouds
+2014,8,24,4,19.01,broken clouds
+2014,8,24,5,18.25,mist
+2014,8,24,6,17.85,mist
+2014,8,24,7,17.05,fog
+2014,8,24,8,16.3,mist
+2014,8,24,9,15.33,mist
+2014,8,25,0,21.67,scattered clouds
+2014,8,25,1,19.31,few clouds
+2014,8,25,10,14.64,fog
+2014,8,25,11,14.95,fog
+2014,8,25,12,16.5,mist
+2014,8,25,13,19.78,mist
+2014,8,25,14,22.41,haze
+2014,8,25,15,24.75,haze
+2014,8,25,16,26.56,sky is clear
+2014,8,25,17,27.77,haze
+2014,8,25,18,28.64,few clouds
+2014,8,25,19,28.75,few clouds
+2014,8,25,2,18.86,few clouds
+2014,8,25,20,28.82,few clouds
+2014,8,25,21,28.78,few clouds
+2014,8,25,22,28.43,few clouds
+2014,8,25,23,27.32,light rain
+2014,8,25,3,17.49,sky is clear
+2014,8,25,4,16.84,mist
+2014,8,25,5,16.66,mist
+2014,8,25,6,16,mist
+2014,8,25,7,15.53,mist
+2014,8,25,8,15.01,mist
+2014,8,25,9,14.72,mist
+2014,8,26,0,25.62,light rain
+2014,8,26,1,23.19,scattered clouds
+2014,8,26,10,17.9,mist
+2014,8,26,11,17.75,mist
+2014,8,26,12,20.58,few clouds
+2014,8,26,13,21.61,few clouds
+2014,8,26,14,24.1,few clouds
+2014,8,26,15,26.17,haze
+2014,8,26,16,27.2,light rain
+2014,8,26,17,28.18,light rain
+2014,8,26,18,29.15,scattered clouds
+2014,8,26,19,29.41,scattered clouds
+2014,8,26,2,22.3,scattered clouds
+2014,8,26,20,29.03,scattered clouds
+2014,8,26,21,28.87,scattered clouds
+2014,8,26,22,27.96,scattered clouds
+2014,8,26,23,26.85,scattered clouds
+2014,8,26,3,21.98,scattered clouds
+2014,8,26,4,20.88,broken clouds
+2014,8,26,5,20.35,scattered clouds
+2014,8,26,6,19.49,mist
+2014,8,26,7,19.06,mist
+2014,8,26,8,18.45,mist
+2014,8,26,9,17.95,mist
+2014,8,27,0,24.93,scattered clouds
+2014,8,27,1,22.51,scattered clouds
+2014,8,27,10,18.07,mist
+2014,8,27,11,18.23,mist
+2014,8,27,12,19.86,mist
+2014,8,27,13,22.26,few clouds
+2014,8,27,14,24.6,few clouds
+2014,8,27,15,27.34,scattered clouds
+2014,8,27,16,28.06,scattered clouds
+2014,8,27,17,29.56,scattered clouds
+2014,8,27,18,30.95,few clouds
+2014,8,27,19,31.21,few clouds
+2014,8,27,2,22.1,scattered clouds
+2014,8,27,20,31.01,few clouds
+2014,8,27,21,30.83,scattered clouds
+2014,8,27,22,30.21,thunderstorm with light rain
+2014,8,27,23,28.1,scattered clouds
+2014,8,27,3,21.02,few clouds
+2014,8,27,4,20.46,few clouds
+2014,8,27,5,20.21,few clouds
+2014,8,27,6,19.31,mist
+2014,8,27,7,19.13,mist
+2014,8,27,8,18.73,mist
+2014,8,27,9,18.37,mist
+2014,8,28,0,26.19,mist
+2014,8,28,1,25.82,mist
+2014,8,28,10,20.2,scattered clouds
+2014,8,28,11,19.39,light rain
+2014,8,28,12,19.22,scattered clouds
+2014,8,28,13,20.33,scattered clouds
+2014,8,28,14,21.36,scattered clouds
+2014,8,28,15,21.99,scattered clouds
+2014,8,28,16,23.52,sky is clear
+2014,8,28,17,24.57,few clouds
+2014,8,28,18,25.39,few clouds
+2014,8,28,19,25.58,few clouds
+2014,8,28,2,25.08,mist
+2014,8,28,20,25.85,few clouds
+2014,8,28,21,25.8,few clouds
+2014,8,28,22,25.36,few clouds
+2014,8,28,23,24.13,scattered clouds
+2014,8,28,3,24.2,mist
+2014,8,28,4,24.07,mist
+2014,8,28,5,23.8,moderate rain
+2014,8,28,6,23.2,moderate rain
+2014,8,28,7,22.59,fog
+2014,8,28,8,21.62,fog
+2014,8,28,9,21.12,fog
+2014,8,29,0,22.79,scattered clouds
+2014,8,29,1,21.25,light rain
+2014,8,29,10,13.39,sky is clear
+2014,8,29,11,13.64,mist
+2014,8,29,12,15.37,light rain
+2014,8,29,13,17.49,light rain
+2014,8,29,14,19.61,light rain
+2014,8,29,15,21.44,light rain
+2014,8,29,16,22.52,light rain
+2014,8,29,17,23.56,light rain
+2014,8,29,18,24.08,light rain
+2014,8,29,19,24.59,light rain
+2014,8,29,2,19.94,light rain
+2014,8,29,20,25.08,light rain
+2014,8,29,21,25.01,light rain
+2014,8,29,22,24.12,light rain
+2014,8,29,23,22.71,light rain
+2014,8,29,3,17.92,light rain
+2014,8,29,4,17.48,light rain
+2014,8,29,5,16.54,mist
+2014,8,29,6,15.75,mist
+2014,8,29,7,15.01,light rain
+2014,8,29,8,13.88,sky is clear
+2014,8,29,9,13.71,sky is clear
+2014,8,3,0,20.5,broken clouds
+2014,8,3,1,19.41,broken clouds
+2014,8,3,10,18.22,mist
+2014,8,3,11,18.29,mist
+2014,8,3,12,18.36,light rain
+2014,8,3,13,18.64,light rain
+2014,8,3,14,20.5,mist
+2014,8,3,15,21.67,mist
+2014,8,3,16,22.34,broken clouds
+2014,8,3,17,23,broken clouds
+2014,8,3,18,23.67,broken clouds
+2014,8,3,19,23.67,broken clouds
+2014,8,3,2,18.88,broken clouds
+2014,8,3,20,23.83,overcast clouds
+2014,8,3,21,23.58,overcast clouds
+2014,8,3,22,23.92,overcast clouds
+2014,8,3,23,23.58,broken clouds
+2014,8,3,3,18.53,few clouds
+2014,8,3,4,18.27,mist
+2014,8,3,5,18.25,light rain
+2014,8,3,6,18.24,light rain
+2014,8,3,7,18.21,mist
+2014,8,3,8,18.16,mist
+2014,8,3,9,18.22,mist
+2014,8,30,0,21.08,broken clouds
+2014,8,30,1,19.39,broken clouds
+2014,8,30,10,14.05,mist
+2014,8,30,11,14.32,broken clouds
+2014,8,30,12,15.75,mist
+2014,8,30,13,18.78,mist
+2014,8,30,14,21.09,mist
+2014,8,30,15,22.62,scattered clouds
+2014,8,30,16,23.6,scattered clouds
+2014,8,30,17,24.35,scattered clouds
+2014,8,30,18,24.46,broken clouds
+2014,8,30,19,24.34,overcast clouds
+2014,8,30,2,18.9,broken clouds
+2014,8,30,20,24.28,overcast clouds
+2014,8,30,21,23.97,overcast clouds
+2014,8,30,22,23.76,overcast clouds
+2014,8,30,23,23.28,overcast clouds
+2014,8,30,3,17.84,broken clouds
+2014,8,30,4,16.8,scattered clouds
+2014,8,30,5,16.17,scattered clouds
+2014,8,30,6,15.47,scattered clouds
+2014,8,30,7,14.98,mist
+2014,8,30,8,14.67,mist
+2014,8,30,9,14.25,mist
+2014,8,31,0,23.07,overcast clouds
+2014,8,31,1,22.68,overcast clouds
+2014,8,31,10,21.6,mist
+2014,8,31,11,21.63,mist
+2014,8,31,12,22.19,fog
+2014,8,31,13,22.5,fog
+2014,8,31,14,23.43,mist
+2014,8,31,15,25.12,mist
+2014,8,31,16,26.72,haze
+2014,8,31,17,28.41,broken clouds
+2014,8,31,18,30.37,broken clouds
+2014,8,31,19,30.3,moderate rain
+2014,8,31,2,22.4,overcast clouds
+2014,8,31,20,29.03,haze
+2014,8,31,21,26.55,mist
+2014,8,31,22,25.56,haze
+2014,8,31,23,25.38,mist
+2014,8,31,3,22.29,overcast clouds
+2014,8,31,4,22.17,broken clouds
+2014,8,31,5,21.8,overcast clouds
+2014,8,31,6,21.58,overcast clouds
+2014,8,31,7,21.56,overcast clouds
+2014,8,31,8,21.54,overcast clouds
+2014,8,31,9,21.63,overcast clouds
+2014,8,4,0,22.66,broken clouds
+2014,8,4,1,21.41,broken clouds
+2014,8,4,10,19.98,fog
+2014,8,4,11,20.39,mist
+2014,8,4,12,21.51,scattered clouds
+2014,8,4,13,23.05,broken clouds
+2014,8,4,14,24.1,scattered clouds
+2014,8,4,15,25.95,scattered clouds
+2014,8,4,16,26.51,broken clouds
+2014,8,4,17,27.26,broken clouds
+2014,8,4,18,27.48,broken clouds
+2014,8,4,19,28.13,broken clouds
+2014,8,4,2,21.16,broken clouds
+2014,8,4,20,28.35,broken clouds
+2014,8,4,21,28.22,broken clouds
+2014,8,4,22,27.48,scattered clouds
+2014,8,4,23,26.77,scattered clouds
+2014,8,4,3,21.09,broken clouds
+2014,8,4,4,20.75,mist
+2014,8,4,5,20.38,mist
+2014,8,4,6,20.07,mist
+2014,8,4,7,20.19,mist
+2014,8,4,8,20.32,mist
+2014,8,4,9,20.13,mist
+2014,8,5,0,24.96,broken clouds
+2014,8,5,1,23.19,thunderstorm with heavy rain
+2014,8,5,10,18.58,mist
+2014,8,5,11,19.32,mist
+2014,8,5,12,21.43,mist
+2014,8,5,13,23.62,mist
+2014,8,5,14,26.72,few clouds
+2014,8,5,15,28.2,scattered clouds
+2014,8,5,16,29.17,scattered clouds
+2014,8,5,17,29.76,scattered clouds
+2014,8,5,18,30.05,scattered clouds
+2014,8,5,19,30.68,scattered clouds
+2014,8,5,2,21.92,light rain
+2014,8,5,20,30.13,scattered clouds
+2014,8,5,21,29.82,scattered clouds
+2014,8,5,22,28.91,scattered clouds
+2014,8,5,23,27.55,scattered clouds
+2014,8,5,3,21.73,light rain
+2014,8,5,4,21.24,heavy intensity rain
+2014,8,5,5,20.49,heavy intensity rain
+2014,8,5,6,20.18,mist
+2014,8,5,7,19.57,mist
+2014,8,5,8,19.26,mist
+2014,8,5,9,19.17,fog
+2014,8,6,0,25.65,proximity thunderstorm
+2014,8,6,1,24.77,light rain
+2014,8,6,10,19.48,mist
+2014,8,6,11,19.69,broken clouds
+2014,8,6,12,20.79,broken clouds
+2014,8,6,13,21.92,broken clouds
+2014,8,6,14,22.99,broken clouds
+2014,8,6,15,24.02,broken clouds
+2014,8,6,16,25.05,broken clouds
+2014,8,6,17,25.76,broken clouds
+2014,8,6,18,26.68,broken clouds
+2014,8,6,19,27.3,broken clouds
+2014,8,6,2,23.94,broken clouds
+2014,8,6,20,27.49,broken clouds
+2014,8,6,21,27.81,broken clouds
+2014,8,6,22,27.55,scattered clouds
+2014,8,6,23,25.91,scattered clouds
+2014,8,6,3,23.88,broken clouds
+2014,8,6,4,22.62,broken clouds
+2014,8,6,5,21.75,broken clouds
+2014,8,6,6,21.45,broken clouds
+2014,8,6,7,20.46,broken clouds
+2014,8,6,8,19.88,mist
+2014,8,6,9,19.56,mist
+2014,8,7,0,24.12,scattered clouds
+2014,8,7,1,21.98,scattered clouds
+2014,8,7,10,15.89,few clouds
+2014,8,7,11,16.27,few clouds
+2014,8,7,12,18.86,few clouds
+2014,8,7,13,21.46,few clouds
+2014,8,7,14,23.03,sky is clear
+2014,8,7,15,24.27,sky is clear
+2014,8,7,16,25.62,few clouds
+2014,8,7,17,26.73,haze
+2014,8,7,18,27.03,scattered clouds
+2014,8,7,19,27.38,scattered clouds
+2014,8,7,2,20.74,few clouds
+2014,8,7,20,27.62,few clouds
+2014,8,7,21,27.16,scattered clouds
+2014,8,7,22,26.72,dust
+2014,8,7,23,25.33,dust
+2014,8,7,3,20.4,few clouds
+2014,8,7,4,19.45,few clouds
+2014,8,7,5,18.52,few clouds
+2014,8,7,6,17.94,few clouds
+2014,8,7,7,17.47,few clouds
+2014,8,7,8,16.65,sky is clear
+2014,8,7,9,16.4,sky is clear
+2014,8,8,0,23.7,dust
+2014,8,8,1,21.35,scattered clouds
+2014,8,8,10,14.77,fog
+2014,8,8,11,15.45,broken clouds
+2014,8,8,12,17.52,scattered clouds
+2014,8,8,13,20.45,scattered clouds
+2014,8,8,14,22.31,scattered clouds
+2014,8,8,15,23.85,scattered clouds
+2014,8,8,16,24.96,scattered clouds
+2014,8,8,17,25.96,scattered clouds
+2014,8,8,18,26.52,scattered clouds
+2014,8,8,19,26.86,few clouds
+2014,8,8,2,20.64,sky is clear
+2014,8,8,20,27.03,few clouds
+2014,8,8,21,26.93,few clouds
+2014,8,8,22,27.21,few clouds
+2014,8,8,23,26.69,scattered clouds
+2014,8,8,3,18.83,scattered clouds
+2014,8,8,4,17.73,scattered clouds
+2014,8,8,5,16.8,few clouds
+2014,8,8,6,16.19,sky is clear
+2014,8,8,7,15.94,sky is clear
+2014,8,8,8,15.59,sky is clear
+2014,8,8,9,14.94,sky is clear
+2014,8,9,0,24,few clouds
+2014,8,9,1,22.09,scattered clouds
+2014,8,9,10,15.16,few clouds
+2014,8,9,11,15.54,mist
+2014,8,9,12,17.11,few clouds
+2014,8,9,13,21.24,sky is clear
+2014,8,9,14,24.06,sky is clear
+2014,8,9,15,24.79,sky is clear
+2014,8,9,16,26.82,scattered clouds
+2014,8,9,17,27.15,scattered clouds
+2014,8,9,18,27.83,scattered clouds
+2014,8,9,19,28.2,scattered clouds
+2014,8,9,2,20.08,dust
+2014,8,9,20,28.44,broken clouds
+2014,8,9,21,28.12,broken clouds
+2014,8,9,22,27.86,broken clouds
+2014,8,9,23,26.91,scattered clouds
+2014,8,9,3,19.53,dust
+2014,8,9,4,18.8,dust
+2014,8,9,5,17.32,few clouds
+2014,8,9,6,16.61,mist
+2014,8,9,7,16.31,mist
+2014,8,9,8,16.23,few clouds
+2014,8,9,9,15.46,mist
+2014,9,1,0,24.86,mist
+2014,9,1,1,24.08,mist
+2014,9,1,10,22.31,mist
+2014,9,1,11,22.58,fog
+2014,9,1,12,23.23,fog
+2014,9,1,13,23.92,mist
+2014,9,1,14,25.16,broken clouds
+2014,9,1,15,26.67,broken clouds
+2014,9,1,16,27.66,scattered clouds
+2014,9,1,17,28.91,broken clouds
+2014,9,1,18,29.25,broken clouds
+2014,9,1,19,29.5,broken clouds
+2014,9,1,2,24.08,mist
+2014,9,1,20,30.05,broken clouds
+2014,9,1,21,29.79,broken clouds
+2014,9,1,22,29.15,proximity thunderstorm
+2014,9,1,23,28.21,proximity thunderstorm
+2014,9,1,3,23.66,mist
+2014,9,1,4,23.57,mist
+2014,9,1,5,23.38,mist
+2014,9,1,6,23.26,mist
+2014,9,1,7,22.93,mist
+2014,9,1,8,22.93,fog
+2014,9,1,9,22.76,mist
+2014,9,10,0,20.67,overcast clouds
+2014,9,10,1,20.35,overcast clouds
+2014,9,10,10,16.7,mist
+2014,9,10,11,16.3,mist
+2014,9,10,12,16.53,broken clouds
+2014,9,10,13,18.47,mist
+2014,9,10,14,19.27,mist
+2014,9,10,15,20.89,mist
+2014,9,10,16,22.28,light rain
+2014,9,10,17,23.22,mist
+2014,9,10,18,23.78,broken clouds
+2014,9,10,19,24.23,broken clouds
+2014,9,10,2,19.97,overcast clouds
+2014,9,10,20,24.21,broken clouds
+2014,9,10,21,23.88,broken clouds
+2014,9,10,22,23.43,broken clouds
+2014,9,10,23,22.49,broken clouds
+2014,9,10,3,19.73,overcast clouds
+2014,9,10,4,19.38,overcast clouds
+2014,9,10,5,19.06,overcast clouds
+2014,9,10,6,18.6,overcast clouds
+2014,9,10,7,18.09,light rain
+2014,9,10,8,17.65,light rain
+2014,9,10,9,17.25,light rain
+2014,9,11,0,21.02,broken clouds
+2014,9,11,1,20.25,broken clouds
+2014,9,11,10,19.34,overcast clouds
+2014,9,11,11,19.65,mist
+2014,9,11,12,20.01,mist
+2014,9,11,13,20.85,mist
+2014,9,11,14,21.71,overcast clouds
+2014,9,11,15,22.71,overcast clouds
+2014,9,11,16,23.87,overcast clouds
+2014,9,11,17,24.67,overcast clouds
+2014,9,11,18,25.22,overcast clouds
+2014,9,11,19,26.09,light intensity drizzle
+2014,9,11,2,19.84,broken clouds
+2014,9,11,20,26.66,light intensity drizzle
+2014,9,11,21,27.07,light intensity drizzle
+2014,9,11,22,26.95,broken clouds
+2014,9,11,23,26.22,broken clouds
+2014,9,11,3,19.34,broken clouds
+2014,9,11,4,19.14,broken clouds
+2014,9,11,5,19.13,overcast clouds
+2014,9,11,6,19.13,overcast clouds
+2014,9,11,7,18.89,broken clouds
+2014,9,11,8,19.05,broken clouds
+2014,9,11,9,19.12,light rain
+2014,9,12,0,24.05,scattered clouds
+2014,9,12,1,23.95,scattered clouds
+2014,9,12,10,15.58,scattered clouds
+2014,9,12,11,15.24,scattered clouds
+2014,9,12,12,15.44,scattered clouds
+2014,9,12,13,16.58,scattered clouds
+2014,9,12,14,17.73,overcast clouds
+2014,9,12,15,18.72,scattered clouds
+2014,9,12,16,19.99,scattered clouds
+2014,9,12,17,21.48,scattered clouds
+2014,9,12,18,22.76,sky is clear
+2014,9,12,19,23.67,sky is clear
+2014,9,12,2,23.36,scattered clouds
+2014,9,12,20,23.85,sky is clear
+2014,9,12,21,23.21,sky is clear
+2014,9,12,22,22.17,scattered clouds
+2014,9,12,23,20.34,broken clouds
+2014,9,12,3,22.63,scattered clouds
+2014,9,12,4,21.27,scattered clouds
+2014,9,12,5,19.84,scattered clouds
+2014,9,12,6,18.7,scattered clouds
+2014,9,12,7,17.56,few clouds
+2014,9,12,8,16.67,broken clouds
+2014,9,12,9,16.23,scattered clouds
+2014,9,13,0,18.64,few clouds
+2014,9,13,1,16.75,sky is clear
+2014,9,13,10,14.41,scattered clouds
+2014,9,13,11,14.79,broken clouds
+2014,9,13,12,15.13,overcast clouds
+2014,9,13,13,15.48,overcast clouds
+2014,9,13,14,16.3,overcast clouds
+2014,9,13,15,16.75,overcast clouds
+2014,9,13,16,17.43,light intensity drizzle
+2014,9,13,17,18.57,light rain
+2014,9,13,18,18.63,moderate rain
+2014,9,13,19,18.15,mist
+2014,9,13,2,16.08,few clouds
+2014,9,13,20,17.16,mist
+2014,9,13,21,17.08,haze
+2014,9,13,22,16.99,drizzle
+2014,9,13,23,16.6,mist
+2014,9,13,3,15.99,broken clouds
+2014,9,13,4,15.07,broken clouds
+2014,9,13,5,14.7,scattered clouds
+2014,9,13,6,14.27,scattered clouds
+2014,9,13,7,14.12,broken clouds
+2014,9,13,8,13.76,broken clouds
+2014,9,13,9,14.12,broken clouds
+2014,9,14,0,16.43,mist
+2014,9,14,1,16.11,mist
+2014,9,14,10,10.18,sky is clear
+2014,9,14,11,9.91,mist
+2014,9,14,12,10.53,mist
+2014,9,14,13,12.19,light rain
+2014,9,14,14,13.54,scattered clouds
+2014,9,14,15,14.68,scattered clouds
+2014,9,14,16,16.33,scattered clouds
+2014,9,14,17,18.24,broken clouds
+2014,9,14,18,18.83,broken clouds
+2014,9,14,19,19.22,broken clouds
+2014,9,14,2,15.76,fog
+2014,9,14,20,20.24,broken clouds
+2014,9,14,21,20.06,broken clouds
+2014,9,14,22,19.71,broken clouds
+2014,9,14,23,18.46,broken clouds
+2014,9,14,3,14.99,fog
+2014,9,14,4,14.34,fog
+2014,9,14,5,13.52,mist
+2014,9,14,6,12.76,mist
+2014,9,14,7,12.12,light rain
+2014,9,14,8,11.23,sky is clear
+2014,9,14,9,10.6,mist
+2014,9,15,0,16.29,broken clouds
+2014,9,15,1,14.58,broken clouds
+2014,9,15,10,9.38,sky is clear
+2014,9,15,11,9.26,light rain
+2014,9,15,12,10.4,mist
+2014,9,15,13,12.95,scattered clouds
+2014,9,15,14,14.97,scattered clouds
+2014,9,15,15,16.91,scattered clouds
+2014,9,15,16,18.21,scattered clouds
+2014,9,15,17,19.24,scattered clouds
+2014,9,15,18,20.23,scattered clouds
+2014,9,15,19,20.39,scattered clouds
+2014,9,15,2,13.64,scattered clouds
+2014,9,15,20,21.13,scattered clouds
+2014,9,15,21,20.99,scattered clouds
+2014,9,15,22,20.2,broken clouds
+2014,9,15,23,18.57,broken clouds
+2014,9,15,3,12.83,scattered clouds
+2014,9,15,4,12.24,mist
+2014,9,15,5,11.68,mist
+2014,9,15,6,10.72,mist
+2014,9,15,7,10.15,sky is clear
+2014,9,15,8,9.83,mist
+2014,9,15,9,9.58,fog
+2014,9,16,0,16.52,light rain
+2014,9,16,1,15.15,broken clouds
+2014,9,16,10,13.23,overcast clouds
+2014,9,16,11,13.51,moderate rain
+2014,9,16,12,13.91,mist
+2014,9,16,13,13.98,mist
+2014,9,16,14,14.64,mist
+2014,9,16,15,15.43,mist
+2014,9,16,16,16.74,mist
+2014,9,16,17,18.66,broken clouds
+2014,9,16,18,19.15,broken clouds
+2014,9,16,19,19.93,broken clouds
+2014,9,16,2,14.63,broken clouds
+2014,9,16,20,19.91,broken clouds
+2014,9,16,21,19.64,overcast clouds
+2014,9,16,22,19.3,overcast clouds
+2014,9,16,23,18.41,broken clouds
+2014,9,16,3,13.9,broken clouds
+2014,9,16,4,13.43,mist
+2014,9,16,5,13.2,broken clouds
+2014,9,16,6,13.38,overcast clouds
+2014,9,16,7,13.23,overcast clouds
+2014,9,16,8,13.54,overcast clouds
+2014,9,16,9,13.24,mist
+2014,9,17,0,16.82,scattered clouds
+2014,9,17,1,15.57,scattered clouds
+2014,9,17,10,9.97,fog
+2014,9,17,11,9.91,fog
+2014,9,17,12,10.55,fog
+2014,9,17,13,13.07,fog
+2014,9,17,14,16.06,scattered clouds
+2014,9,17,15,18.1,scattered clouds
+2014,9,17,16,19.34,scattered clouds
+2014,9,17,17,20.59,scattered clouds
+2014,9,17,18,20.85,scattered clouds
+2014,9,17,19,21.14,scattered clouds
+2014,9,17,2,14.69,broken clouds
+2014,9,17,20,21.41,scattered clouds
+2014,9,17,21,21.32,scattered clouds
+2014,9,17,22,20.37,scattered clouds
+2014,9,17,23,19.15,scattered clouds
+2014,9,17,3,13.67,mist
+2014,9,17,4,13.08,haze
+2014,9,17,5,12.67,haze
+2014,9,17,6,12.03,mist
+2014,9,17,7,11.34,fog
+2014,9,17,8,10.78,fog
+2014,9,17,9,10.42,fog
+2014,9,18,0,15.85,scattered clouds
+2014,9,18,1,15.39,scattered clouds
+2014,9,18,10,10.19,fog
+2014,9,18,11,9.8,mist
+2014,9,18,12,11.95,mist
+2014,9,18,13,13.48,mist
+2014,9,18,14,16.36,mist
+2014,9,18,15,19.05,mist
+2014,9,18,16,21.63,scattered clouds
+2014,9,18,17,22.05,scattered clouds
+2014,9,18,18,22.68,scattered clouds
+2014,9,18,19,22.89,scattered clouds
+2014,9,18,2,14.16,scattered clouds
+2014,9,18,20,23.08,scattered clouds
+2014,9,18,21,22.91,scattered clouds
+2014,9,18,22,22.09,scattered clouds
+2014,9,18,23,20.8,scattered clouds
+2014,9,18,3,13.09,scattered clouds
+2014,9,18,4,12.47,scattered clouds
+2014,9,18,5,12.08,fog
+2014,9,18,6,11.36,sky is clear
+2014,9,18,7,10.83,sky is clear
+2014,9,18,8,10.61,mist
+2014,9,18,9,10.47,mist
+2014,9,19,0,18.54,scattered clouds
+2014,9,19,1,16.68,few clouds
+2014,9,19,10,12.22,mist
+2014,9,19,11,11.6,broken clouds
+2014,9,19,12,11.18,broken clouds
+2014,9,19,13,12.35,scattered clouds
+2014,9,19,14,13.97,broken clouds
+2014,9,19,15,14.57,broken clouds
+2014,9,19,16,15.87,broken clouds
+2014,9,19,17,16.56,broken clouds
+2014,9,19,18,17.37,scattered clouds
+2014,9,19,19,17.62,scattered clouds
+2014,9,19,2,15.23,few clouds
+2014,9,19,20,18,broken clouds
+2014,9,19,21,17.75,broken clouds
+2014,9,19,22,16.78,scattered clouds
+2014,9,19,23,16.21,scattered clouds
+2014,9,19,3,15.1,few clouds
+2014,9,19,4,14.53,few clouds
+2014,9,19,5,13.91,mist
+2014,9,19,6,13.61,mist
+2014,9,19,7,13.35,mist
+2014,9,19,8,13.22,mist
+2014,9,19,9,12.67,mist
+2014,9,2,0,26.92,light rain
+2014,9,2,1,25.27,broken clouds
+2014,9,2,10,22.29,mist
+2014,9,2,11,22.4,mist
+2014,9,2,12,23.13,mist
+2014,9,2,13,25.19,mist
+2014,9,2,14,27.62,broken clouds
+2014,9,2,15,28.69,broken clouds
+2014,9,2,16,30.7,broken clouds
+2014,9,2,17,30.98,broken clouds
+2014,9,2,18,31.65,broken clouds
+2014,9,2,19,31.55,light rain
+2014,9,2,2,25.14,broken clouds
+2014,9,2,20,31.69,broken clouds
+2014,9,2,21,31.91,broken clouds
+2014,9,2,22,31.34,broken clouds
+2014,9,2,23,30.27,scattered clouds
+2014,9,2,3,24.54,mist
+2014,9,2,4,24.13,mist
+2014,9,2,5,23.66,fog
+2014,9,2,6,23.29,mist
+2014,9,2,7,22.94,mist
+2014,9,2,8,22.81,fog
+2014,9,2,9,22.49,fog
+2014,9,20,0,15.13,scattered clouds
+2014,9,20,1,14.18,broken clouds
+2014,9,20,10,12.78,mist
+2014,9,20,11,12.93,mist
+2014,9,20,12,13.61,mist
+2014,9,20,13,16.92,broken clouds
+2014,9,20,14,18.25,few clouds
+2014,9,20,15,20.23,broken clouds
+2014,9,20,16,21.95,broken clouds
+2014,9,20,17,22.25,broken clouds
+2014,9,20,18,22.88,broken clouds
+2014,9,20,19,22.77,light rain
+2014,9,20,2,14.16,broken clouds
+2014,9,20,20,22.77,light rain
+2014,9,20,21,22.57,overcast clouds
+2014,9,20,22,22.3,broken clouds
+2014,9,20,23,21.56,scattered clouds
+2014,9,20,3,13.86,broken clouds
+2014,9,20,4,13.6,mist
+2014,9,20,5,13.12,mist
+2014,9,20,6,12.88,mist
+2014,9,20,7,12.79,mist
+2014,9,20,8,12.82,mist
+2014,9,20,9,12.6,mist
+2014,9,21,0,20.24,scattered clouds
+2014,9,21,1,19.44,scattered clouds
+2014,9,21,10,18.14,moderate rain
+2014,9,21,11,18.39,light rain
+2014,9,21,12,18.73,fog
+2014,9,21,13,19.46,fog
+2014,9,21,14,20.29,fog
+2014,9,21,15,21.16,fog
+2014,9,21,16,22.08,fog
+2014,9,21,17,22.54,mist
+2014,9,21,18,23.08,mist
+2014,9,21,19,23.35,overcast clouds
+2014,9,21,2,18.7,broken clouds
+2014,9,21,20,23.95,haze
+2014,9,21,21,23.9,haze
+2014,9,21,22,23.48,broken clouds
+2014,9,21,23,22.58,haze
+2014,9,21,3,18.32,mist
+2014,9,21,4,18.42,overcast clouds
+2014,9,21,5,18.63,mist
+2014,9,21,6,18.6,mist
+2014,9,21,7,18.38,mist
+2014,9,21,8,18.13,mist
+2014,9,21,9,18.14,moderate rain
+2014,9,22,0,21.42,mist
+2014,9,22,1,20.54,mist
+2014,9,22,10,16.31,scattered clouds
+2014,9,22,11,15.93,sky is clear
+2014,9,22,12,16.24,light rain
+2014,9,22,13,17.39,scattered clouds
+2014,9,22,14,18.51,few clouds
+2014,9,22,15,19.06,scattered clouds
+2014,9,22,16,19.23,broken clouds
+2014,9,22,17,19.88,overcast clouds
+2014,9,22,18,19.84,broken clouds
+2014,9,22,19,20.1,broken clouds
+2014,9,22,2,19.94,mist
+2014,9,22,20,19.83,scattered clouds
+2014,9,22,21,19.32,scattered clouds
+2014,9,22,22,18.25,few clouds
+2014,9,22,23,16.61,scattered clouds
+2014,9,22,3,20.22,mist
+2014,9,22,4,20.32,mist
+2014,9,22,5,19.86,mist
+2014,9,22,6,19.24,mist
+2014,9,22,7,17.85,mist
+2014,9,22,8,17.16,mist
+2014,9,22,9,16.62,scattered clouds
+2014,9,23,0,15.43,scattered clouds
+2014,9,23,1,14.55,broken clouds
+2014,9,23,10,7.85,mist
+2014,9,23,11,7.82,mist
+2014,9,23,12,9.87,few clouds
+2014,9,23,13,11.42,few clouds
+2014,9,23,14,13.5,few clouds
+2014,9,23,15,14.99,few clouds
+2014,9,23,16,16.97,scattered clouds
+2014,9,23,17,18.01,scattered clouds
+2014,9,23,18,19.45,few clouds
+2014,9,23,19,20.61,scattered clouds
+2014,9,23,2,13.49,scattered clouds
+2014,9,23,20,21.35,scattered clouds
+2014,9,23,21,21.69,scattered clouds
+2014,9,23,22,21.17,scattered clouds
+2014,9,23,23,19.03,scattered clouds
+2014,9,23,3,11.99,scattered clouds
+2014,9,23,4,10.85,few clouds
+2014,9,23,5,10.42,few clouds
+2014,9,23,6,9.72,few clouds
+2014,9,23,7,9.1,sky is clear
+2014,9,23,8,8.71,few clouds
+2014,9,23,9,8.05,few clouds
+2014,9,24,0,15.7,few clouds
+2014,9,24,1,15.2,few clouds
+2014,9,24,10,11.04,mist
+2014,9,24,11,11.26,mist
+2014,9,24,12,11.75,scattered clouds
+2014,9,24,13,13.67,broken clouds
+2014,9,24,14,17.52,broken clouds
+2014,9,24,15,19.1,broken clouds
+2014,9,24,16,20.08,broken clouds
+2014,9,24,17,20.09,broken clouds
+2014,9,24,18,21.38,broken clouds
+2014,9,24,19,21.55,broken clouds
+2014,9,24,2,14.21,few clouds
+2014,9,24,20,21.18,overcast clouds
+2014,9,24,21,20.96,broken clouds
+2014,9,24,22,19.68,overcast clouds
+2014,9,24,23,19.63,overcast clouds
+2014,9,24,3,13.71,few clouds
+2014,9,24,4,13.02,few clouds
+2014,9,24,5,12.61,few clouds
+2014,9,24,6,12.12,sky is clear
+2014,9,24,7,11.79,mist
+2014,9,24,8,11.27,mist
+2014,9,24,9,11.3,scattered clouds
+2014,9,25,0,19,overcast clouds
+2014,9,25,1,18.08,broken clouds
+2014,9,25,10,16.24,light rain
+2014,9,25,11,15.97,light intensity drizzle
+2014,9,25,12,15.59,light rain
+2014,9,25,13,14.27,mist
+2014,9,25,14,14.2,mist
+2014,9,25,15,14.57,mist
+2014,9,25,16,14.62,mist
+2014,9,25,17,15.14,mist
+2014,9,25,18,15.73,mist
+2014,9,25,19,16.16,mist
+2014,9,25,2,17.33,overcast clouds
+2014,9,25,20,16.29,mist
+2014,9,25,21,16.78,mist
+2014,9,25,22,17.25,mist
+2014,9,25,23,17.16,light rain
+2014,9,25,3,17.01,overcast clouds
+2014,9,25,4,16.82,overcast clouds
+2014,9,25,5,16.83,overcast clouds
+2014,9,25,6,16.34,overcast clouds
+2014,9,25,7,16.15,overcast clouds
+2014,9,25,8,16.16,light rain
+2014,9,25,9,16.22,light rain
+2014,9,26,0,16.62,broken clouds
+2014,9,26,1,16.49,broken clouds
+2014,9,26,10,11.63,mist
+2014,9,26,11,11.33,mist
+2014,9,26,12,11.69,fog
+2014,9,26,13,15.56,few clouds
+2014,9,26,14,18.21,few clouds
+2014,9,26,15,18.69,few clouds
+2014,9,26,16,22.05,few clouds
+2014,9,26,17,22.16,few clouds
+2014,9,26,18,23.15,few clouds
+2014,9,26,19,24.2,few clouds
+2014,9,26,2,15.95,mist
+2014,9,26,20,24.99,scattered clouds
+2014,9,26,21,24.81,scattered clouds
+2014,9,26,22,24.84,scattered clouds
+2014,9,26,23,23.92,scattered clouds
+2014,9,26,3,14.81,broken clouds
+2014,9,26,4,14.48,mist
+2014,9,26,5,14.07,mist
+2014,9,26,6,13.58,mist
+2014,9,26,7,12.96,mist
+2014,9,26,8,11.91,mist
+2014,9,26,9,11.57,mist
+2014,9,27,0,19.99,few clouds
+2014,9,27,1,18.36,few clouds
+2014,9,27,10,12.33,mist
+2014,9,27,11,12.02,mist
+2014,9,27,12,13.96,mist
+2014,9,27,13,17.36,sky is clear
+2014,9,27,14,20.58,sky is clear
+2014,9,27,15,20.79,sky is clear
+2014,9,27,16,23.47,sky is clear
+2014,9,27,17,26.52,sky is clear
+2014,9,27,18,26.53,sky is clear
+2014,9,27,19,27.29,sky is clear
+2014,9,27,2,16.47,sky is clear
+2014,9,27,20,27.97,sky is clear
+2014,9,27,21,27.99,haze
+2014,9,27,22,27.84,sky is clear
+2014,9,27,23,26.23,sky is clear
+2014,9,27,3,15.48,sky is clear
+2014,9,27,4,15.17,mist
+2014,9,27,5,14.09,mist
+2014,9,27,6,13.59,fog
+2014,9,27,7,13.17,mist
+2014,9,27,8,13.09,mist
+2014,9,27,9,12.66,fog
+2014,9,28,0,22.25,sky is clear
+2014,9,28,1,18.84,sky is clear
+2014,9,28,10,13.51,mist
+2014,9,28,11,13.29,mist
+2014,9,28,12,14.58,mist
+2014,9,28,13,17.7,mist
+2014,9,28,14,21.26,scattered clouds
+2014,9,28,15,21.47,scattered clouds
+2014,9,28,16,24.2,broken clouds
+2014,9,28,17,25.47,broken clouds
+2014,9,28,18,27.59,broken clouds
+2014,9,28,19,28.41,broken clouds
+2014,9,28,2,17.91,sky is clear
+2014,9,28,20,28.5,broken clouds
+2014,9,28,21,28.44,broken clouds
+2014,9,28,22,27.16,broken clouds
+2014,9,28,23,22.41,overcast clouds
+2014,9,28,3,16.98,sky is clear
+2014,9,28,4,16.95,fog
+2014,9,28,5,16.27,mist
+2014,9,28,6,15.2,sky is clear
+2014,9,28,7,15.18,sky is clear
+2014,9,28,8,14.12,mist
+2014,9,28,9,14.11,mist
+2014,9,29,0,20.72,broken clouds
+2014,9,29,1,20.59,broken clouds
+2014,9,29,10,16.36,overcast clouds
+2014,9,29,11,16.21,fog
+2014,9,29,12,15.94,fog
+2014,9,29,13,16.78,fog
+2014,9,29,14,18.94,broken clouds
+2014,9,29,15,20.86,haze
+2014,9,29,16,22.49,broken clouds
+2014,9,29,17,24.72,overcast clouds
+2014,9,29,18,24.71,overcast clouds
+2014,9,29,19,24.67,overcast clouds
+2014,9,29,2,19.73,broken clouds
+2014,9,29,20,24.75,overcast clouds
+2014,9,29,21,24.48,overcast clouds
+2014,9,29,22,22.14,light rain
+2014,9,29,23,21.36,light rain
+2014,9,29,3,18.11,broken clouds
+2014,9,29,4,18.1,broken clouds
+2014,9,29,5,17.62,mist
+2014,9,29,6,16.94,mist
+2014,9,29,7,16.97,mist
+2014,9,29,8,16.52,mist
+2014,9,29,9,16.36,overcast clouds
+2014,9,3,0,28.76,scattered clouds
+2014,9,3,1,27.37,broken clouds
+2014,9,3,10,21.04,scattered clouds
+2014,9,3,11,20.33,fog
+2014,9,3,12,20.93,fog
+2014,9,3,13,22.4,broken clouds
+2014,9,3,14,23.56,broken clouds
+2014,9,3,15,24.54,broken clouds
+2014,9,3,16,25.82,few clouds
+2014,9,3,17,26.73,broken clouds
+2014,9,3,18,27.67,broken clouds
+2014,9,3,19,28.45,broken clouds
+2014,9,3,2,27.31,broken clouds
+2014,9,3,20,28.46,broken clouds
+2014,9,3,21,28.42,broken clouds
+2014,9,3,22,28.08,broken clouds
+2014,9,3,23,26.07,scattered clouds
+2014,9,3,3,27.11,broken clouds
+2014,9,3,4,26.26,broken clouds
+2014,9,3,5,25,broken clouds
+2014,9,3,6,23.96,broken clouds
+2014,9,3,7,23.19,broken clouds
+2014,9,3,8,22.2,scattered clouds
+2014,9,3,9,21.64,few clouds
+2014,9,30,0,21.31,light rain
+2014,9,30,1,20.71,overcast clouds
+2014,9,30,10,17.23,mist
+2014,9,30,11,17,mist
+2014,9,30,12,17.64,mist
+2014,9,30,13,18.67,mist
+2014,9,30,14,18.75,mist
+2014,9,30,15,20.01,mist
+2014,9,30,16,20.88,mist
+2014,9,30,17,21.37,mist
+2014,9,30,18,21.38,mist
+2014,9,30,19,20.97,mist
+2014,9,30,2,20.16,overcast clouds
+2014,9,30,20,20.68,overcast clouds
+2014,9,30,21,20.15,overcast clouds
+2014,9,30,22,19.39,broken clouds
+2014,9,30,23,18.38,overcast clouds
+2014,9,30,3,19.82,overcast clouds
+2014,9,30,4,19.08,light rain
+2014,9,30,5,18.46,mist
+2014,9,30,6,18.44,mist
+2014,9,30,7,18.36,mist
+2014,9,30,8,17.87,mist
+2014,9,30,9,17.36,mist
+2014,9,4,0,25.03,scattered clouds
+2014,9,4,1,22.93,scattered clouds
+2014,9,4,10,16.62,mist
+2014,9,4,11,16.66,mist
+2014,9,4,12,17.72,mist
+2014,9,4,13,22.36,light rain
+2014,9,4,14,23.54,scattered clouds
+2014,9,4,15,25.82,light rain
+2014,9,4,16,27.43,mist
+2014,9,4,17,28.35,mist
+2014,9,4,18,29.05,few clouds
+2014,9,4,19,29.32,scattered clouds
+2014,9,4,2,21.38,scattered clouds
+2014,9,4,20,29.27,scattered clouds
+2014,9,4,21,28.83,scattered clouds
+2014,9,4,22,28.24,scattered clouds
+2014,9,4,23,26.98,scattered clouds
+2014,9,4,3,20.9,scattered clouds
+2014,9,4,4,19.96,fog
+2014,9,4,5,19.12,mist
+2014,9,4,6,18.36,mist
+2014,9,4,7,17.98,mist
+2014,9,4,8,17.54,fog
+2014,9,4,9,17.04,sky is clear
+2014,9,5,0,25.61,scattered clouds
+2014,9,5,1,24.41,scattered clouds
+2014,9,5,10,19.87,mist
+2014,9,5,11,20.09,mist
+2014,9,5,12,20.96,haze
+2014,9,5,13,22.68,haze
+2014,9,5,14,24.25,haze
+2014,9,5,15,26.02,mist
+2014,9,5,16,26.51,mist
+2014,9,5,17,27.31,haze
+2014,9,5,18,27.82,haze
+2014,9,5,19,28.43,broken clouds
+2014,9,5,2,23.59,scattered clouds
+2014,9,5,20,28.37,proximity thunderstorm
+2014,9,5,21,28.41,proximity thunderstorm
+2014,9,5,22,28.03,moderate rain
+2014,9,5,23,27.09,scattered clouds
+2014,9,5,3,22.3,scattered clouds
+2014,9,5,4,21.84,scattered clouds
+2014,9,5,5,21.15,scattered clouds
+2014,9,5,6,20.64,few clouds
+2014,9,5,7,20.03,mist
+2014,9,5,8,20.15,mist
+2014,9,5,9,19.93,broken clouds
+2014,9,6,0,26.08,scattered clouds
+2014,9,6,1,25.02,scattered clouds
+2014,9,6,10,22.86,mist
+2014,9,6,11,23.15,mist
+2014,9,6,12,24.15,haze
+2014,9,6,13,25.19,mist
+2014,9,6,14,26.03,mist
+2014,9,6,15,27.42,haze
+2014,9,6,16,29.25,scattered clouds
+2014,9,6,17,29.73,scattered clouds
+2014,9,6,18,30.97,thunderstorm with light rain
+2014,9,6,19,30.69,haze
+2014,9,6,2,24.09,light rain
+2014,9,6,20,29.4,thunderstorm
+2014,9,6,21,28.73,proximity thunderstorm
+2014,9,6,22,27.84,proximity thunderstorm
+2014,9,6,23,26.82,light rain
+2014,9,6,3,23.71,mist
+2014,9,6,4,23.43,mist
+2014,9,6,5,23.22,mist
+2014,9,6,6,22.98,mist
+2014,9,6,7,22.96,mist
+2014,9,6,8,22.85,fog
+2014,9,6,9,22.86,mist
+2014,9,7,0,25.57,light rain
+2014,9,7,1,23.82,proximity thunderstorm
+2014,9,7,10,17.33,light rain
+2014,9,7,11,17.06,fog
+2014,9,7,12,17.72,scattered clouds
+2014,9,7,13,18.82,scattered clouds
+2014,9,7,14,21.04,scattered clouds
+2014,9,7,15,21.65,scattered clouds
+2014,9,7,16,23.09,scattered clouds
+2014,9,7,17,24.13,broken clouds
+2014,9,7,18,24.75,scattered clouds
+2014,9,7,19,25.2,scattered clouds
+2014,9,7,2,23.25,proximity thunderstorm
+2014,9,7,20,25.53,broken clouds
+2014,9,7,21,25.19,broken clouds
+2014,9,7,22,24.04,heavy intensity rain
+2014,9,7,23,23.83,broken clouds
+2014,9,7,3,21.25,thunderstorm
+2014,9,7,4,18.99,light rain
+2014,9,7,5,18.47,light rain
+2014,9,7,6,17.79,overcast clouds
+2014,9,7,7,17.45,overcast clouds
+2014,9,7,8,17.53,light rain
+2014,9,7,9,17.37,light rain
+2014,9,8,0,21.85,broken clouds
+2014,9,8,1,19.39,broken clouds
+2014,9,8,10,14.48,mist
+2014,9,8,11,14.55,broken clouds
+2014,9,8,12,15.65,scattered clouds
+2014,9,8,13,19.02,scattered clouds
+2014,9,8,14,20.25,scattered clouds
+2014,9,8,15,21.43,scattered clouds
+2014,9,8,16,22.2,broken clouds
+2014,9,8,17,23.04,broken clouds
+2014,9,8,18,23.46,broken clouds
+2014,9,8,19,23.19,broken clouds
+2014,9,8,2,18.76,broken clouds
+2014,9,8,20,22.8,broken clouds
+2014,9,8,21,22.3,broken clouds
+2014,9,8,22,22.07,broken clouds
+2014,9,8,23,21.24,broken clouds
+2014,9,8,3,17.68,scattered clouds
+2014,9,8,4,17.04,scattered clouds
+2014,9,8,5,16.43,scattered clouds
+2014,9,8,6,16.03,broken clouds
+2014,9,8,7,15.51,broken clouds
+2014,9,8,8,15.22,mist
+2014,9,8,9,14.68,broken clouds
+2014,9,9,0,20.82,broken clouds
+2014,9,9,1,19.74,broken clouds
+2014,9,9,10,16.14,light rain
+2014,9,9,11,15.87,broken clouds
+2014,9,9,12,16.54,broken clouds
+2014,9,9,13,17.63,few clouds
+2014,9,9,14,18.21,broken clouds
+2014,9,9,15,19.01,broken clouds
+2014,9,9,16,20.46,overcast clouds
+2014,9,9,17,20.85,overcast clouds
+2014,9,9,18,21.58,overcast clouds
+2014,9,9,19,22.07,overcast clouds
+2014,9,9,2,19.07,broken clouds
+2014,9,9,20,22.03,light rain
+2014,9,9,21,21.35,overcast clouds
+2014,9,9,22,20.99,overcast clouds
+2014,9,9,23,20.66,overcast clouds
+2014,9,9,3,18.71,broken clouds
+2014,9,9,4,18,broken clouds
+2014,9,9,5,17.25,broken clouds
+2014,9,9,6,16.55,scattered clouds
+2014,9,9,7,16.35,scattered clouds
+2014,9,9,8,15.97,scattered clouds
+2014,9,9,9,16.17,broken clouds
