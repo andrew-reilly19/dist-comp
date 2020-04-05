@@ -219,12 +219,13 @@ point_avg_hourly = avgday_h(totalHour)
 
 """
 Normalizing the averages and counts
+Note: minimum has been set to 0 because there are omitted locations in this dataset with no pickups (although they still count)
 """
 
 """Daily"""
 #average
 minmax = point_avg_day.map(lambda x: x[2])
-da_min = minmax.min()
+da_min = 0
 da_max = minmax.max()
 
 def norm(x):
@@ -237,7 +238,7 @@ PAD_norm = point_avg_day.map(norm)
 
 #count
 minmax2 = totalDay.map(lambda x: x[5])
-dc_min = minmax2.min()
+dc_min = 0
 dc_max = minmax2.max()
 
 
@@ -252,7 +253,7 @@ PCD_norm = totalDay.map(norm2)
 """Hourly"""
 #average
 minmax3 = point_avg_hourly.map(lambda x: x[3])
-ha_min = minmax3.min()
+ha_min = 0
 ha_max = minmax3.max()
 
 def norm3(x):
@@ -265,7 +266,7 @@ PAH_norm = point_avg_hourly.map(norm3)
 
 #count
 minmax4 = totalHour.map(lambda x: x[6])
-hc_min = minmax4.min()
+hc_min = 0
 hc_max = minmax4.max()
 
 
