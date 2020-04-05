@@ -121,17 +121,17 @@ totalHour = flatten_to_hour(total)
 Verification that the flatten didn't lose data - these should equal 4,534,327
 """
 
-totalDayv = totalDay.map(lambda x: x[5])
-
-totalDayv = totalDayv.reduce(lambda x,y: x+y)
-
-print(totalDayv)
-
-totalHourv = totalHour.map(lambda x: x[6])
-
-totalHourv = totalHourv.reduce(lambda x,y: x+y)
-
-print(totalHourv)
+# totalDayv = totalDay.map(lambda x: x[5])
+#
+# totalDayv = totalDayv.reduce(lambda x,y: x+y)
+#
+# print(totalDayv)
+#
+# totalHourv = totalHour.map(lambda x: x[6])
+#
+# totalHourv = totalHourv.reduce(lambda x,y: x+y)
+#
+# print(totalHourv)
 
 """
 Now, to take this and get the average pickups at given lat/lng for our data
@@ -259,8 +259,9 @@ def unmapd(x):
 LLd=LLd.map(unmapd)
 #Structure: (Latitude,Longitude,Average)
 
-
-#hourly
+"""
+hourly
+"""
 hr=sc.parallelize(range(24))
 
 aLLhr=aLL.cartesian(hr)
@@ -386,32 +387,39 @@ putting things into a dataframe
 """
 
 #Creating Dataframes from RDDs
-TotalDayDF = sqlContext.createDataFrame(PCD_norm1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Countnorm'])
+#totalHour structure: (Month, Day, Year, Hour, Latitude, Longitude, count)
 
-TotalHourDF = sqlContext.createDataFrame(PCH_norm1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Hour', 'Countnorm'])
+TotalDayDF = sqlContext.createDataFrame(totalDay, ['Month', 'Day', 'Year', 'Latitude', 'Longitude', 'Count'])
 
-AvgDayDF = sqlContext.createDataFrame(PAD_norm, ['Latitudea', 'Longitudea', 'Averagenorm'])
+TotalHourDF = sqlContext.createDataFrame(totalHour, ['Month', 'Day', 'Year', 'Hour', 'Latitude', 'Longitude', 'Count'])
 
-AvgHourDF = sqlContext.createDataFrame(PAH_norm1, ['Latitudea', 'Longitudea', 'Houra', 'Averagenorm'])
+AvgDayDF = sqlContext.createDataFrame(LLd, ['Latitudea', 'Longitudea', 'Average'])
+
+AvgHourDF = sqlContext.createDataFrame(LLh, ['Latitudea', 'Longitudea', 'Hour', 'Average'])
 
 #Joining the Dataframes
-DailyData = TotalDayDF.join(AvgDayDF, (TotalDayDF.Latitude == AvgDayDF.Latitudea) & (TotalDayDF.Longitude == AvgDayDF.Longitudea), how='left_outer')
+#def joining (hidden):
+    """ Not joining dataframes anymore - will do that in regular python just prior to mapping
+    #DailyData = TotalDayDF.join(AvgDayDF, (TotalDayDF.Latitude == AvgDayDF.Latitudea) & (TotalDayDF.Longitude == AvgDayDF.Longitudea), how='full')
+    #DailyData has nearly 1M rows
 
-HourlyData = TotalHourDF.join(AvgHourDF, (TotalHourDF.Latitude == AvgHourDF.Latitudea) & (TotalHourDF.Longitude == AvgHourDF.Longitudea) & (TotalHourDF.Hour == AvgHourDF.Houra), how='left_outer')
+    #HourlyData = TotalHourDF.join(AvgHourDF, (TotalHourDF.Latitude == AvgHourDF.Latitudea) & (TotalHourDF.Longitude == AvgHourDF.Longitudea) & (TotalHourDF.Hour == AvgHourDF.Houra), how='left_outer')
+    #HourlyData would be too unwieldy, nearly 24M entries
 
-#Dropping duplicate columns
-DailyData = DailyData.drop('Latitudea','Longitudea')
+    #Dropping duplicate columns
+    DailyData = DailyData.drop('Latitudea','Longitudea')
+    HourlyData = HourlyData.drop('Latitudea', 'Longitudea', 'Houra')
 
-HourlyData = HourlyData.drop('Latitudea', 'Longitudea', 'Houra')
+    #Structure DailyData: (Latitude, Longitude, Month, Day, Year, Count, Average)
+    #Structure HourlyData: (Latitude, Longitude, Month, Day, Year, Hour, Count, Average)
 
-#Structure DailyData: (Latitude, Longitude, Month, Day, Year, Count, Average)
-#Structure HourlyData: (Latitude, Longitude, Month, Day, Year, Hour, Count, Average)
+    #No empties here!(need to get right package for this to work, don't remember what it is)
+    #
+    # DailyData.filter(f.col('Average').isNull()).show()
+    #
+    # HourlyData.filter(f.col('Average').isNull()).show()
 
-#No empties here!(need to get right package for this to work, don't remember what it is)
-#
-# DailyData.filter(f.col('Average').isNull()).show()
-#
-# HourlyData.filter(f.col('Average').isNull()).show()
+    """
 
 """
 Writing out data to csv file
@@ -420,7 +428,13 @@ Starter Code provided by Simona
 # avg_df = sqlContext.createDataFrame(point_avg_day, ['Latitude', 'Longitude', 'Average'])
 # avg_df.toPandas().to_csv('/home/andrew/df_avg.csv')
 
-#DailyData.toPandas().to_csv('/home/andrew/DailyData.csv')
+TotalDayDF.toPandas().to_csv('/home/andrew/output/DailyCount.csv')
+
+TotalHourDF.toPandas().to_csv('/home/andrew/output/HourlyCount.csv')
+
+AvgDayDF.toPandas().to_csv('/home/andrew/output/AvgDay.csv')
+
+AvgHourDF.toPandas().to_csv('/home/andrew/output/AvgHours.csv')
 
 """
 hourly data now goes to get weather info first, see weatherinput.py

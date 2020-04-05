@@ -20,11 +20,17 @@ weather = weather.map(convertweather)
 WeatherDF = sqlContext.createDataFrame(weather, ['Yearw','Monthw','Dayw','Hourw','TempC','Type'])
 
 #Structure HourlyData: (Latitude, Longitude, Month, Day, Year, Hour, Count, Average)
-HourlyDataW = HourlyData.join(WeatherDF, (HourlyData.Year==WeatherDF.Yearw) & (HourlyData.Month==WeatherDF.Monthw) & (HourlyData.Day==WeatherDF.Dayw) & (HourlyData.Hour==WeatherDF.Hourw), how='left_outer')
 
-HourlyDataW = HourlyDataW.drop('Yearw', 'Monthw', 'Dayw', 'Hourw')
+#HourlyDataW = HourlyData.join(WeatherDF, (HourlyData.Year==WeatherDF.Yearw) & (HourlyData.Month==WeatherDF.Monthw) & (HourlyData.Day==WeatherDF.Dayw) & (HourlyData.Hour==WeatherDF.Hourw), how='left_outer')
+#HourlyDataW = HourlyDataW.drop('Yearw', 'Monthw', 'Dayw', 'Hourw')
+#HourlyDataW.toPandas().to_csv('/home/andrew/HourlyDataW.csv')
 
-HourlyDataW.toPandas().to_csv('/home/andrew/HourlyDataW.csv')
+
+#finding factors of weather type
+weathertest = weather.map(lambda x: (x[5],1))
+weathertest = weathertest.reduceByKey(lambda x,n: x+n)
+WeathertestDF = sqlContext.createDataFrame(weathertest, ['Type','Count'])
+
 
 """
 scp andrew@10.10.11.35:/home/andrew/HourlyDataW.csv /Users/andrew/Desktop
