@@ -218,79 +218,172 @@ point_avg_hourly = avgday_h(totalHour)
 
 
 """
+Here we create a null dataset for every possible lat/lng point (should have 5442 entries)
+And a second null dataset for every possible lat/lng point and hour (should have 130608 entries)
+"""
+
+#first map total to include only lat/lng points to two decimal places
+#then reduceByKey to get just lat/lng points
+#then make new one by creating hours and full joining them (?)
+
+def llmap(x):
+    a=str(round(x[6],2))
+    b=str(round(x[7],2))
+    y=a+','+b
+    return(y,0)
+
+
+aLL = total.map(llmap)
+
+aLL = aLL.reduceByKey(lambda x,n: x+n)
+
+def remap_avg(x):
+    rkey=str(x[0])+','+str(x[1])
+    return(rkey, x[2])
+
+
+avgday = point_avg_day.map(remap_avg)
+
+LLd=aLL.union(avgday)
+
+LLd=LLd.reduceByKey(lambda x,n: x+n)
+
+
+def unmapd(x):
+    y=x[0]
+    y=y.split(',')
+    z = (float(y[0]),float(y[1]),x[1])
+    return z
+
+
+LLd=LLd.map(unmapd)
+#Structure: (Latitude,Longitude,Average)
+
+
+#hourly
+hr=sc.parallelize(range(24))
+
+aLLhr=aLL.cartesian(hr)
+
+def hrmap(x):
+    y=x[0]
+    hour=x[1]
+    hour=str(hour)
+    ll=y[0]
+    ll2=ll.split(',')
+    rkey=ll2[0]+','+ll2[1]+','+hour
+    zeros=y[1]
+    return(rkey,zeros)
+
+
+aLLhr=aLLhr.map(hrmap)
+
+def remap_havg(x):
+    rkey=str(x[1])+','+str(x[2])+','+str(x[0])
+    return(rkey, x[3])
+
+avghr = point_avg_hourly.map(remap_havg)
+
+
+LLh=aLLhr.union(avghr)
+
+LLh=LLh.reduceByKey(lambda x,n: x+n)
+
+
+def unmap(x):
+    y=x[0]
+    y=y.split(',')
+    z = (float(y[0]),float(y[1]),int(y[2]),x[1])
+    return z
+
+
+LLh=LLh.map(unmap)
+#Structure: (Latitude,Longitude,Hour,Average)
+
+
+"""
 Normalizing the averages and counts
 Note: minimum has been set to 0 because there are omitted locations in this dataset with no pickups (although they still count)
+Note2: This has been commented out because normalization is not being applied properly - needs to be done AFTER
+    subtracting count and average
 """
+#def hidden:
+    """Daily"""
+    #average
+    """
+    minmax = point_avg_day.map(lambda x: x[2])
+    da_min = 0
+    da_max = minmax.max()
 
-"""Daily"""
-#average
-minmax = point_avg_day.map(lambda x: x[2])
-da_min = 0
-da_max = minmax.max()
+    def norm(x):
+        val = x[2]
+        nval = (val-da_min)/(da_max-da_min)
+        return(x[0],x[1],round(nval,8))
 
-def norm(x):
-    val = x[2]
-    nval = (val-da_min)/(da_max-da_min)
-    return(x[0],x[1],round(nval,8))
-
-PAD_norm = point_avg_day.map(norm)
-
-
-#count
-minmax2 = totalDay.map(lambda x: x[5])
-dc_min = 0
-dc_max = minmax2.max()
+    PAD_norm = point_avg_day.map(norm)
 
 
-def norm2(x):
-    val = x[5]
-    nval = (val-dc_min)/(dc_max-dc_min)
-    return(x[0],x[1],x[2],x[3],x[4],round(nval,8))
-
-PCD_norm = totalDay.map(norm2)
+    #count
+    minmax2 = totalDay.map(lambda x: x[5])
+    dc_min = 0
+    dc_max = minmax2.max()
 
 
-"""Hourly"""
-#average
-minmax3 = point_avg_hourly.map(lambda x: x[3])
-ha_min = 0
-ha_max = minmax3.max()
+    def norm2(x):
+        val = x[5]
+        nval = (val-dc_min)/(dc_max-dc_min)
+        return(x[0],x[1],x[2],x[3],x[4],round(nval,8))
 
-def norm3(x):
-    val = x[3]
-    nval = (val-ha_min)/(ha_max-ha_min)
-    return(x[0],x[1],x[2],round(nval,8))
+    PCD_norm = totalDay.map(norm2)
+    """
 
-PAH_norm = point_avg_hourly.map(norm3)
+    """Hourly"""
 
+    """
+    #average
+    minmax3 = point_avg_hourly.map(lambda x: x[3])
+    ha_min = 0
+    ha_max = minmax3.max()
 
-#count
-minmax4 = totalHour.map(lambda x: x[6])
-hc_min = 0
-hc_max = minmax4.max()
+    def norm3(x):
+        val = x[3]
+        nval = (val-ha_min)/(ha_max-ha_min)
+        return(x[0],x[1],x[2],round(nval,8))
 
-
-def norm4(x):
-    val = x[6]
-    nval = (val-hc_min)/(hc_max-hc_min)
-    return(x[0],x[1],x[2],x[3],x[4],x[5],round(nval,8))
-
-PCH_norm = totalHour.map(norm4)
+    PAH_norm = point_avg_hourly.map(norm3)
 
 
+    #count
+    minmax4 = totalHour.map(lambda x: x[6])
+    hc_min = 0
+    hc_max = minmax4.max()
+
+
+    def norm4(x):
+        val = x[6]
+        nval = (val-hc_min)/(hc_max-hc_min)
+        return(x[0],x[1],x[2],x[3],x[4],x[5],round(nval,8))
+
+    PCH_norm = totalHour.map(norm4)
+    """
+
+
+    """
+    Before joining and writing out, each of these needs to be put into a dataframe first
+    """
+    # #restructuring totalDay, totalHour, and avgHour RDDs:
+    # PCD_norm1 = PCD_norm.map(lambda x: (x[3],x[4],x[0],x[1],x[2],x[5]))
+    # #Structure: (Latitude, Longitude, Month, Day, Year, Count)
+    #
+    # PCH_norm1 = PCH_norm.map(lambda x: (x[4],x[5],x[0],x[1],x[2],x[3],x[6]))
+    # #Structure: (Latitude, Longitude, Month, Day, Year, Count)
+    #
+    # PAH_norm1 = PAH_norm.map(lambda x: (x[1],x[2],x[0],x[3]))
+    # #Structure: (Latitude, Longitude, Hour, Average)
 
 """
-Before joining and writing out, each of these needs to be put into a dataframe first
+putting things into a dataframe
 """
-#restructuring totalDay, totalHour, and avgHour RDDs:
-PCD_norm1 = PCD_norm.map(lambda x: (x[3],x[4],x[0],x[1],x[2],x[5]))
-#Structure: (Latitude, Longitude, Month, Day, Year, Count)
-
-PCH_norm1 = PCH_norm.map(lambda x: (x[4],x[5],x[0],x[1],x[2],x[3],x[6]))
-#Structure: (Latitude, Longitude, Month, Day, Year, Count)
-
-PAH_norm1 = PAH_norm.map(lambda x: (x[1],x[2],x[0],x[3]))
-#Structure: (Latitude, Longitude, Hour, Average)
 
 #Creating Dataframes from RDDs
 TotalDayDF = sqlContext.createDataFrame(PCD_norm1, ['Latitude', 'Longitude', 'Month', 'Day', 'Year', 'Countnorm'])
