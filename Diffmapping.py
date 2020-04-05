@@ -428,13 +428,13 @@ Starter Code provided by Simona
 # avg_df = sqlContext.createDataFrame(point_avg_day, ['Latitude', 'Longitude', 'Average'])
 # avg_df.toPandas().to_csv('/home/andrew/df_avg.csv')
 
-TotalDayDF.toPandas().to_csv('/home/andrew/output/DailyCount.csv')
+#TotalDayDF.toPandas().to_csv('/home/andrew/output/DailyCount.csv')
 
-TotalHourDF.toPandas().to_csv('/home/andrew/output/HourlyCount.csv')
+#TotalHourDF.toPandas().to_csv('/home/andrew/output/HourlyCount.csv')
 
-AvgDayDF.toPandas().to_csv('/home/andrew/output/AvgDay.csv')
+#AvgDayDF.toPandas().to_csv('/home/andrew/output/AvgDay.csv')
 
-AvgHourDF.toPandas().to_csv('/home/andrew/output/AvgHours.csv')
+#AvgHourDF.toPandas().to_csv('/home/andrew/output/AvgHours.csv')
 
 """
 hourly data now goes to get weather info first, see weatherinput.py

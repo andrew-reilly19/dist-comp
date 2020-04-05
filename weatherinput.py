@@ -17,7 +17,7 @@ def convertweather(x):
 
 weather = weather.map(convertweather)
 
-WeatherDF = sqlContext.createDataFrame(weather, ['Yearw','Monthw','Dayw','Hourw','TempC','Type'])
+#WeatherDF = sqlContext.createDataFrame(weather, ['Yearw','Monthw','Dayw','Hourw','TempC','Type'])
 
 #Structure HourlyData: (Latitude, Longitude, Month, Day, Year, Hour, Count, Average)
 
@@ -25,11 +25,28 @@ WeatherDF = sqlContext.createDataFrame(weather, ['Yearw','Monthw','Dayw','Hourw'
 #HourlyDataW = HourlyDataW.drop('Yearw', 'Monthw', 'Dayw', 'Hourw')
 #HourlyDataW.toPandas().to_csv('/home/andrew/HourlyDataW.csv')
 
-
 #finding factors of weather type
 weathertest = weather.map(lambda x: (x[5],1))
 weathertest = weathertest.reduceByKey(lambda x,n: x+n)
 WeathertestDF = sqlContext.createDataFrame(weathertest, ['Type','Count'])
+
+
+#Make the giant 24M line dataset for later subsettting:
+newLLD=LLd.map(lambda x: (x[0],x[1]))
+
+BigRDD=weather.cartesian(newLLD)
+
+def stripout(x):
+    a=x[0]
+    b=x[1]
+    return(b[0],b[1],a[0],a[1],a[2],a[3],a[4],a[5])
+
+
+BigRDD=BigRDD.map(stripout)
+
+BigDF=sqlContext.createDataFrame(BigRDD, ['Latitudeb','Longitudeb','Yearb','Monthb','Dayb','Hourb','TempC','Type'])
+
+#Join on count and average data:
 
 
 """
