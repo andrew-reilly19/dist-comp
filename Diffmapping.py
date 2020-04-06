@@ -74,15 +74,15 @@ def flatten_to_day(rdd):
         y = y.strip('(')
         y = y.split(',')
         #mapping back with additional 1 at the end of each record for averaging
-        z = (int(y[0]),int(y[1]),int(y[2]),float(y[3]),float(y[4]),x[1])
+        z = (int(y[0]),int(y[1]),int(y[2]), -1, float(y[3]),float(y[4]),x[1])
         return z
     rdd1 = rdd1.map(convert_back)
-    #structure: (Month, Day, Year, Latitude, Longitude, count)
+    #structure: (Month, Day, Year, Hour(-1 for whole day), Latitude, Longitude, count)
     return rdd1
 
 
 totalDay = flatten_to_day(total)
-#totalDay structure: (Month, Day, Year, Latitude, Longitude, count)
+#totalDay structure: (Month, Day, Year, Hour(-1), Latitude, Longitude, count)
 """
 Same as above, but creates an RDD flattend to hour:
 """
@@ -116,6 +116,8 @@ def flatten_to_hour(rdd):
 
 totalHour = flatten_to_hour(total)
 #totalHour structure: (Month, Day, Year, Hour, Latitude, Longitude, count)
+
+totalcount = totalHour.union(totalDay)
 
 """
 Verification that the flatten didn't lose data - these should equal 4,534,327
@@ -159,30 +161,28 @@ This follows a very similar approach as the flatten formula, but first putting t
 and then reducing by key on that value to sum the counts and dividing by the number of days in the dataset.
 """
 
-def avgday(rdd):
-    #we can ignore the month/day/year, since they've already been incorporated.
-    def prep_rdd(x):
-        lat=str(x[3])
-        lng=str(x[4])
-        latlng = lat+','+lng
-        count = x[5]
-        return (latlng,count)
-    rdd1 = rdd.map(prep_rdd)
-    rdd1 = rdd1.reduceByKey(lambda x,n: x+n)
-    def convert_back1(x):
-        #This function takes the previous output and converts the data out of the string
-        y = x[0]
-        y = y.split(',')
-        avg = x[1]/183 #number of days found earlier
-        #mapping back with additional 1 at the end of each record for averaging
-        z = (float(y[0]),float(y[1]),round(avg,4))
-        return z
-    rdd1 = rdd1.map(convert_back1)
-    #Structure: lat, lng, avg_day
-    return rdd1
-
-
-point_avg_day = avgday(totalDay)
+#not needed anymore with changes that make the daily average equal to the -1 hour
+#def avgday(rdd):
+    #we can ignore the month/day/year/hour, since they've already been incorporated.
+    # def prep_rdd(x):
+    #     lat=str(x[4])
+    #     lng=str(x[5])
+    #     latlng = lat+','+lng
+    #     count = x[6]
+    #     return (latlng,count)
+    # rdd1 = rdd.map(prep_rdd)
+    # rdd1 = rdd1.reduceByKey(lambda x,n: x+n)
+    # def convert_back1(x):
+    #     #This function takes the previous output and converts the data out of the string
+    #     y = x[0]
+    #     y = y.split(',')
+    #     avg = x[1]/183 #number of days found earlier
+    #     #mapping back with additional 1 at the end of each record for averaging
+    #     z = (float(y[0]),float(y[1]),round(avg,4))
+    #     return z
+    # rdd1 = rdd1.map(convert_back1)
+    # #Structure: lat, lng, avg_day
+    # return rdd1
 
 
 """
@@ -215,7 +215,7 @@ def avgday_h(rdd):
 
 
 point_avg_hourly = avgday_h(totalHour)
-
+point_avg_day = avgday_h(totalDay)
 
 """
 Here we create a null dataset for every possible lat/lng point (should have 5442 entries)
@@ -237,32 +237,33 @@ aLL = total.map(llmap)
 
 aLL = aLL.reduceByKey(lambda x,n: x+n)
 
-def remap_avg(x):
-    rkey=str(x[0])+','+str(x[1])
-    return(rkey, x[2])
 
-
-avgday = point_avg_day.map(remap_avg)
-
-LLd=aLL.union(avgday)
-
-LLd=LLd.reduceByKey(lambda x,n: x+n)
-
-
-def unmapd(x):
-    y=x[0]
-    y=y.split(',')
-    z = (float(y[0]),float(y[1]),x[1])
-    return z
-
-
-LLd=LLd.map(unmapd)
+# def remap_avg(x):
+#     rkey=str(x[0])+','+str(x[1])
+#     return(rkey, x[2])
+#
+#
+# avgday = point_avg_day.map(remap_avg)
+#
+# LLd=aLL.union(avgday)
+#
+# LLd=LLd.reduceByKey(lambda x,n: x+n)
+#
+#
+# def unmapd(x):
+#     y=x[0]
+#     y=y.split(',')
+#     z = (float(y[0]),float(y[1]),x[1])
+#     return z
+#
+#
+# LLd=LLd.map(unmapd)
 #Structure: (Latitude,Longitude,Average)
 
 """
 hourly
 """
-hr=sc.parallelize(range(24))
+hr=sc.parallelize([-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23])
 
 aLLhr=aLL.cartesian(hr)
 
@@ -273,7 +274,7 @@ def hrmap(x):
     ll=y[0]
     ll2=ll.split(',')
     rkey=ll2[0]+','+ll2[1]+','+hour
-    zeros=y[1]
+    zeros=float(y[1])
     return(rkey,zeros)
 
 
@@ -281,12 +282,14 @@ aLLhr=aLLhr.map(hrmap)
 
 def remap_havg(x):
     rkey=str(x[1])+','+str(x[2])+','+str(x[0])
-    return(rkey, x[3])
+    return(rkey, float(x[3]))
 
 avghr = point_avg_hourly.map(remap_havg)
+avgday = point_avg_day.map(remap_havg)
 
 
 LLh=aLLhr.union(avghr)
+LLh=LLh.union(avgday)
 
 LLh=LLh.reduceByKey(lambda x,n: x+n)
 
@@ -386,16 +389,21 @@ Note2: This has been commented out because normalization is not being applied pr
 putting things into a dataframe
 """
 
+TotalDF = sqlContext.createDataFrame(totalcount, ['Month', 'Day', 'Year', 'Hour', 'Latitude', 'Longitude', 'Count'])
+
+AvgDF = sqlContext.createDataFrame(LLh, ['Latitudea', 'Longitudea', 'Hour', 'Average'])
+
+
 #Creating Dataframes from RDDs
 #totalHour structure: (Month, Day, Year, Hour, Latitude, Longitude, count)
 
-TotalDayDF = sqlContext.createDataFrame(totalDay, ['Month', 'Day', 'Year', 'Latitude', 'Longitude', 'Count'])
+#TotalDayDF = sqlContext.createDataFrame(totalDay, ['Month', 'Day', 'Year', 'Latitude', 'Longitude', 'Count'])
 
-TotalHourDF = sqlContext.createDataFrame(totalHour, ['Month', 'Day', 'Year', 'Hour', 'Latitude', 'Longitude', 'Count'])
+#TotalHourDF = sqlContext.createDataFrame(totalHour, ['Month', 'Day', 'Year', 'Hour', 'Latitude', 'Longitude', 'Count'])
 
-AvgDayDF = sqlContext.createDataFrame(LLd, ['Latitudea', 'Longitudea', 'Average'])
+#AvgDayDF = sqlContext.createDataFrame(LLd, ['Latitudea', 'Longitudea', 'Average'])
 
-AvgHourDF = sqlContext.createDataFrame(LLh, ['Latitudea', 'Longitudea', 'Hour', 'Average'])
+#AvgHourDF = sqlContext.createDataFrame(LLh, ['Latitudea', 'Longitudea', 'Hour', 'Average'])
 
 #Joining the Dataframes
 #def joining (hidden):
