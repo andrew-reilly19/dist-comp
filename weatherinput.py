@@ -199,6 +199,9 @@ outputdf = outputdf.drop('Month', 'Day', 'Year','Hour', 'Latitude','Longitude')
 outputdf.toPandas().to_csv('/home/andrew/output/events/07_04.csv')
 
 
+"""
+scp -r andrew@10.10.11.35:/home/andrew/output/events /Users/andrew/Desktop
+"""
 
 
 """
