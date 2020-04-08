@@ -119,6 +119,7 @@ totalHour = flatten_to_hour(total)
 
 totalcount = totalHour.union(totalDay)
 
+
 """
 Verification that the flatten didn't lose data - these should equal 4,534,327
 """
@@ -154,40 +155,9 @@ ndays = numdays(totalDay)
 #This function will return the same # of days for total, totalDay, and totalHour
 #183 days
 
-
 """
-Finally, the function to find the average for each lat/lng per day:
-This follows a very similar approach as the flatten formula, but first putting the lat/lng into a string
-and then reducing by key on that value to sum the counts and dividing by the number of days in the dataset.
-"""
-
-#not needed anymore with changes that make the daily average equal to the -1 hour
-#def avgday(rdd):
-    #we can ignore the month/day/year/hour, since they've already been incorporated.
-    # def prep_rdd(x):
-    #     lat=str(x[4])
-    #     lng=str(x[5])
-    #     latlng = lat+','+lng
-    #     count = x[6]
-    #     return (latlng,count)
-    # rdd1 = rdd.map(prep_rdd)
-    # rdd1 = rdd1.reduceByKey(lambda x,n: x+n)
-    # def convert_back1(x):
-    #     #This function takes the previous output and converts the data out of the string
-    #     y = x[0]
-    #     y = y.split(',')
-    #     avg = x[1]/183 #number of days found earlier
-    #     #mapping back with additional 1 at the end of each record for averaging
-    #     z = (float(y[0]),float(y[1]),round(avg,4))
-    #     return z
-    # rdd1 = rdd1.map(convert_back1)
-    # #Structure: lat, lng, avg_day
-    # return rdd1
-
-
-"""
-This function does essentially the same thing as above, but is adjusted to get the daily average
-for each lat/lng point for each hour.  This will give us roughly 24 entries for each lat/lng point.
+This function is designed to get the average (expected) number of pickups for each
+lat/lng point for each hour.  This will give us roughly 24 entries for each lat/lng point.
 """
 
 def avgday_h(rdd):
@@ -237,28 +207,6 @@ aLL = total.map(llmap)
 
 aLL = aLL.reduceByKey(lambda x,n: x+n)
 
-
-# def remap_avg(x):
-#     rkey=str(x[0])+','+str(x[1])
-#     return(rkey, x[2])
-#
-#
-# avgday = point_avg_day.map(remap_avg)
-#
-# LLd=aLL.union(avgday)
-#
-# LLd=LLd.reduceByKey(lambda x,n: x+n)
-#
-#
-# def unmapd(x):
-#     y=x[0]
-#     y=y.split(',')
-#     z = (float(y[0]),float(y[1]),x[1])
-#     return z
-#
-#
-# LLd=LLd.map(unmapd)
-#Structure: (Latitude,Longitude,Average)
 
 """
 hourly
@@ -310,6 +258,7 @@ Normalizing the averages and counts
 Note: minimum has been set to 0 because there are omitted locations in this dataset with no pickups (although they still count)
 Note2: This has been commented out because normalization is not being applied properly - needs to be done AFTER
     subtracting count and average
+Note3: This is now done later outside of Spark
 """
 #def hidden:
     """Daily"""
@@ -393,17 +342,17 @@ TotalDF = sqlContext.createDataFrame(totalcount, ['Month', 'Day', 'Year', 'Hour'
 
 AvgDF = sqlContext.createDataFrame(LLh, ['Latitudea', 'Longitudea', 'Hour', 'Average'])
 
+#Joining these two breaks spark, best to subset and join those instead
 
-#Creating Dataframes from RDDs
-#totalHour structure: (Month, Day, Year, Hour, Latitude, Longitude, count)
+"""
+code to write out dataframe to .csv file
+"""
+#AvgDF.toPandas().to_csv('/home/andrew/output/Avg.csv')
 
-#TotalDayDF = sqlContext.createDataFrame(totalDay, ['Month', 'Day', 'Year', 'Latitude', 'Longitude', 'Count'])
+"""
+additional outputs are now done in Diffmapping2/weather and events file
+"""
 
-#TotalHourDF = sqlContext.createDataFrame(totalHour, ['Month', 'Day', 'Year', 'Hour', 'Latitude', 'Longitude', 'Count'])
-
-#AvgDayDF = sqlContext.createDataFrame(LLd, ['Latitudea', 'Longitudea', 'Average'])
-
-#AvgHourDF = sqlContext.createDataFrame(LLh, ['Latitudea', 'Longitudea', 'Hour', 'Average'])
 
 #Joining the Dataframes
 #def joining (hidden):
@@ -429,20 +378,7 @@ AvgDF = sqlContext.createDataFrame(LLh, ['Latitudea', 'Longitudea', 'Hour', 'Ave
 
     """
 
-"""
-Writing out data to csv file
-Starter Code provided by Simona
-"""
-# avg_df = sqlContext.createDataFrame(point_avg_day, ['Latitude', 'Longitude', 'Average'])
-# avg_df.toPandas().to_csv('/home/andrew/df_avg.csv')
 
-#TotalDayDF.toPandas().to_csv('/home/andrew/output/DailyCount.csv')
-
-#TotalHourDF.toPandas().to_csv('/home/andrew/output/HourlyCount.csv')
-
-#AvgDayDF.toPandas().to_csv('/home/andrew/output/AvgDay.csv')
-
-#AvgHourDF.toPandas().to_csv('/home/andrew/output/AvgHours.csv')
 
 """
 hourly data now goes to get weather info first, see weatherinput.py

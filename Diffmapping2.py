@@ -1,4 +1,11 @@
 """
+This python file is designed to take the spark outputs from Diffmapping.py and attach other
+data to it for subsetting and plotting.
+"""
+
+
+
+"""
 command to upload weather.csv file
 scp /Users/andrew/Desktop/filteredweather.csv andrew@10.10.11.35:/home/andrew/filteredweather.csv
 """
@@ -17,19 +24,64 @@ def convertweather(x):
 
 weather = weather.map(convertweather)
 
-#WeatherDF = sqlContext.createDataFrame(weather, ['Yearw','Monthw','Dayw','Hourw','TempC','Type'])
+def wtypefil(x, cond):
+    if x[5] == cond:
+        return True
+    else:
+        return False
 
-#Structure HourlyData: (Latitude, Longitude, Month, Day, Year, Hour, Count, Average)
 
-#HourlyDataW = HourlyData.join(WeatherDF, (HourlyData.Year==WeatherDF.Yearw) & (HourlyData.Month==WeatherDF.Monthw) & (HourlyData.Day==WeatherDF.Dayw) & (HourlyData.Hour==WeatherDF.Hourw), how='left_outer')
-#HourlyDataW = HourlyDataW.drop('Yearw', 'Monthw', 'Dayw', 'Hourw')
-#HourlyDataW.toPandas().to_csv('/home/andrew/HourlyDataW.csv')
+def filtostr(x):
+    year = str(x[0])
+    month = str(x[1])
+    day = str(x[2])
+    hour = str(x[3])
+    key = year+','+month+','+day+','+hour
+    return(key)
 
+
+def ffilter(x):
+    year = str(x[2])
+    month = str(x[0])
+    day = str(x[1])
+    hour = str(x[3])
+    key = year+','+month+','+day+','+hour
+    if key in wtfilter:
+        return True
+    else:
+        return False
+
+
+def cfmap(x):
+    lat = str(x[4])
+    lng = str(x[5])
+    hour = str(x[3])
+    count = x[6]
+    latlng = lat+','+lng+','+hour
+    return(latlng, count)
+
+
+def weathercsvs():
+    types = ['broken clouds','scattered clouds','mist','sky is clear','light rain','few clouds','overcast clouds','moderate rain','haze','fog','heavy intensity rain']
+    for type in types:
+        typefilter = weather.filter(lambda x: wtypefil(x,type))
+        typefilter = typefilter.map(filtostr)
+        wtfilter = typefilter.collect()
+        countfilter = totalHour.filter(lambda x: ffilter(x))
+        CDF = sqlContext.createDataFrame(countfilter, ['Month', 'Day', 'Year', 'Hour','Lat','Lng','Count'])
+        WDF = CDF.join(AvgDF, (CDF.Lat == AvgDF.Latitudea) & (CDF.Lng == AvgDF.Longitudea) & (CDF.Hour == AvgDF.Hour), how='left_outer')
+        WDF = WDF.drop('Month','Day','Year','Hour','Latitudea','Longitudea','Hour')
+        outpath = '/home/andrew/output/events/'+str(type)+'.csv'
+        WDF.toPandas().to_csv(outpath)
+
+weathercsvs()
+
+"""
 #finding factors of weather type
 weathertest = weather.map(lambda x: (x[5],1))
 weathertest = weathertest.reduceByKey(lambda x,n: x+n)
 WeathertestDF = sqlContext.createDataFrame(weathertest, ['Type','Count'])
-
+"""
 
 #Make the giant 24M line dataset for later subsettting:
 def imap(x):
@@ -65,25 +117,45 @@ def stripout(x):
 
 BigRDD=BigRDD.map(stripout)
 
-BigRDD=BigRDD.union(LLnull)
+# def map1(x):
+#     lat = str(x[0])
+#     lng = str(x[1])
+#     year = str(x[2])
+#     month = str(x[3])
+#     day = str(x[4])
+#     hour = str(x[5])
+#     temp = x[6]
+#     type = x[7]
+#     info = (lat+','+lng+','+year+','+month+','+day+','+hour)
+#     return(info, temp, type)
+#
+# BigRDD=BigRDD.map(map1)
 
+#totalHour structure: (Month, Day, Year, Hour, Latitude, Longitude, count)
+def prep_rdd(x):
+    hour=str(x[3])
+    lat=str(x[4])
+    lng=str(x[5])
+    latlng = hour+','+lat+','+lng
+    count = x[6]
+    return (latlng,count)
+
+
+#BigRDD=BigRDD.union(LLnull)
 
 BigDF=sqlContext.createDataFrame(BigRDD, ['Latitudeb','Longitudeb','Yearb','Monthb','Dayb','Hourb','TempC','Type'])
 
 #Join on count and average data:
 
 BigDF = BigDF.join(AvgDF, (BigDF.Latitudeb == AvgDF.Latitudea) & (BigDF.Longitudeb == AvgDF.Longitudea) & (BigDF.Hourb == AvgDF.Hour), how='left_outer')
-
 BigDF = BigDF.drop('Latitudea','Longitudea', 'Hour')
 
 
-# These joins crash the server! (oops)
-# BigDF = BigDF.join(TotalHourDF, (BigDF.Latitudeb == TotalHourDF.Latitude) & (BigDF.Longitudeb == TotalHourDF.Longitude) & (BigDF.Hourb == TotalHourDF.Hour) & (BigDF.Monthb == TotalHourDF.Month) & (BigDF.Dayb == TotalHourDF.Day) & (BigDF.Yearb == TotalHourDF.Year), how='left_outer')
-#
-# BigDF = BigDF.drop('Latitude','Longitude','Hour','Day','Month','Year')
+#Pipeline: filter out by Temp range or Type and create new df, left join the counts onto it, and then output that as it's own .csv
+
 
 """
-Begin Filtering section: code will change based on what is desired
+Begin Filtering section for events: code will change based on what is desired
 """
 from pyspark.sql.functions import col
 
@@ -203,7 +275,6 @@ outputdf.toPandas().to_csv('/home/andrew/output/events/07_04.csv')
 scp -r andrew@10.10.11.35:/home/andrew/output/events /Users/andrew/Desktop
 """
 
-
 """
 Normalization function written by Justin
 """
@@ -225,10 +296,6 @@ def reshape(point, smallest = minimum, biggest = maximum, avg = mean):
 		return 1/2 * float(smallest - point)/(smallest - avg)
 	else:
 		return 1/2 * float(avg - point)/(avg - biggest)
-
-
-
-
 
 
 

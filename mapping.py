@@ -26,19 +26,20 @@ The functionality is there however for if we get the sliders working and only wa
 There are currently 3 methods for the weight in the map: Justin's normalization function ('jnorm', the default), Andrew's normalization function
 ('anorm', which is basic - just (value-largest absolute value)/largest absolute value), and the straight count ('count')
 """
-def plotday(day = 'all', hour = -1, method='jnorm'):
+def plotday(day = 'all', hour = -2, method='jnorm'):
     #change this path to your downloaded folder
-    path = '/Users/andrew/Desktop/events/'
+    path = '/Users/andrew/non_icloud_ncf/distcomp_project/events/'
     #if a day is not specified, it will default to outputting every day
     if day == 'all':
         csvs = ['04_07','05_09','05_26','07_04','07_24','08_25','08_30','09_21','09_25']
     if day != 'all':
         csvs = [day]
 
-    #if hour is -1, this will output htmls for every hour of every specified day
-    if hour == -1:
+    #if hour is -2, this will output htmls for every hour of every specified day
+    #the hour -1 may be in the data, this would correspond with the daily data
+    if hour == -2:
         hours = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23]
-    if hour != -1:
+    if hour != -2:
         hours = [hour]
 
     for file in csvs:
@@ -57,17 +58,58 @@ def plotday(day = 'all', hour = -1, method='jnorm'):
                 mx  = max(dfhour["diff"])
                 mn = dfhour["diff"].mean()
                 dfhour['diffnorm'] = dfhour.apply (lambda row: (reshape(row['diff'], mi, mx, mn)), axis=1)
+                # dfhour = dfhour[(round(dfhour.diffnorm,2) != .5)]
+                # dfplotmore = dfhour[(dfhour.diffnorm > .5)]
+                # dfplotless = dfhour[(dfhour.diffnorm < .5)]
             if method == 'count':
-                mi = min(dfhour["diff"])
-                dfhour['diffnorm'] = dfhour.apply (lambda row: (dfhour['diff']+mi), axis=1)
+                # mi = min(dfhour["diff"])
+                dfhour['diffnorm'] = dfhour['diff']#dfhour.apply (lambda row: (dfhour['diff']), axis=1)
+            #plotting both conditions
             fig = px.density_mapbox(dfhour, lat='Latitudeb', lon='Longitudeb', z='diffnorm', radius=10, center=dict(lat=40.730, lon=-73.935), zoom=8.3, mapbox_style="stamen-terrain")
-
-            #note: you will need to create a folder with the exact same name as the date, e.g. 04_07. Otherwise the following path will not work:
             writepath = path + file + '/hour'+str(h)+'.html'
             fig.write_html(writepath)
 
+            # #plotting the more condition
+            # fig = px.density_mapbox(dfplotmore, lat='Latitudeb', lon='Longitudeb', z='diffnorm', radius=10, center=dict(lat=40.730, lon=-73.935), zoom=8.3, mapbox_style="stamen-terrain")
+            # writepath = path + file + '/hour'+str(h)+'more.html'
+            # fig.write_html(writepath)
+            # #plotting the less condition
+            # fig = px.density_mapbox(dfplotless, lat='Latitudeb', lon='Longitudeb', z='diffnorm', radius=10, center=dict(lat=40.730, lon=-73.935), zoom=8.3, mapbox_style="stamen-terrain")
+            # writepath = path + file + '/hour'+str(h)+'less.html'
+            # fig.write_html(writepath)
+
 #see note about writepath 4 lines above before running this
-plotday(day='07_04', hour = -1)
+plotday(day = '09_25')
+
+
+
+#plotting the 'average' day(-1 hours is the entire day):
+
+def plotavg(hour = -2):
+    path = '/Users/andrew/non_icloud_ncf/distcomp_project/avgDay/'
+    file = path + 'Avg.csv'
+    avgdf = pd.read_csv(file)
+
+    if hour == -2:
+        hours = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23]
+    if hour != -2:
+        hours = [hour]
+
+    for h in hours:
+        havgdf=avgdf[(avgdf.Hour == h)]
+
+        fig = px.density_mapbox(havgdf, lat='Latitudea', lon='Longitudea', z='Average', radius=10, center=dict(lat=40.730, lon=-73.935), zoom=8.3, mapbox_style="stamen-terrain")
+        writepath = path + 'maps/hour'+str(h)+'.html'
+        fig.write_html(writepath)
+
+
+plotavg()
+
+
+
+
+
+
 
 
 
